@@ -62,7 +62,7 @@
       "explanation": "E-waste contains hazardous materials and recoverable metals.",
       "source_reference": "https://www.seattle.gov/utilities/your-services/collection-and-disposal/where-does-it-go#/item/cell-phones-and-batteries",
       "confidence_level": "medium",
-      "category_path": ["electronics", "electronics-batteries"]
+      "category_path": ["electronics"]
     },
     {
       "item_id": "e-waste",
@@ -75,7 +75,7 @@
       "explanation": "Electronics contain hazardous materials that cannot go in garbage.",
       "source_reference": "https://www.seattle.gov/utilities/your-services/collection-and-disposal/where-does-it-go#/item/e-waste",
       "confidence_level": "medium",
-      "category_path": ["electronics", "electronics-batteries"]
+      "category_path": ["electronics"]
     },
     {
       "item_id": "cds-dvds",
@@ -88,7 +88,7 @@
       "explanation": "Not accepted in curbside recycling.",
       "source_reference": "https://www.seattle.gov/utilities/your-services/collection-and-disposal/where-does-it-go#/item/cds-dvds-records-video-tapes-and-floppy-disks",
       "confidence_level": "medium",
-      "category_path": ["electronics", "electronics-batteries"]
+      "category_path": ["electronics"]
     },
     {
       "item_id": "food-scraps",
