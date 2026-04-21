@@ -8,7 +8,7 @@
     "city_jurisdiction": "Seattle, WA",
     "schema_version": "1.0",
     "item_count": 310,
-    "generated_at": "2026-04-21T22:58:16.889862+00:00"
+    "generated_at": "2026-04-21T23:51:19.638648+00:00"
   },
   "category_tree": [
     {
@@ -360,10 +360,16 @@
         "Dehumidifiers"
       ],
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "dropoff",
+        "special",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "Air purifier filters and furnace filters should be individually bagged and put in the garbage."
+        "garbage": "Air purifier filters and furnace filters should be individually bagged and put in the garbage.",
+        "dropoff": "Bring damaged air conditioners, heat pumps, and dehumidifiers to city transfer stations . Fees apply. Check the rates page .",
+        "special": "Call SPU Customer Service at (206) 684-3000 to request special item pickup . Fees apply.",
+        "donate": "Donate air conditioners, heat pumps, or dehumidifiers in good condition to local thrift stores . Call first to determine acceptance policies. Resell or give it away using sites like Craigslist , Freecycle , and Buy Nothing ."
       },
       "explanation": "You can donate AIR CONDITIONERS OR HEAT PUMPS, if they are in good working condition. Call local thrift stores to confirm they will take them, or resell them on sites like Craigslist.  If broken, you can take them to City transfer stations or call to have it picked up for a fee.  To schedule a pick up go to seattle.gov/SpecialItems",
       "category_path": [
@@ -411,11 +417,13 @@
       ],
       "disposal_streams": [
         "hazardous",
-        "dropoff"
+        "dropoff",
+        "special"
       ],
       "disposal_conditions": {
         "hazardous": "Batteries can't go in the garbage because they contain materials harmful to people, animals, and the environment.",
-        "dropoff": "• Bring batteries to a household hazardous waste facility or city transfer station , where the materials will be reclaimed and recycled. No fee. • Accepted batteries include alkaline, button, rechargeable, and lead-acid batteries. • Separate batteries from devices. • Tape the ends of each individual household battery • Damaged and/or recalled batteries are NOT accepted at transfer stations. You can take them to household hazardous waste facility for free. • Call2Recycle is a free take-back program for rechargeable batteries. You can find free drop off locations or shop for mail-back packaging options. They accept: • Rechargeable batteries • Cellphones and cellphone batteries • E-Bike batteries (participating brands) • 1-800-RECYCLE is both a hotline and an online tool that connects you or your business to recycling services across Washington. This tool can help you find where in your community you can recycle everything from used appliances to leftover paint. Fees may apply."
+        "dropoff": "• Bring batteries to a household hazardous waste facility or city transfer station , where the materials will be reclaimed and recycled. No fee. • Accepted batteries include alkaline, button, rechargeable, and lead-acid batteries. • Separate batteries from devices. • Tape the ends of each individual household battery • Damaged and/or recalled batteries are NOT accepted at transfer stations. You can take them to household hazardous waste facility for free. • Call2Recycle is a free take-back program for rechargeable batteries. You can find free drop off locations or shop for mail-back packaging options. They accept: • Rechargeable batteries • Cellphones and cellphone batteries • E-Bike batteries (participating brands) • 1-800-RECYCLE is both a hotline and an online tool that connects you or your business to recycling services across Washington. This tool can help you find where in your community you can recycle everything from used appliances to leftover paint. Fees may apply.",
+        "special": "Submit a request online or call (206) 684-3000 to schedule a pickup from your residence. The materials collected will be reclaimed and recycled. Fees apply."
       },
       "explanation": "Do not put batteries in your curbside trash or recycling bins. This includes Alkaline, Lithium, Lithium-Ion, Rechargeable, Computer, and Button batteries as well as products that contain batteries that cannot be easily removed. It is important to keep batteries out of your bins because they can cause fires in trucks and transfer stations. Batteries can be correctly disposed of in multiple ways. Batteries can be dropped off at a city transfer station or Hazardous Household Waste facility for free. You can also submit a special item pickup online or by calling 2066843000 to be picked up at your home. Fees apply for this service. You may also call 1800Recycle or go to call2recycle.com for additional drop off locations. ",
       "category_path": [
@@ -441,12 +449,14 @@
       "disposal_streams": [
         "recycling",
         "garbage",
-        "dropoff"
+        "dropoff",
+        "special"
       ],
       "disposal_conditions": {
         "recycling": "• Metal parts larger than 3 inches go in the recycling.",
         "garbage": "• Metal items with plastic, wood, or rubber attached • Metal items that are smaller than 3 inches",
-        "dropoff": "• All metal, except car parts, are accepted as recycling at city transfer stations . There is no charge for recycling at the transfer station. • Maximum size is 8 feet long. • There is a charge for appliances, limit 2 per load."
+        "dropoff": "• All metal, except car parts, are accepted as recycling at city transfer stations . There is no charge for recycling at the transfer station. • Maximum size is 8 feet long. • There is a charge for appliances, limit 2 per load.",
+        "special": "• Large metal parts can be put at the curb for pickup on your recycling collection day. • These must be bundled or tied. • The maximum size is 2 feet on all sides."
       },
       "explanation": "ALUMINUM can be recycled.  It can go in your home recycling if it contains only aluminum and is smaller than 2 feet by 2 feet by 2 feet but  if it's  larger than you can drop off at City transfer stations for free.  Items that have other materials attached or are smaller than 3 inches go in the garbage. For transfer station hours go to seattle.gov/transferstations",
       "category_path": [
@@ -670,10 +680,12 @@
         "Cake Tins"
       ],
       "disposal_streams": [
-        "recycling"
+        "recycling",
+        "donate"
       ],
       "disposal_conditions": {
-        "recycling": "Baking trays and cookie sheets less than two feet in any direction and free of food residue go in the recycling."
+        "recycling": "Baking trays and cookie sheets less than two feet in any direction and free of food residue go in the recycling.",
+        "donate": "Donate baking trays or cookie sheets in good condition to local thrift stores . Resell or give them away using sites like Craigslist , Freecycle , and Buy Nothing ."
       },
       "explanation": "BAKING TRAYS OR COOKIE SHEETS can be donated or they can be recycled in your cart is clean.  You can donate items in good condition to local thrift stores. Resell or give them away using sites like Craigslist, Freecycle, and Buy Nothing.",
       "category_path": [
@@ -719,11 +731,17 @@
       ],
       "disposal_streams": [
         "recycling",
-        "garbage"
+        "garbage",
+        "dropoff",
+        "special",
+        "donate"
       ],
       "disposal_conditions": {
         "recycling": "• Metal bed frames can go in recycling. • Rusted metal can be recycled unless the metal is falling apart. • Small amounts of plastic, wood, or rubber can be attached. • Be careful not to exceed the weight limits on your cart.",
-        "garbage": "• Metal items with large amounts of plastic, wood, or rubber attached. • Metal items that are smaller than 3 inches."
+        "garbage": "• Metal items with large amounts of plastic, wood, or rubber attached. • Metal items that are smaller than 3 inches.",
+        "dropoff": "Bring bed frames to city transfer stations . Fees apply. Check the rates page .",
+        "special": "Submit a request online or call (206) 684-3000 to schedule a pickup. Fee applies.",
+        "donate": "Donate bed frames in good condition to local thrift stores . Resell or give it away using sites like Craigslist , Freecycle , and Buy Nothing ."
       },
       "explanation": "BED FRAMES can be donated or resold if in good working condition.  Contact thrift stores to see if they are accepted.  Broken or large frames can be taken to Seattle transfer stations or picked up for a fee.  To schedule a pick up go to seattle.gov/SpecialItems.  For transfer station information go to seattle.gov/transferstations",
       "category_path": [
@@ -763,10 +781,12 @@
         "Down Feathers"
       ],
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "Bedding, linens, towels, down feathers, foam pads, and other fabrics can go in the garbage. Non-decorative pillows cannot be donated for Threadcycle and go in the garbage."
+        "garbage": "Bedding, linens, towels, down feathers, foam pads, and other fabrics can go in the garbage. Non-decorative pillows cannot be donated for Threadcycle and go in the garbage.",
+        "donate": "Donate things in good condition to thrift stores or organizations who accept textiles. Even stained, worn out, ripped, or damaged bedding, linens, towels, decorative pillows and other fabrics can be donated to thrift stores and turned into new products through Threadcycle . Some local thrift and second-hand stores are partners and will accept these items at their regular collection or drop box locations."
       },
       "explanation": "BEDDING OR LINENS can go in the garbage. Or you can donate items in good condition to thrift stores or resell them.  Ripped and stained fabrics can be donated for textile recycling at thrift stores that are part of the Threadcycle program.  For a list of stores go to kingcounty.gov/threadcycle",
       "category_path": [
@@ -830,11 +850,15 @@
       ],
       "disposal_streams": [
         "recycling",
-        "garbage"
+        "garbage",
+        "dropoff",
+        "donate"
       ],
       "disposal_conditions": {
         "recycling": "Clean metal bike parts 3 inches or larger can go in the recycling: • Items must fit in your cart with the lid closed. • Don't exceed the weight limits for your cart.",
-        "garbage": "Worn tires, broken inner tubes, and Bike parts smaller than 3 inches go in the garbage."
+        "garbage": "Worn tires, broken inner tubes, and Bike parts smaller than 3 inches go in the garbage.",
+        "dropoff": "• Drop off small metal parts and loose bike chains in scrap metal bins for recycling. • Bring bikes and parts to city transfer stations to be recycled. No fee.",
+        "donate": "Donate or resell usable bikes and parts to scrap metal dealers or community-oriented bike shops like Bike Works or Recycled Cycles ."
       },
       "explanation": "BICYCLES OR BIKE PARTS can be recycled or dropped off at the Transfer stations for free.  You can donate bikes to Bike Works or Recycled Cycles. Clean metal bike parts larger than 3-inches can go in the recycling.  Small or dirty parts go in the garbage.",
       "category_path": [
@@ -889,11 +913,13 @@
       ],
       "disposal_streams": [
         "recycling",
-        "garbage"
+        "garbage",
+        "dropoff"
       ],
       "disposal_conditions": {
         "recycling": "• Small plastic bottle caps if screwed onto an empty plastic bottle can be put into the recycling • Loose plastic and metal lids 3 inches in diameter or larger",
-        "garbage": "• Loose lids of any material less than 3 inches in diameter • Loose plastic bottle caps less than 3 inches in diameter • Metal beer and soda caps less than 3 inches in diameter"
+        "garbage": "• Loose lids of any material less than 3 inches in diameter • Loose plastic bottle caps less than 3 inches in diameter • Metal beer and soda caps less than 3 inches in diameter",
+        "dropoff": "Put small metal caps, such as beer and soda caps, in a metal can or container so they are not loose and drop off in scrap metal bin at the Transfer Stations."
       },
       "explanation": "BOTTLE CAPS OR JAR LIDS can be recycled if you put them back on the container but loose caps go in the garbage if they are smaller than 3 inches.",
       "category_path": [
@@ -949,10 +975,14 @@
       "item_name": "Brick",
       "synonyms": "Brick",
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "dropoff",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "Brick can go in the garbage if it doesn't exceed the weight limits for your cart size."
+        "garbage": "Brick can go in the garbage if it doesn't exceed the weight limits for your cart size.",
+        "dropoff": "Transfer station fees apply.",
+        "donate": "You can donate bricks in good condition to many building supply stores which specialize in salvaged materials."
       },
       "explanation": "BRICKS can go in the garbage. Or you can take them to the transfer station for a fee. You can donate bricks in good condition to many building supply stores which specialize in salvaged materials. For transfer station information go to seattle.gov/transferstations",
       "category_path": [
@@ -1075,11 +1105,13 @@
       ],
       "disposal_streams": [
         "recycling",
-        "garbage"
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
         "recycling": "Metal candle containers can be recycled if the container tin is empty, clean, and dry, and the containers are three inches or greater in diameter. Candle wax and candle glass are not recyclable.",
-        "garbage": "Candle wax and candle glass go in the garbage. Candle wax and candle glass are not recyclable. Some candle glass is made from heat-treated glass. This is a different type of glass than bottle or jar glass that is recyclable. Mixing heat-treated glass with bottle or jar glass during the recycling process can cause the entire collection to be contaminated and no longer recyclable. Tealights, incense, oil wicks, and other accessories go in the garbage."
+        "garbage": "Candle wax and candle glass go in the garbage. Candle wax and candle glass are not recyclable. Some candle glass is made from heat-treated glass. This is a different type of glass than bottle or jar glass that is recyclable. Mixing heat-treated glass with bottle or jar glass during the recycling process can cause the entire collection to be contaminated and no longer recyclable. Tealights, incense, oil wicks, and other accessories go in the garbage.",
+        "donate": "You can melt leftover wax by placing the candle glass in hot water. Then pour the candle wax into another candle. You may need a new wick to light the new candle. You can also repurpose candle glass or metal tins for different uses such as drinking cups or storage devices."
       },
       "explanation": "CANDLES goes in the garbage. Let candle wax cool before putting it in the garbage.",
       "category_path": [
@@ -1108,7 +1140,7 @@
       ],
       "disposal_conditions": {
         "hazardous": "• Batteries can't go in the garbage because they contain materials harmful to people, animals, and the environment.",
-        "dropoff": "• Household hazardous waste facility Bring batteries to a city household hazardous waste facility , where the materials will be reclaimed and recycled. No fee. Accepted batteries: lead-acid and car batteries. • Separate batteries from devices • Limit 5 lead-acid auto or maine batteries per visit (batteries from electric vehicles are not accepted) • 1-800-RECYCLE is both a hotline and an online tool that connects you or your business to recycling services across Washington. This tool can help you find where in your community you can recycle everything from used appliances to leftover paint. Fees may apply."
+        "dropoff": "• Household hazardous waste facility Bring batteries to a city household hazardous waste facility , where the materials will be reclaimed and recycled. No fee. Accepted batteries: lead-acid and car batteries. • Separate batteries from devices • Limit 5 lead-acid auto or maine batteries per visit (batteries from electric vehicles are not accepted) • 1-800-RECYCLE is both a hotline and an online tool that connects you or your business to recycling services across Washington. This tool can help you find where in your community you can recycle everything from used appliances to leftover paint. Fees may apply. • Bring vehicle batteries to a city transfer station where the materials will be reclaimed and recycled. No fee. • Limit of 5 car batteries per visit."
       },
       "explanation": "CAR BATTERIES can be dropped off for recycling at city transfer stations for a fee, but you can also bring up to 5 vehicle batteries per trip to a household hazardous waste facility for free.  For transfer station information go to seattle.gov/transferstations. For household hazardous waste information call the Household Hazards Line at 206-296-4692",
       "category_path": [
@@ -1176,11 +1208,15 @@
       ],
       "disposal_streams": [
         "recycling",
-        "garbage"
+        "compost",
+        "garbage",
+        "special"
       ],
       "disposal_conditions": {
         "recycling": "• Cardboard and flattened cardboard boxes go in the recycling. You can leave labels and tape on the boxes. Remove any packing materials inside and dispose of properly. • Pet scratch pads made of cardboard are recyclable.",
-        "garbage": "• Waxed cardboard like produce boxes goes in the garbage."
+        "compost": "• Cardboard with grease or oil stains (like pizza boxes) go in the food and yard waste cart. • Put cardboard that is mostly wet in the food and yard waste cart.",
+        "garbage": "• Waxed cardboard like produce boxes goes in the garbage.",
+        "special": "Cardboard that doesn't fit can go next to your cart on your recycling day. Bundle and set next to the cart, or put in a box or container next to your cart. Remove foam and packing materials. There is no charge for extra recycling."
       },
       "explanation": "CARDBOARD BOXES go in the recycling.  Flatten them before putting in recycling.  Greasy boxes, like pizza boxes, and wet cardboard go in the food and yard waste cart.",
       "category_path": [
@@ -1207,10 +1243,16 @@
         "jute rug"
       ],
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "dropoff",
+        "special",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "Fees apply. Carpet and padding can go in the garbage. Cut into smaller pieces if carpet or padding doesn't fit in your cart with the lid closed. Coir mats go in the garbage."
+        "garbage": "Fees apply. Carpet and padding can go in the garbage. Cut into smaller pieces if carpet or padding doesn't fit in your cart with the lid closed. Coir mats go in the garbage.",
+        "dropoff": "Bring carpet and padding up to 8 feet long and 200 pounds to city transfer stations . Fees apply. Check the rates page.",
+        "special": "Call SPU Customer Service at (206) 684-3000 to request special item pickup . Fees apply.",
+        "donate": "Donate area rugs in good condition to thrift or through reuse community groups. Contact thrifts stores to confirm they will accept area rugs."
       },
       "explanation": "CARPET OR PADDING goes in the garbage. Large amounts can be taken to the transfer station or set out for extra garbage collection for a fee.  For amounts larger than a 32 gallon bag,  schedule a pick up at seattle.gov/SpecialItems",
       "category_path": [
@@ -1235,12 +1277,14 @@
       "disposal_streams": [
         "recycling",
         "garbage",
-        "hazardous"
+        "hazardous",
+        "special"
       ],
       "disposal_conditions": {
         "recycling": "• Rusted metal can be recycled unless the metal is falling apart. • Small amounts of plastic, wood, or rubber can be attached.",
         "garbage": "• Metal items with large amounts of plastic, wood, or rubber attached • Metal items that are smaller than 3 inches",
-        "hazardous": "All metal, except car parts, is accepted as recycling at city transfer stations . There is no charge for recycling at the transfer station. • Maximum size is 8 feet long. • There is a charge for appliances, limit 2 per load."
+        "hazardous": "All metal, except car parts, is accepted as recycling at city transfer stations . There is no charge for recycling at the transfer station. • Maximum size is 8 feet long. • There is a charge for appliances, limit 2 per load.",
+        "special": "Submit a request online or call (206) 684-3000 to schedule a bulky item for large pieces pickup. Fee applies. Large metal parts can be put at the curb for pickup on your recycling collection day. • These must be bundled or tied. • The maximum size is 2 feet on all sides."
       },
       "explanation": "CAST IRON goes in the recycling.  Small amounts of attached plastic are acceptable, such as a pan handle.  Large pieces can be taken to the transfer station for free. For transfer station information go to seattle.gov/transferstations",
       "category_path": [
@@ -1298,11 +1342,13 @@
       ],
       "disposal_streams": [
         "recycling",
-        "garbage"
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
         "recycling": "The cardboard sleeve of vinyl records is recyclable.",
-        "garbage": "• CDs • DVDs • Floppy discs • CD and DVD cases • Video tapes • Records • Vinyl records"
+        "garbage": "• CDs • DVDs • Floppy discs • CD and DVD cases • Video tapes • Records • Vinyl records",
+        "donate": "• Donate CDs, DVDs, records, and video tapes in good condition to local thrift stores . • Resell or give away usable CDs and DVDs through sites like Craigslist , Freecycle , and Buy Nothing . You may also be able to sell records or CDs to your local record store!"
       },
       "explanation": "You can donate CDS, DVDS, OR FLOPPIES in good condition to local thrift stores or give them away through sites like Craigslist, Freecycle, and Buy Nothing, or you can put them in the garbage.",
       "category_path": [
@@ -1350,10 +1396,12 @@
         "Safety Seats"
       ],
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "Old and expired child car seats go in the garbage."
+        "garbage": "Old and expired child car seats go in the garbage.",
+        "donate": "Donate car seats in good condition to local thrift stores . Resell or give it away using sites like Craigslist , Freecycle , and Buy Nothing ."
       },
       "explanation": "You can donate CHILD CAR SEATS that have not expired and have not been in an accident.  Damaged and expired seats go in the garbage.",
       "category_path": [
@@ -1437,8 +1485,16 @@
         "Holiday Greens",
         "Pointsettia"
       ],
-      "disposal_streams": [],
-      "disposal_conditions": {},
+      "disposal_streams": [
+        "compost",
+        "dropoff",
+        "special"
+      ],
+      "disposal_conditions": {
+        "compost": "Place up to two completely undecorated and unflocked trees and/or holiday greens without decorations or soil, next to your cart on collection day for free from December 26 through January 31. Trees must be cut to 4-foot lengths and the trunk diameter should not exceed 4 inches. Starting February 1, extra yard waste fee applies",
+        "dropoff": "From December 26 to January 31, bring Christmas trees to a city transfer station for free. Starting February 1, regular fees apply. • Remove all decorations, tree flocking, and wiring • Trees cannot exceed 8 feet in length • Trunks cannot exceed 4 inches in diameter • Stations will accept up to 3 trees per vehicle",
+        "special": "From December 26 to January 31, holiday trees, wreaths, and greens without decorations can be composted for free. Place on the curb next to your food and yard waste cart on your regular collection day. • Flocked and plastic trees or wreaths will be charged as extra garbage • Remove all decorations: lights, tinsel, metal clips, ornaments, and bows • Trees must be cut into lengths to 4-feet or shorter • For bundling branches, use sisal string or twine (not plastic) At apartments, two trees may be placed next to each food and yard waste cart at no extra charge each collection day. Each additional tree will be picked up as extra yard waste ( fees apply )."
+      },
       "explanation": "CHRISTMAS TREES go in the yard waste. Real trees can be put next to Food and Yard waste carts and picked up for free from after Christmas until the end of January.  All decorations and flocking must be removed. Artificial trees go in the garbage and if they do not fit into the cart, there is an extra garbage fee.",
       "category_path": [
         "Wood"
@@ -1456,10 +1512,16 @@
         "Wood-Untreated"
       ],
       "disposal_streams": [
-        "dropoff"
+        "compost",
+        "dropoff",
+        "special",
+        "donate"
       ],
       "disposal_conditions": {
-        "dropoff": "Check the King County What Do I Do With tool to find locations that will take clean wood for repurposing or recycling."
+        "compost": "Clean, untreated and unpainted wood goes in the food and yard waste cart. • All pieces must be 4 inches or less in diameter and 4 feet or less in length. • Put sawdust or shavings in paper bags or boxes to keep from scattering. • Avoid extra charges -- Items should fit in your cart with the lid closed. • Don't exceed the weight limits printed on your cart.",
+        "dropoff": "Check the King County What Do I Do With tool to find locations that will take clean wood for repurposing or recycling. Bring untreated wood waste to city transfer stations . • All pieces must be 4 feet or less in length and 4 inches or less in diameter. • Nails and staples are okay.",
+        "special": "Bundles can be set next to the cart. Fees apply. Check rates here . • Tie bundles with natural twine. No plastic allowed. • Bundles must be 2 feet or less in diameter.",
+        "donate": "Many construction materials are salvageable. Check the Salvage Building Materials page to find more information about what materials can be saved."
       },
       "explanation": "CLEAN WOOD WASTE can go in the Food and Yard waste, but it must be less than 4 inches in diameter and less than 4 feet in length. Nails and staples are okay. Larger pieces can be picked up as extra yard waste for a fee.  Painted and treated wood goes in the garbage.  You can also drop off at the Transfer station for a fee. For transfer station information go to seattle.gov/transferstations",
       "category_path": [
@@ -1532,11 +1594,13 @@
       ],
       "disposal_streams": [
         "garbage",
-        "dropoff"
+        "dropoff",
+        "donate"
       ],
       "disposal_conditions": {
         "garbage": "Clothes and shoes can go in the garbage.",
-        "dropoff": "Stained, worn out, ripped, or damaged clothing and shoes can be turned into new products through Threadcycle . Some local thrift and second-hand stores are partners and will accept these items at their regular collection or drop box locations."
+        "dropoff": "Stained, worn out, ripped, or damaged clothing and shoes can be turned into new products through Threadcycle . Some local thrift and second-hand stores are partners and will accept these items at their regular collection or drop box locations.",
+        "donate": "Donate gently used clothing to a local thrift store ."
       },
       "explanation": "CLOTHES OR SHOES can be dropped off for recycling at thrift stores in the Threadcycle program.  Find locations at Kingcounty.gov/threadcycle.  You can also put CLOTHES OR SHOES in the garbage.",
       "category_path": [
@@ -1576,9 +1640,11 @@
         "Used Coffee Filters"
       ],
       "disposal_streams": [
+        "compost",
         "garbage"
       ],
       "disposal_conditions": {
+        "compost": "Paper coffee filters are compostable and go in the food and yard waste together with coffee grounds.",
         "garbage": "Plastic, plastic-coated, or cloth coffee filters go in the garbage."
       },
       "explanation": "Paper COFFEE FILTERS go in the yard waste.  Plastic, cloth or plastic coated filters go in the garbage.",
@@ -1602,10 +1668,12 @@
       ],
       "disposal_streams": [
         "recycling",
+        "compost",
         "garbage"
       ],
       "disposal_conditions": {
         "recycling": "• Clean, Empty and Dry coffee pods larger than 3 inches in diameter.",
+        "compost": "• Coffee pods are compostable if they are labelled compostable and there is an accompanying certification from BPI, CMA, or TUV. • Aluminum Nespresso pods can be recycled at Nespresso stores or mailed back to Nespresso. For details, see the Nespresso website .",
         "garbage": "Coffee pods smaller than 3 inches. Wrappers should go in the garbage."
       },
       "explanation": "COFFEE PODS go in the garbage.  Some approved compostable pods are accepted in the yard waste.",
@@ -1630,10 +1698,16 @@
         "Chipboard"
       ],
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "dropoff",
+        "special",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "Wood paneling and composite materials can go in the garbage: • Break paneling down so it fits in your cart with the lid closed. • Make sure it doesn't exceed the weight limits printed on your cart."
+        "garbage": "Wood paneling and composite materials can go in the garbage: • Break paneling down so it fits in your cart with the lid closed. • Make sure it doesn't exceed the weight limits printed on your cart.",
+        "dropoff": "Bring wood paneling and composite materials to city transfer stations . Fees apply. Check rates here.",
+        "special": "Schedule a Special Item Pickup online or call (206)684-3000. Fees apply. Paneling that does not fit in your cart with the lid closed can be put in a plastic bag and set next to your garbage cart as EXTRA garbage on collection day. Fees apply. Check rates here.",
+        "donate": "Many household materials in good condition are salvageable. Check the Salvage Building Materials page and the Northwest Building Salvage Network to find more information about what materials can be salvaged and reused."
       },
       "explanation": "COMPOSITE WOOD PANELING goes in the garbage.  If it does not fit in your cart, drop off at the transfer station or set it out as extra garbage for a fee.  Maximum extra garbage set out is 60 lbs. For transfer station information go to seattle.gov/transferstations",
       "category_path": [
@@ -1652,9 +1726,11 @@
         "Green Bags"
       ],
       "disposal_streams": [
+        "compost",
         "garbage"
       ],
       "disposal_conditions": {
+        "compost": "Bags labeled \"Compostable\" from approved brands go in the food and yard waste. Approved compostable plastic bags are green or brown tinted and are clearly labeled ‘Compostable’.",
         "garbage": "Bags that aren't from approved brands or do not say 'Compostable' on them go in the garbage. Biodegradable bags are not compostable, and go in the garbage."
       },
       "explanation": "Approved COMPOSTABLE BAGS go in the yard waste.  Bags labled \"biodegradable\" are actually not ok for yard waste and must go in the garbage.  More information about approved bags can be found by searching the seattle.gov where does it go website.  Go to this address: www.seattle.gov/utilities/services/food-and-yard/food-and-yard-waste-at-home/approved-compostable-bags",
@@ -1693,9 +1769,11 @@
         "compostable cups - paper"
       ],
       "disposal_streams": [
+        "compost",
         "garbage"
       ],
       "disposal_conditions": {
+        "compost": "• Items labeled “Compostable,” and have a certification mark such as BPI, TÜV, or CMA, go in the food and yard waste. • Compostable food service packaging items may include: • Clamshell-style, hinge-lid paper fiber To-Go food containers • Fold-top To-Go paper boxes • Cups • Plates • Straws and utensils • Portion cups • Paper napkins • Paper towels • Uncoated (not shiny) paper plates and bowls (such as Chinet brand) • Sugar packets Learn more about compostable packaging (PDF).",
         "garbage": "Plastic stickers or labels must be removed from compostable food packaging before going in the compost cart. How to identify plastic stickers and labels: • harder to tear • elastic or stretch when attempting to remove • shiny • cannot see fibers when cut"
       },
       "explanation": "COMPOSTABLE FOOD SERVICE ITEMS go in the yard waste.  Items labeled Compostable, #7 PLA and paper items without a shiny coating are compostable. All other items if dirty go in the garbage. This includes utensils, plates, cups, and containers.",
@@ -1720,11 +1798,13 @@
       ],
       "disposal_streams": [
         "garbage",
-        "dropoff"
+        "dropoff",
+        "donate"
       ],
       "disposal_conditions": {
         "garbage": "Concrete and asphalt can go in the garbage if it doesn't exceed the weight limits , and fits in your cart with the lid closed. Each concrete or asphalt piece must be less than 2 cubic feet.",
-        "dropoff": "Check the King County What Do I Do With tool to find locations that will take concrete or asphalt for recycling."
+        "dropoff": "Check the King County What Do I Do With tool to find locations that will take concrete or asphalt for recycling. Bring concrete and asphalt to city transfer stations . Fees apply. Check rates here. • Each concrete or asphalt piece must be less than 2' x 2' x 2' and less than 200 lbs.",
+        "donate": "Many construction materials are salvageable. Check the Salvage Building Materials page to find more information about what materials can be saved."
       },
       "explanation": "Concrete and asphalt can go in the garbage if it doesn't exceed the weight limits, and fits in your bin with the lid closed. Each concrete or asphalt piece must be less than 2 cubic feet.   You can bring concrete and asphalt to city transfer stations.  Each piece must be less than 2' x 2' x 2' and less than 200 lbs.  For transfer station information go to seattle.gov/transferstations",
       "category_path": [
@@ -1768,12 +1848,14 @@
       "disposal_streams": [
         "recycling",
         "garbage",
-        "hazardous"
+        "hazardous",
+        "special"
       ],
       "disposal_conditions": {
         "recycling": "Metal parts larger than 3 inches go in the recycling. • Small amounts of plastic, wood, or rubber can be attached.",
         "garbage": "• Metal items with large amounts of plastic, wood, or rubber attached • Metal items that are smaller than 3 inches",
-        "hazardous": "All metal, except car parts, is accepted as recycling at city transfer stations . There is no fee for most metal. • Maximum size is 8 feet long. • There is a charge for appliances, limit 2 per load."
+        "hazardous": "All metal, except car parts, is accepted as recycling at city transfer stations . There is no fee for most metal. • Maximum size is 8 feet long. • There is a charge for appliances, limit 2 per load.",
+        "special": "For large items: Submit a request online or call SPU Customer Service at (206) 684-3000 to request bulky item collection. Fees apply. Large metal parts can be put at the curb for pickup on your recycling collection day. • These must be bundled or tied. • The maximum size is 2 feet on all sides."
       },
       "explanation": "COPPER, BRONZE OR BRASS goes in the recycling.  Or it can be dropped off at the Transfer station for free. If it has small amounts of other non-metal material, it is acceptable.  Pieces should be larger than 3 inches and smaller than 2 feet by 2 feet.",
       "category_path": [
@@ -1818,10 +1900,12 @@
       ],
       "disposal_streams": [
         "recycling",
+        "compost",
         "garbage"
       ],
       "disposal_conditions": {
         "recycling": "• Receipts that are made of uncoated paper are recyclable. These are usually white or yellow, and are crisp and not shiny. You might receive a receipt like this from an antique store or yard sale.",
+        "compost": "• Paper receipts that have grease stains from food can go in the compost container. Note that greasy coated receipts should never go in the compost, only garbage.",
         "garbage": "• The most common type of receipt, (coated/thermal,) always goes in the garbage. This is what you will commonly recieve from automatic printers at stores."
       },
       "explanation": "RECEIPTS can be recycled. Paper and thermal paper receipts go in the recycling.",
@@ -1837,10 +1921,14 @@
       "item_name": "Corrugated Cardboard",
       "synonyms": "Corrugated Cardboard Cardboard Boxes Pizza Boxes",
       "disposal_streams": [
-        "recycling"
+        "recycling",
+        "compost",
+        "special"
       ],
       "disposal_conditions": {
-        "recycling": "Cardboard and flattened cardboard boxes go in the recycling. Remove all packing materials from boxes."
+        "recycling": "Cardboard and flattened cardboard boxes go in the recycling. Remove all packing materials from boxes.",
+        "compost": "Cardboard with grease or oil stains (like pizza boxes) go in the food and yard waste cart. Put cardboard that is mostly wet in the food and yard waste cart. Remove all labels and tape.",
+        "special": "Cardboard that doesn't fit can go next to your cart on your recycling day. There is no charge for extra recycling. Bundle and set next to the cart, or put in a box or container next to your cart."
       },
       "explanation": "CORRUGATED CARDBOARD goes in the recycling.  Flatten the boxes first.  Tape and labels are okay to leave on.  If the cardboard is wet or greasy then remove any  tape and labels and put the cardboard in the yard waste.",
       "category_path": [
@@ -1928,7 +2016,7 @@
       "disposal_conditions": {
         "garbage": "Small amounts of dirt, soil, mud, or sand, including those contaminated with non-hazardous materials such as plastic, metal, and glass, can go in the garbage. Be careful not to exceed weight limits for your cart. Do not put dirt, soil, mud, or sand in the food and yard waste cart, as it can harm the composting process.",
         "hazardous": "Contaminated soil (oil, fuel, heavy metals, etc.) must to be diposed of through an approved vendor. Go to HazWasteHelp.org for more information.",
-        "dropoff": "Larger amounts of clean dirt, soil, mud, or sand (free of trash and contamination) can be recycled by various landscaping supply companies in the area."
+        "dropoff": "Larger amounts of clean dirt, soil, mud, or sand (free of trash and contamination) can be recycled by various landscaping supply companies in the area. Dirt or soil contaminated with non-hazardous materials such as metal, plastic, or glass can be brought to city transfer stations . Check rates here ."
       },
       "explanation": "DIRT OR SOIL can go to the transfer station or go in the garbage. It is not accepted in the yard waste. If it contains hazardous materials, call the Household Hazards Line at 206-296-4692. For transfer station information go to seattle.gov/transferstations",
       "category_path": [
@@ -2057,11 +2145,13 @@
       ],
       "disposal_streams": [
         "garbage",
-        "dropoff"
+        "dropoff",
+        "donate"
       ],
       "disposal_conditions": {
         "garbage": "Home plastic plumbing, insulation, tar paper, caulking, silicone and wall material is garbage. Insulation material must be bagged. Garbage container lids must be able to close. Containers cannot exceed their weight limit .",
-        "dropoff": "Check the King County What Do I Do With tool to find locations that will take building materials such as clean drywall and fiberglass ."
+        "dropoff": "Check the King County What Do I Do With tool to find locations that will take building materials such as clean drywall and fiberglass . Construction material can be dropped off at one of Seattle's Transfer Stations for disposal. Fees apply.",
+        "donate": "Many household materials in good condition are salvageable. Check the Salvage Building Materials page and the Northwest Building Salvage Network to find more information about what materials can be salvaged and reused."
       },
       "explanation": "Drywall goes in the garbage or can be dropped off at City transfer stations for a fee. Clean drywall scraps should be recycled at construction and demolition facilities. For transfer station information go to seattle.gov/transferstations",
       "category_path": [
@@ -2112,10 +2202,12 @@
       ],
       "disposal_streams": [
         "recycling",
+        "compost",
         "garbage"
       ],
       "disposal_conditions": {
         "recycling": "Rigid plastic egg cartons that are empty, clean, and dry.",
+        "compost": "Paper egg cartons are not a highly valuable recyclable; therefore, it is best to place them in the Food and Yard Waste container for composting.",
         "garbage": "Foam egg cartons are not recyclable nor compostable."
       },
       "explanation": "EGG CARTONS can go in yard waste or recycling.  Foam and dirty cartons go in the garbage.",
@@ -2300,11 +2392,15 @@
       ],
       "disposal_streams": [
         "hazardous",
-        "dropoff"
+        "dropoff",
+        "special",
+        "donate"
       ],
       "disposal_conditions": {
         "hazardous": "E-Waste can't go in the garbage because they contain materials harmful to people, animals, and the environment.",
-        "dropoff": "• King County’s Take It Back Network is a network of e-cyclers that accept a variety of electronic equipment. Use their search tool to find the closest location to you. No fee for TVs, monitors, and computers covered from households and small businesses through the E-Cycle Washington program. Fees may apply for other items. • 1-800-RECYCLE is both a hotline and an online tool that connects you or your business to recycling services across Washington. This tool can help you find where in your community you can recycle everything from used appliances to leftover paint. Fees may apply."
+        "dropoff": "• King County’s Take It Back Network is a network of e-cyclers that accept a variety of electronic equipment. Use their search tool to find the closest location to you. No fee for TVs, monitors, and computers covered from households and small businesses through the E-Cycle Washington program. Fees may apply for other items. • 1-800-RECYCLE is both a hotline and an online tool that connects you or your business to recycling services across Washington. This tool can help you find where in your community you can recycle everything from used appliances to leftover paint. Fees may apply.",
+        "special": "Submit a request online or call SPU Customer Service at (206) 684-3000 to schedule a Special Item pickup. Fees apply.",
+        "donate": "• Donate electronic equipment in working condition to local thrift stores or resell or give it away using sites like Craigslist , Freecycle , and Buy Nothing ."
       },
       "explanation": "E-WASTE can be dropped off for recycling or picked up at home for a fee. Find locations to drop off e-waste through the Take It Back Network.  To schedule a pick up go to seattle.gov/SpecialItems or call (206)684-3000",
       "category_path": [
@@ -2325,11 +2421,13 @@
       ],
       "disposal_streams": [
         "garbage",
-        "dropoff"
+        "dropoff",
+        "donate"
       ],
       "disposal_conditions": {
         "garbage": "Eyeglasses can go in the garbage.",
-        "dropoff": "You can donate eyeglasses to The Lions Club or check to see if where you got your glasses has a take back program."
+        "dropoff": "You can donate eyeglasses to The Lions Club or check to see if where you got your glasses has a take back program.",
+        "donate": "Contact your local thrift store to see if they take prescription glasses in good condition."
       },
       "explanation": "EYEGLASSES go in the garbage or can be dropped off for donation.  Find donation sites through The Lions Club or organizations affiliated with OneSight.",
       "category_path": [
@@ -2367,10 +2465,14 @@
         "leather"
       ],
       "disposal_streams": [
-        "garbage"
+        "compost",
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "• Fabric and textiles can go in the garbage. • Electric blankets, denim insulation, and cotton insulation go in the garbage, they are not able to be recycled through Threadcycle. • Plastic shower curtains go in the garbage."
+        "compost": "100% authentic, natural burlap (made from plant fibers, not polyester) is compostable. Cut it into strips and place in compost.",
+        "garbage": "• Fabric and textiles can go in the garbage. • Electric blankets, denim insulation, and cotton insulation go in the garbage, they are not able to be recycled through Threadcycle. • Plastic shower curtains go in the garbage.",
+        "donate": "• Donate fabrics and textiles to thrift stores. Including stained, worn out, ripped, or damaged fabric or textiles can be turned into new products through Threadcycle . Some local thrift and second-hand stores are partners and will accept these items at their regular collection or drop box locations. • Donate plastic shower curtains in good condition to local thrift stores."
       },
       "explanation": "FABRIC OR TEXTILES go in the garbage or can be dropped off for recycling at thrift stores in the Threadcycle program.  Find locations at Kingcounty.gov/threadcycle",
       "category_path": [
@@ -2409,11 +2511,15 @@
       ],
       "disposal_streams": [
         "recycling",
-        "garbage"
+        "compost",
+        "garbage",
+        "special"
       ],
       "disposal_conditions": {
         "recycling": "You can recycle up to 2 gallons of cooking oil on each recycling collection day: • Only cooking oil that is liquid at room temperature is recyclable. • Pour cooled oil into a 1-gallon plastic container with a tight-fitting, screw-on lid. • Set up to 2 labeled 1-gallon containers on the curb next to your recycling cart. • Apartment / Condo residents: Set out up to 2 labeled 1-gallon containers per cart at your building/complex.",
-        "garbage": "Put cooled fats, oil, or grease in a closed container, Ziploc bag, or in a thick plastic bag that's tightly tied."
+        "compost": "Small amounts of oil and grease can be wiped up by paper towels or newspaper and placed in the food and yard waste container (compost).",
+        "garbage": "Put cooled fats, oil, or grease in a closed container, Ziploc bag, or in a thick plastic bag that's tightly tied.",
+        "special": "You can recycle up to 2 gallons of cooking oil on each recycling collection day: • Pour cooled oil into a 1-gallon plastic container with a tight-fitting, screw-on lid. • Label the container with your name and address. • Set up to 2 labeled 1-gallon containers on the curb next to your recycling cart. • Apartment / Condo residents: Set out up to 2 labeled 1-gallon containers per cart at your building/complex."
       },
       "explanation": "FATS, OILS, OR GREASE go in the garbage in a closed container. Never pour down the drain because they clog pipes and create backups.",
       "category_path": [
@@ -2432,10 +2538,12 @@
         "Glass Thread"
       ],
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "Fiberglass can go in the garbage: • Items must fit in your cart with the lid closed. • Don't exceed the weight limits printed on your cart."
+        "garbage": "Fiberglass can go in the garbage: • Items must fit in your cart with the lid closed. • Don't exceed the weight limits printed on your cart.",
+        "donate": "Bring fiberglass to city transfer stations . Fees apply."
       },
       "explanation": "FIBERGLASS goes in the garbage. It can also be dropped off at City Transfer stations for a fee. For transfer station information go to seattle.gov/transferstations",
       "category_path": [
@@ -2565,11 +2673,13 @@
       ],
       "disposal_streams": [
         "garbage",
-        "hazardous"
+        "hazardous",
+        "special"
       ],
       "disposal_conditions": {
         "garbage": "Incandecent, LED, Halogen, LED commercial downlights and Xenon light bulbs go in the garbage.",
-        "hazardous": "Bring up to 10 fluorescent tubes and CFLs per trip to a household hazardous waste facility or to a LightRecycle location. No fee."
+        "hazardous": "Bring up to 10 fluorescent tubes and CFLs per trip to a household hazardous waste facility or to a LightRecycle location. No fee.",
+        "special": "For Compact Fluorescent bulbs ONLY: Submit a request online or call (206) 684-3000 to schedule a pickup for a $5 fee."
       },
       "explanation": "FLUORESCENT LIGHT BULBS are potentially hazardous.  Take them to a household hazardous waste facility, or LightRecycle.org locations for free. Or schedule a pick up at your home for a $5 fee. To prevent breaking the tubes or bulbs and releasing mercury when storing or transporting, wrap them in newspaper or put back in their original packaging. Fluorescent tubes and CFLs are banned from the garbage because they contain mercury, which is highly toxic. To schedule a pick up go to seattle.gov/SpecialItems or call (206) 684-3000",
       "category_path": [
@@ -2705,9 +2815,11 @@
         "offal"
       ],
       "disposal_streams": [
+        "compost",
         "garbage"
       ],
       "disposal_conditions": {
+        "compost": "• Fruit and vegetables (including pits and seeds) • Bread, pasta, rice, and grains (cooked and uncooked) • Eggshells and nutshells • Coffee grounds, filters, and tea bags • Meat, fish, and chicken • Dairy products like milk, butter, and cheese • Flour, sugar • Protein powder • Bones and seafood shells • Compostable (uncoated) paper such as paper napkins, paper towels, and pizza boxes • Spoiled or moldy food",
         "garbage": "Tea bags that are made of plastic go in the garbage"
       },
       "explanation": "FOOD SCRAPS go in the yard waste.  This includes meat, dairy, bones and shells.",
@@ -2731,9 +2843,11 @@
         "muffin wrapper"
       ],
       "disposal_streams": [
+        "compost",
         "garbage"
       ],
       "disposal_conditions": {
+        "compost": "Uncoated paper with food or grease on it goes in the food and yard waste. This includes: • Pizza boxes • Paper napkins • Paper towels used to wipe up food • Uncoated (not shiny) paper plates and bowls (such as Chinet brand) • compostable straws and utensils • wet newspaper",
         "garbage": "Shiny, plastic-coated food packaging and fast food wrappers, paper plates, or bowls go in the garbage. Butcher paper and aluminum foil food wrappers belong in the garbage. They are made of multiple materials and are hard to properly clean for recycling."
       },
       "explanation": "FOOD-SOILED PAPER goes in the yard waste.  Make sure the paper does not have a shiny coating, which is plastic and non compostable.  Waxed paper, where you can scratch the wax off, is acceptable.",
@@ -2801,10 +2915,12 @@
         "Soaker Hoses"
       ],
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "Hoses go in the garbage. Cut hose into pieces if it doesn't fit in your cart with the lid closed."
+        "garbage": "Hoses go in the garbage. Cut hose into pieces if it doesn't fit in your cart with the lid closed.",
+        "donate": "Resell or give away a gently used hose using sites like Craigslist , Freecycle , and Buy Nothing . You could also consider contacting your local P-patch community garden to donate a gently used hose."
       },
       "explanation": "GARDEN HOSES go in the garbage.  Do not put them in the recycling.",
       "category_path": [
@@ -2993,10 +3109,12 @@
         "glass furniture"
       ],
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "Damaged glass or ceramic household items such as plates, bowls, drinking glasses, or terra cotta pots can go in the garbage. Any frosted glass, picture frame glass, glass used for candles, heat-treated bakeware or kitchen glass is garbage. These types of glass are not recyclable"
+        "garbage": "Damaged glass or ceramic household items such as plates, bowls, drinking glasses, or terra cotta pots can go in the garbage. Any frosted glass, picture frame glass, glass used for candles, heat-treated bakeware or kitchen glass is garbage. These types of glass are not recyclable",
+        "donate": "Donate glass or ceramic household items in good condition to local thrift stores . Resell or give it away using sites like Craigslist , Freecycle , and Buy Nothing ."
       },
       "explanation": "You can donate GLASS OR CERAMIC HOUSEHOLD ITEMS in good condition to local thrift stores, on Craigslist, and Buy Nothing group or it can go in the garbage.  Damaged glass or ceramic household items such as plates, bowls, or drinking glasses can go in the garbage.",
       "category_path": [
@@ -3093,10 +3211,14 @@
         "Lawn Thatch"
       ],
       "disposal_streams": [
-        "dropoff"
+        "compost",
+        "dropoff",
+        "donate"
       ],
       "disposal_conditions": {
-        "dropoff": "Bring large amounts of grass clippings and sod to city transfer stations . Fees apply."
+        "compost": "Grass clippings and small amounts of sod can go in the food and yard waste. Don't exceed the weight limits printed on your cart.",
+        "dropoff": "Bring large amounts of grass clippings and sod to city transfer stations . Fees apply.",
+        "donate": "Consider leaving grass clippings in place so the nutrients can enrich the lawn. Check the Garden Hotline to learn about grasscycling."
       },
       "explanation": "GRASS CLIPPINGS OR SOD goes in the yard waste or can be taken to City Transfer stations for a fee.  Remove as much soil as possible from the sod. For transfer station information go to seattle.gov/transferstations",
       "category_path": [
@@ -3154,13 +3276,17 @@
       ],
       "disposal_streams": [
         "recycling",
+        "compost",
         "garbage",
-        "dropoff"
+        "dropoff",
+        "donate"
       ],
       "disposal_conditions": {
         "recycling": "Clean and dry paper bags",
+        "compost": "Paper bags that are wet or food-soiled",
         "garbage": "• Plastic bags that are wet or food-soiled • Plastic produce bags • Single plastic bags",
-        "dropoff": "You can return clean plastic grocery bags and other plastic films to participating grocery stores to be recycled. Use a lookup tool to find locations near you."
+        "dropoff": "You can return clean plastic grocery bags and other plastic films to participating grocery stores to be recycled. Use a lookup tool to find locations near you.",
+        "donate": "Reuse bags in good condition"
       },
       "explanation": "Plastic GROCERY OR SHOPPING BAGS go in the garbage.  The City of Seattle no longer accepts plastic bags for recycle, but if they are clean and dry then plastic bags can be taken to retail locations for recycling.  Clean paper bags can go in recycling, but wet or food soiled paper bags go in yard waste.",
       "category_path": [
@@ -3178,8 +3304,12 @@
         "Rain Gutters",
         "Roof Gutters"
       ],
-      "disposal_streams": [],
-      "disposal_conditions": {},
+      "disposal_streams": [
+        "dropoff"
+      ],
+      "disposal_conditions": {
+        "dropoff": "Bring gutters 8 feet or less in length to city transfer stations : • Fees apply for plastic gutters. • There is no fee for aluminum gutters."
+      },
       "explanation": "GUTTERS can go to the transfer station, fees may apply. Gutters should be less than 8 feet long. Aluminum gutters can be recycled for free. Plastic gutters are disposed of for a fee. For transfer station information go to seattle.gov/transferstations",
       "category_path": [
         "Construction & Demolition",
@@ -3208,11 +3338,13 @@
       ],
       "disposal_streams": [
         "recycling",
-        "garbage"
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
         "recycling": "• Mainly metal tools 3 inches or more in size • Can include small amounts of wood, rubber, or plastic",
-        "garbage": "• Metal tools less than 3 inches • Tools that contain large amounts of rubber, wood, or plastic"
+        "garbage": "• Metal tools less than 3 inches • Tools that contain large amounts of rubber, wood, or plastic",
+        "donate": "Donate hand tools in good condition to local thrift stores . Resell or give it away using sites like Craigslist , Freecycle , and Buy Nothing ."
       },
       "explanation": "Donate hand tools in good condition to local thrift stores, on Craigslist, and Buy Nothing groups. Metal tools larger than 3 inches can be put in the recycling cart.  They can include small amounts of wood, rubber, or plastic   Smaller and tools with multiple materials go in the garbage.",
       "category_path": [
@@ -3232,11 +3364,13 @@
       ],
       "disposal_streams": [
         "recycling",
-        "garbage"
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
         "recycling": "If you remove the hard cover and binding, the inside pages can be recycled.",
-        "garbage": "Intact (with cover and binding) hardcover books go in the garbage. This is because the hard cover and binding are not recyclable."
+        "garbage": "Intact (with cover and binding) hardcover books go in the garbage. This is because the hard cover and binding are not recyclable.",
+        "donate": "Donate hardbound books in good condition to local thrift stores . Resell or give it away using sites like Craigslist , Freecycle , and Buy Nothing ."
       },
       "explanation": "HARDCOVER BOOKS go in the garbage.  Hardcover books cannot be recycled due to the glue in the binding.",
       "category_path": [
@@ -3306,11 +3440,13 @@
       ],
       "disposal_streams": [
         "garbage",
-        "dropoff"
+        "dropoff",
+        "donate"
       ],
       "disposal_conditions": {
         "garbage": "String/Holiday lights can go in the garbage.",
-        "dropoff": "• Check King County's Green Holiday website for drop off locations for holiday light recycling options. • You can drop off your solar garden lights at EcoLight for recycling."
+        "dropoff": "• Check King County's Green Holiday website for drop off locations for holiday light recycling options. • You can drop off your solar garden lights at EcoLight for recycling.",
+        "donate": "Donate holiday lights in good condition to local thrift stores . Resell or give it away using sites like Craigslist , Freecycle , and Buy Nothing ."
       },
       "explanation": "HOLIDAY LIGHTS go in the garbage. During the holiday season some stores will take them back for recycling.",
       "category_path": [
@@ -3344,10 +3480,12 @@
       ],
       "disposal_streams": [
         "recycling",
+        "compost",
         "garbage"
       ],
       "disposal_conditions": {
         "recycling": "• Empty and dry paper cups. • Paper cup sleeves go into recycling. • Plastic to-go cups",
+        "compost": "• Hot or coffee cups labeled as \"Compostable\" • Some plastic-looking to-go cups may be compostable! Look for the word \"compostable\" and a certification.",
         "garbage": "• Styrofoam coffee cups • Non-compostable paper cups stained with liquid • Non-paper cup sleeves • Plastic straws"
       },
       "explanation": "HOT OR TO-GO BEVERAGE CUPS that are empty, clean and dry can go in the recycling.  Dirty cups or Styrofoam  cups go in the garbage.  Compostable cups go in the yard waste.",
@@ -3366,8 +3504,14 @@
         "Live Plants",
         "Plants in Pots "
       ],
-      "disposal_streams": [],
-      "disposal_conditions": {},
+      "disposal_streams": [
+        "compost",
+        "dropoff"
+      ],
+      "disposal_conditions": {
+        "compost": "Houseplants go in the food and yard waste. Remove plants from potting soil and planters.",
+        "dropoff": "Houseplants can go to city transfer stations as yard waste. Remove soil and pots. Fees apply. Check rates here ."
+      },
       "explanation": "HOUSEPLANTS go in the yard waste. Remove the soil and the pot before putting it in the yard waste.",
       "category_path": [
         "Yard Waste"
@@ -3410,10 +3554,16 @@
         "Wood furniture"
       ],
       "disposal_streams": [
-        "recycling"
+        "recycling",
+        "dropoff",
+        "special",
+        "donate"
       ],
       "disposal_conditions": {
-        "recycling": "Metal furniture frames go into recycle."
+        "recycling": "Metal furniture frames go into recycle.",
+        "dropoff": "• You can bring furniture and large frames to city transfer stations . Fees apply. Check the rates page . • If you have a piece of furniture that would fit in your garbage cart, you can dispose of it at home with you household garbage. It must fit in the cart. Do not exceed weight limits.",
+        "special": "• Submit a request online or call SPU Customer Service at (206) 684-3000 to schedule a pickup. Fees apply. • If you are a resident of an apartment or a condominium and do not have an SPU account, check your property manager. Furniture is not allowed in dumpsters.",
+        "donate": "• Donate furniture in good condition to local thrift stores . • Resell or give away using sites like Craigslist , Freecycle , and Buy Nothing . • Unwanted light fixtures or other household wares in working condition can be donated to salvage stores. Learn more about deconstruction and find your local salvage retailer (under reuse) on our salvage webpage ."
       },
       "explanation": "HOUSEHOLD FURNITURE can be donated or resold if it is in good working condition.  Contact thrift stores to see if it is accepted.  Broken or large frames can be taken to Seattle transfer stations or picked up for a fee. To schedule a pickup go to www.seattle.gov/SpecialItems or call (206) 684-3000",
       "category_path": [
@@ -3458,12 +3608,14 @@
       "disposal_streams": [
         "recycling",
         "garbage",
-        "dropoff"
+        "dropoff",
+        "special"
       ],
       "disposal_conditions": {
         "recycling": "Metal parts larger than 3 inches go in the recycling. • Small amounts of plastic, wood, or rubber can be attached. • Rusted metal can be recycled unless the metal is falling apart.",
         "garbage": "• Metal items with large amounts of plastic, wood, or rubber attached. • Metal items that are smaller than 3 inches.",
-        "dropoff": "All metal, except car parts, is accepted as recycling at city transfer stations . There is no fee for most metal. • Maximum size is 8 feet long. • There is a charge for appliances, limit 2 per load."
+        "dropoff": "All metal, except car parts, is accepted as recycling at city transfer stations . There is no fee for most metal. • Maximum size is 8 feet long. • There is a charge for appliances, limit 2 per load.",
+        "special": "For larger items, submit a request online or call SPU Customer Service at (206) 684-3000 to schedule a bulky item collection. Fees apply. Large metal parts can be put at the curb for pickup on your recycling collection day. • These must be bundled or tied. • The maximum size is 2 feet on all sides."
       },
       "explanation": "IRON OR STEEL can be recycled. Pieces larger than 3 inches without large amounts of rubber, plastic or wood go in the recycling.  You can drop off iron and steel at City Transfer stations for recycling for free. Large items can be picked up for a fee. Schedule a pick up at www.seattle.gov/SpecialItems or call (206)684-3000. For transfer station information go to seattle.gov/transferstations",
       "category_path": [
@@ -3486,10 +3638,12 @@
         "Earrings"
       ],
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "You can put jewelry and coins in the garbage."
+        "garbage": "You can put jewelry and coins in the garbage.",
+        "donate": "You can donate jewelry and coins to thrift stores, and can often sell these items to jewelry buyers or coin and precious metal dealers."
       },
       "explanation": "You can donate jewelry and coins to thrift stores, and can often sell these items to jewelry buyers or coin and precious metal dealers. You can put jewelry and coins in the garbage.",
       "category_path": [
@@ -3591,12 +3745,14 @@
       "disposal_streams": [
         "garbage",
         "hazardous",
-        "dropoff"
+        "dropoff",
+        "donate"
       ],
       "disposal_conditions": {
         "garbage": "• Dry latex, water-based, or acrylic paint can go in the trash. Follow these steps to get rid of it safely: • If there is less than an inch of paint in the can, remove the lid and air dry; protected from children and pets. • If there is more than an inch of paint in the can, mix the paint with cat litter and let it solidify. You can also use a paint hardener according to directions. • Separate and throw the can of dried paint and lid in the garbage. Do not take the paint out of the can. • Empty paint cans cannot be cleaned enough to recycle and should go in the garbage. • Paint brushes with dried paint can go into the garbage.",
         "hazardous": "Residential customers with unlabeled paint can bring it to a Household Hazardous Waste location for identification and guidance on disposal options. HHW accepts oil-based paints (for free) and can advise customers on locations to take latex paints.",
-        "dropoff": "Recycle your paint products for free at a PaintCare drop-off site. Accepted products include latex paint, oil-based paint, stain, varnish, and more. Visit the PaintCare website to find a drop-off location near you and to view a list of accepted products. You can also recycle unwanted latex paint, water-based stains, and clear finishes at any Take it Back Network paint recycling location . There is a fee for this service."
+        "dropoff": "Recycle your paint products for free at a PaintCare drop-off site. Accepted products include latex paint, oil-based paint, stain, varnish, and more. Visit the PaintCare website to find a drop-off location near you and to view a list of accepted products. You can also recycle unwanted latex paint, water-based stains, and clear finishes at any Take it Back Network paint recycling location . There is a fee for this service.",
+        "donate": "• Check with local community organizations or schools to see if they will accept water-based paint or acrylic paint. • Clean paint brushes can be donated to local thrift stores"
       },
       "explanation": "LATEX PAINT goes in the garbage or can be dropped off for recycling at specific facilities for a fee.  Dry out the latex paint by leaving the can open or adding cat litter.  Separate the lid from the dried paint can and put both in your garbage (removing the lid lets your garbage collector knows the paint is dried).  Drop off for a fee at local locations in the Take it Back network.",
       "category_path": [
@@ -3686,10 +3842,14 @@
         "Carpet cleaners"
       ],
       "disposal_streams": [
-        "hazardous"
+        "hazardous",
+        "dropoff",
+        "donate"
       ],
       "disposal_conditions": {
-        "hazardous": "• Bring gas and oil to a household hazardous waste facility . No fee. • Don't mix fluids together! • Put fluids in a sealed container that is 5 gallons or less. • Limit 50 gallons per trip."
+        "hazardous": "• Bring gas and oil to a household hazardous waste facility . No fee. • Don't mix fluids together! • Put fluids in a sealed container that is 5 gallons or less. • Limit 50 gallons per trip.",
+        "dropoff": "• You must drain all gas, oil, and air from lawn mowers, air compressors, and other power equipment. • Bring emptied mowers and equipment to city transfer stations . • No charge for lawn mowers.",
+        "donate": "• If in working condition, consider donating tools to your local tool library. There are locations in North , South , and West Seattle . • Donate lawn mowers or power equipment in working condition to local thrift stores . Call first to confirm acceptance policies. • Resell or give it away using sites like Craigslist , Freecycle , and Buy Nothing ."
       },
       "explanation": "There are two options.  You can donate lawn mowers or power equipment in working condition to local thrift stores. Call first to confirm acceptance policies.   Another option is to bring emptied mowers and equipment to city transfer stations, but you must first drain all the gas and oil. There is no charge for lawn mowers.  For transfer station information go to seattle.gov/transferstations. Bring gas and oil to a household hazardous waste facility for free. Don't mix fluids together!  Put fluids in a sealed container that is 5 gallons or less.  Limit 50 gallons per trip. For Hazardous Waste facility information go to hazwastehelp.org or call at 206-296-4692",
       "category_path": [
@@ -3732,8 +3892,16 @@
         "Weeds",
         "Seeds"
       ],
-      "disposal_streams": [],
-      "disposal_conditions": {},
+      "disposal_streams": [
+        "compost",
+        "dropoff",
+        "special"
+      ],
+      "disposal_conditions": {
+        "compost": "Leaves, seeds, and non-woody yard waste go in the food and yard waste. • Items must fit in your cart with the lid closed. • Don't exceed the weight limits printed on your cart. From November 1-30, customers with Food & Yard Waste service can put out up to 10 bags of extra yard waste for free per collection day.",
+        "dropoff": "Bring leaves, seeds, or non-woody yard waste to city transfer stations . Fees apply .",
+        "special": "Put extra yard waste in kraft paper, labeled \"compostable\" bags, or bundled with natural twine for pick up on collection day. Fees apply ."
+      },
       "explanation": "LEAVES OR NON-WOODY YARD WASTE goes in food and yard waste or can be dropped off at city transfer stations for a fee. Leaves and non-woody yard waste go in the food and yard waste. Items must fit in your bin with the lid closed to avoid extra fees.",
       "category_path": [
         "Yard Waste"
@@ -3773,10 +3941,16 @@
         "2 X 4s Wood"
       ],
       "disposal_streams": [
-        "garbage"
+        "compost",
+        "garbage",
+        "dropoff",
+        "special"
       ],
       "disposal_conditions": {
-        "garbage": "Painted or treated wood goes in the garbage: • All pieces must be less than 4 inches in diameter and under 4 feet long. • Break lumber and boards down so they fit in your cart with the lid closed. • Do not exceed weight limits ."
+        "compost": "Unpainted and untreated wood goes in the food and yard waste: • All pieces must be less than 4 inches in diameter and under 4 feet long. • Remove nails and all other non-wood materials. • Break lumber and boards down so they fit in your cart with the lid closed. • Do not exceed weight limits posted on your cart.",
+        "garbage": "Painted or treated wood goes in the garbage: • All pieces must be less than 4 inches in diameter and under 4 feet long. • Break lumber and boards down so they fit in your cart with the lid closed. • Do not exceed weight limits .",
+        "dropoff": "Bring lumber and wood boards to city transfer stations . {{proj[1].rate_text}}",
+        "special": "Lumber or boards, that are painted or treated, which do not fit in your cart with the lid closed may be put in a plastic bag and placed next to your garbage cart on collection day. {{proj[4].rate_text}}"
       },
       "explanation": "LUMBER OR BOARDS can go to the transfer station for a fee.  Painted and treated wood goes in the garbage. All pieces must be less than 4 inches in diameter and under 4 feet long.  Clean wood goes in food and yard waste. Break lumber and boards down so they fit in your bin with the lid closed.  Remove nails and all other non-wood materials. For transfer station information go to seattle.gov/transferstations",
       "category_path": [
@@ -3819,8 +3993,16 @@
         "Memory Foam",
         "Futons"
       ],
-      "disposal_streams": [],
-      "disposal_conditions": {},
+      "disposal_streams": [
+        "dropoff",
+        "special",
+        "donate"
+      ],
+      "disposal_conditions": {
+        "dropoff": "Bring mattresses, mattress toppers and futons to city transfer stations for disposal. Fees apply. Check rates here .",
+        "special": "Schedule a Special Item pickup online or call SPU Customer Service at (206) 684-3000. Fees apply.",
+        "donate": "Donate futon frames in good condition to local thrift stores . Mattresses and futons are generally not accepted at thrift stores."
+      },
       "explanation": "MATTRESSES, MATTRESS TOPPERS OR FUTONS can be placed at curb if you schedule a pick up for a fee.  Go to  www.seattle.gov/SpecialItems or call (206) 684-3000.   You can also drop them off at City Transfer Stations for a fee. For transfer station information go to seattle.gov/transferstations",
       "category_path": [
         "Household Items",
@@ -3841,10 +4023,12 @@
       ],
       "disposal_streams": [
         "recycling",
+        "compost",
         "garbage"
       ],
       "disposal_conditions": {
         "recycling": "Clean rigid plastic meat trays go in the recycling. Remove the plastic absorbent insert before recycling.",
+        "compost": "Brown or tan trays for meat, poultry, and fish are made of compostable material and go in the food and yard waste.",
         "garbage": "Any other color of foam meat tray and the plastic absorbent insert go in the garbage."
       },
       "explanation": "Styrofoam meat trays and the plastic absorbent insert go in the garbage.   Brown or beige trays for meat, poultry, and fish are made from plant-based material and are compostable so they can go in the food and yard waste.",
@@ -3932,11 +4116,15 @@
       ],
       "disposal_streams": [
         "recycling",
-        "dropoff"
+        "dropoff",
+        "special",
+        "donate"
       ],
       "disposal_conditions": {
         "recycling": "Metal sinks and fixtures go in the recycling: • They must be between 3 inches and 2 feet on all sides. • Small amounts of plastic, wood, or rubber can be attached. • Don't exceed the weight limits printed on your cart.",
-        "dropoff": "Metal sinks can be dropped off at metal recyclers, often for free."
+        "dropoff": "Metal sinks can be dropped off at metal recyclers, often for free. Bring metal sinks, tubs, and fixtures less than 8 feet on all sides to city transfer stations . Fees apply. Check rates here .",
+        "special": "Schedule a Special Item Pickup online or call SPU Customer Service at (206) 684-3000. Fees apply.",
+        "donate": "You can often donate or resell sinks, tubs, and fixtures to building supply stores that specialize in salvage materials. Resell or give it away using sites like Craigslist , Freecycle , and Buy Nothing ."
       },
       "explanation": "You can donate or resell sinks, tubs, and fixtures to building supply stores that specialize in salvage materials, on Craigslist, or Buy Nothing groups. A second options is that Metal sinks and fixtures larger than 3 inches can go in the recycling. Another option is to schedule a pick up for a $30 fee at  www.seattle.gov/SpecialItems or call (206)684-3000.   You can also bring metal sinks, tubs, and fixtures less than 8 feet on all sides to city transfer stations. For transfer station information go to seattle.gov/transferstations",
       "category_path": [
@@ -3954,9 +4142,11 @@
         "Popcorn Bags"
       ],
       "disposal_streams": [
+        "compost",
         "garbage"
       ],
       "disposal_conditions": {
+        "compost": "Any leftover popcorn or kernels go in the food and yard waste.",
         "garbage": "Microwave popcorn bags go in the garbage."
       },
       "explanation": "MICROWAVE POPCORN BAGS go in the garbage.",
@@ -3997,10 +4187,16 @@
       "item_name": "Mirrors",
       "synonyms": "Mirrors",
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "dropoff",
+        "special",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "Mirrors can go in the garbage: • Items must fit in your cart with the lid closed. • Don't exceed the weight limits printed on your cart."
+        "garbage": "Mirrors can go in the garbage: • Items must fit in your cart with the lid closed. • Don't exceed the weight limits printed on your cart.",
+        "dropoff": "Bring large mirrors that don't fit in the cart to city transfer stations . Fees apply. Check rates here .",
+        "special": "Schedule a Special Item Pickup online or call SPU Customer Service at (206) 684-3000. Fees apply.",
+        "donate": "Donate mirrors in working condition to local thrift stores . Resell or give it away using sites like Craigslist , Freecycle , and Buy Nothing . Some building supply or second use stores accept mirrors."
       },
       "explanation": "Donate mirrors in working condition to local thrift stores, on Craigslist, and Buy Nothing groups. Some building supply or second use stores accept mirrors.   Mirrors can go in the garbage.",
       "category_path": [
@@ -4027,7 +4223,7 @@
       ],
       "disposal_conditions": {
         "garbage": "Put small amounts of construction waste in the garbage. Do not exceed weight limits.",
-        "dropoff": "For other disposal and recycling options, view hauling requirements for certified facilities ."
+        "dropoff": "For other disposal and recycling options, view hauling requirements for certified facilities . Bring mixed construction and demolition waste to city transfer stations . Fees apply. Check rates here ."
       },
       "explanation": "Mixed construction and demolition materials can go to a transfer station or be taken to a construction and demolition facility.  For transfer station information go to seattle.gov/transferstations",
       "category_path": [
@@ -4054,12 +4250,14 @@
       "disposal_streams": [
         "garbage",
         "hazardous",
-        "dropoff"
+        "dropoff",
+        "special"
       ],
       "disposal_conditions": {
         "garbage": "Empty motor oil containers and filters go in the garbage. They can't be recycled. Puncture the oil filter and drain the oil into a container for 24 hours. Seal drained filter in a plastic bag and put in the garbage.",
         "hazardous": "Bring contaminated oil that contains solvents, bleach, or other materials to a household hazardous waste facility . No fee.",
-        "dropoff": "Bring partially full motor oil containers to: • City transfer stations . Fees apply. • A household hazardous waste facility . No fee. Bring drained or full oil filters to a household hazardous waste facility . No fee."
+        "dropoff": "Bring partially full motor oil containers to: • City transfer stations . Fees apply. • A household hazardous waste facility . No fee. Bring drained or full oil filters to a household hazardous waste facility . No fee. Bring up to 5 gallons of oil per a trip to city transfer stations . No fee.",
+        "special": "You can recycle up to 2 gallons (or TWO 5 quart oil product containers) of motor oil on each recycling collection day: • Pour cooled oil into a plastic container with a tight-fitting, screw-on lid. • Label the container with your name and address. • Set up to 2 labeled containers on the curb next to your recycling cart. • Apartment / Condo residents: Set out up to 2 labeled containers per cart at your building/complex."
       },
       "explanation": "Motor oil can be recycled if it doesn't contain solvents, bleach, or other materials.    Set out up to 2 labeled 1 gallon plastic containers with lids next to your recycling bin for free.  Or, it can go to the transfer station.  Bring up to 5 gallons of oil per a trip to city transfer stations for free.  You can also bring contaminated oil that contains solvents, bleach, or other materials to a household hazardous waste facility for free.  Never pour motor oil on the ground or down the drain; it can pollute our waterways and the environment.",
       "category_path": [
@@ -4082,10 +4280,12 @@
         "Plates"
       ],
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "Put broken mugs, plates, and bowls in the garbage."
+        "garbage": "Put broken mugs, plates, and bowls in the garbage.",
+        "donate": "Donate dinnerware in good condition to local thrift stores . Resell or give it away using sites like Craigslist , Freecycle , and Buy Nothing ."
       },
       "explanation": "MUGS, PLATES OR BOWLS in good condition can be donated to thrift stores, on Craigslist and Buy Nothing groups. Broken items go in the garbage.",
       "category_path": [
@@ -4099,10 +4299,12 @@
       "item_name": "Newspapers",
       "synonyms": "Newspapers",
       "disposal_streams": [
-        "recycling"
+        "recycling",
+        "compost"
       ],
       "disposal_conditions": {
-        "recycling": "Newspaper goes in the recycling."
+        "recycling": "Newspaper goes in the recycling.",
+        "compost": "Wet or food-soiled newspaper goes in the food and yard waste."
       },
       "explanation": "NEWSPAPERS can be recycled or go in food and yard waste. Wet or food-soiled newspaper goes in the food and yard waste.   Clean, recyclable newspaper is not allowed in the garbage.",
       "category_path": [
@@ -4131,10 +4333,16 @@
         "Tape dispenser"
       ],
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "dropoff",
+        "special",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "Small office supplies, such as binders, pencil sharpeners, paper clips, rubber bands, pens, and pencils can go in the garbage."
+        "garbage": "Small office supplies, such as binders, pencil sharpeners, paper clips, rubber bands, pens, and pencils can go in the garbage.",
+        "dropoff": "Bring office furniture and equipment to city transfer stations . Fees apply. Check the rates page.",
+        "special": "Submit a request online or call SPU Customer Service at (206) 684-3000 to schedule a bulky item pickup. Fees apply.",
+        "donate": "Donate furniture, equipment, and supplies in good condition to local thrift stores . Resell or give it away using sites like Craigslist , Freecycle , and Buy Nothing ."
       },
       "explanation": "OFFICE FURNITURE AND EQUIPMENT can be donated or resold if in good working condition.  Contact thrift stores to see if they are accepted.  Broken or large items can be taken to Seattle transfer stations or picked up for a fee. To schedule a pickup go to seattle.gov/SpecialItems or call (206) 684-3000",
       "category_path": [
@@ -4207,8 +4415,16 @@
         "Electric Scooters",
         "Hoverboards"
       ],
-      "disposal_streams": [],
-      "disposal_conditions": {},
+      "disposal_streams": [
+        "dropoff",
+        "special",
+        "donate"
+      ],
+      "disposal_conditions": {
+        "dropoff": "Bring large appliances to a city transfer station. Fees apply. Limit of two large appliances per load.",
+        "special": "Submit a request online or call SPU Customer Service at (206) 684-3000 to schedule a bulky item pickup for large appliances. Fees apply.",
+        "donate": "Resell or give it away using sites like Craigslist , Freecycle , and Buy Nothing ."
+      },
       "explanation": "Appliances in working condition can be resold using sites like Craigslist and Buy Nothing groups   To schedule a pick up for a fee, go to seattle.gov/SpecialItems. or call (206)684-3000 . You can drop off  up to 2 residential appliances per visit to city transfer stations. .. For transfer station information go to seattle.gov/transferstations",
       "category_path": [
         "Household Items",
@@ -4305,10 +4521,12 @@
         "OSB wood"
       ],
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "dropoff"
       ],
       "disposal_conditions": {
-        "garbage": "Painted or treated wood, including creosote and railroad ties, can go in the garbage: • Break wood down so it fits in your cart with the lid closed. • Make sure it doesn't exceed the weight limits for your cart."
+        "garbage": "Painted or treated wood, including creosote and railroad ties, can go in the garbage: • Break wood down so it fits in your cart with the lid closed. • Make sure it doesn't exceed the weight limits for your cart.",
+        "dropoff": "Bring painted or treated lumber, including creosote and railroad ties, to city transfer stations . Fees apply. Check the rates page."
       },
       "explanation": "PAINTED OR TREATED WOOD goes in the garbage. You can also take it to City transfer stations for a fee. For transfer station information go to seattle.gov/transferstations",
       "category_path": [
@@ -4325,10 +4543,16 @@
         "wood pallets"
       ],
       "disposal_streams": [
-        "garbage"
+        "compost",
+        "garbage",
+        "dropoff",
+        "special"
       ],
       "disposal_conditions": {
-        "garbage": "Pallets made from treated wood can be broken down and put in the garbage: • Items must fit in your cart with the lid closed. • Don't exceed the weight limits for your cart."
+        "compost": "Break pallets made from untreated wood into pieces that are: • 4 inches or less in diameter • 4 feet or less in length • Remove any nails or metallic items.",
+        "garbage": "Pallets made from treated wood can be broken down and put in the garbage: • Items must fit in your cart with the lid closed. • Don't exceed the weight limits for your cart.",
+        "dropoff": "Bring pallets to city transfer stations . Fees apply. Check the rates page.",
+        "special": "These may be set out next to your garbage cart on collection day. Extra garbage fees apply."
       },
       "explanation": "Wood pallets without painted ends or chemical treatments can go in the yard waste, if they are broken down to fit in the cart.  If set out they will be charged as extra yard waste.  Bring to transfer station to dispose of as yard waste (if  it is clean wood), or dispose of as garbage (if it's treated or has painted ends).",
       "category_path": [
@@ -4347,10 +4571,12 @@
         "Paper sugar bag"
       ],
       "disposal_streams": [
-        "recycling"
+        "recycling",
+        "compost"
       ],
       "disposal_conditions": {
-        "recycling": "Clean and dry paper bags go the recycling. Stickers, tape, and staples okay."
+        "recycling": "Clean and dry paper bags go the recycling. Stickers, tape, and staples okay.",
+        "compost": "Food-soiled bags go in the food and yard waste cart. Please remove all stickers, tape, or staples."
       },
       "explanation": "Clean and dry paper bags go into recycling.   Food-soiled bags go in the food and yard waste cart.",
       "category_path": [
@@ -4372,8 +4598,12 @@
         "Blackberry Baskets - Paper",
         "Raspberry Baskets - Paper"
       ],
-      "disposal_streams": [],
-      "disposal_conditions": {},
+      "disposal_streams": [
+        "compost"
+      ],
+      "disposal_conditions": {
+        "compost": "Paper berry baskets go in the food and yard waste."
+      },
       "explanation": "PAPER BERRY BASKETS go in the food and yard waste.",
       "category_path": [
         "Food Packaging",
@@ -4394,10 +4624,14 @@
         "Napkin – Clean"
       ],
       "disposal_streams": [
-        "garbage"
+        "compost",
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "Paper napkins and towels used with cleaning products or that have bodily fluids go in the garbage."
+        "compost": "Paper napkins and towels that have food or grease on them go in the food and yard waste.",
+        "garbage": "Paper napkins and towels used with cleaning products or that have bodily fluids go in the garbage.",
+        "donate": "Try to save clean and unused napkins for future use. Pro Tip: Place clean napkins in your vehicle’s glove compartment for emergency clean-ups."
       },
       "explanation": "PAPER NAPKINS go in the food and yard waste. Paper napkins and towels used with cleaning products or that have bodily fluids go in the garbage.",
       "category_path": [
@@ -4419,10 +4653,12 @@
       ],
       "disposal_streams": [
         "recycling",
+        "compost",
         "garbage"
       ],
       "disposal_conditions": {
         "recycling": "• Paper cups that are clean, empty, and dry • Clean paper plates Most paper cups have a thin plastic liner, even with this they are recyclable.",
+        "compost": "• Paper plates or cups labeled as \"Compostable\" • Uncoated (not shiny) paper plates (such as Chinet brand)",
         "garbage": "• Dirty plates and cups with a shiny coating • Styrofoam plates and cups"
       },
       "explanation": "Paper plates and cups that are clean, or with a small amount of liquid, can be reycled.   If they are labeled as \"Compostable\" or are Uncoated (not shiny)  then they go in food and yard waste.   Dirty plates and cups with a shiny coating, along with Styrofoam plates and cups, go in the garbage.",
@@ -4437,8 +4673,12 @@
       "item_id": "x130774",
       "item_name": "Paper Punch Holes",
       "synonyms": "Paper Punch Holes",
-      "disposal_streams": [],
-      "disposal_conditions": {},
+      "disposal_streams": [
+        "compost"
+      ],
+      "disposal_conditions": {
+        "compost": "Paper punch holes go in the food and yard waste."
+      },
       "explanation": "Paper punch holes are too small to be recycled at the recycling facility so they go in food and yard waste.",
       "category_path": [
         "Paper",
@@ -4487,10 +4727,14 @@
         "Shop towels"
       ],
       "disposal_streams": [
-        "garbage"
+        "compost",
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "Paper towels used with cleaning products or that have bodily fluids on them and blue \"shop\" towels, which are made of cotton, go in the garbage."
+        "compost": "Paper towels and napkins that have food or grease on them go in the food and yard waste. Unused paper towels also go in the compost. The paper fiber is too short to be recycled into new paper products.",
+        "garbage": "Paper towels used with cleaning products or that have bodily fluids on them and blue \"shop\" towels, which are made of cotton, go in the garbage.",
+        "donate": "Try to save clean and unused paper towels for future use."
       },
       "explanation": "PAPER TOWELS go in the food and yard waste. Paper napkins and towels used with cleaning products or that have bodily fluids go in the garbage.",
       "category_path": [
@@ -4509,10 +4753,12 @@
         "Softcover Books"
       ],
       "disposal_streams": [
-        "recycling"
+        "recycling",
+        "donate"
       ],
       "disposal_conditions": {
-        "recycling": "Paperback books can go in your recycling cart."
+        "recycling": "Paperback books can go in your recycling cart.",
+        "donate": "Donate paperback books in good condition to local thrift stores . Resell or give it away using sites like Craigslist , Freecycle , and Buy Nothing ."
       },
       "explanation": "Paperback books in good condition can be donated. Or they can go in the recycling.",
       "category_path": [
@@ -4610,10 +4856,12 @@
         "Dog bones"
       ],
       "disposal_streams": [
-        "recycling"
+        "recycling",
+        "compost"
       ],
       "disposal_conditions": {
-        "recycling": "Cat food cans that are clean, dry, and empty, are recyclable."
+        "recycling": "Cat food cans that are clean, dry, and empty, are recyclable.",
+        "compost": "Both dry and wet pet food, dog bones, and pet treats can go in the food and yard waste. They will be turned into valuable compost."
       },
       "explanation": "PET FOOD goes in the food and yard waste.  Both wet and dry pet food can be composted.",
       "category_path": [
@@ -4714,10 +4962,12 @@
         "Film negatives"
       ],
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "Photographs, xray films, and slides go in the garbage. The coatings on photographs make the paper undesirable for recycling."
+        "garbage": "Photographs, xray films, and slides go in the garbage. The coatings on photographs make the paper undesirable for recycling.",
+        "donate": "Many craft stores will take unwanted photos or 35mm slides as donation. Seattle Recreative , a creative-reuse store relies on donations of unused/unwanted craft supplies that would otherwise end up in a landfill. There are other creative reuse stores across the city. Check out their websites and send them an email or give them a call about donations."
       },
       "explanation": "Photographs go in the garbage.   Photographs aren't recyclable because of the chemicals used to create them and the short fibers used for their paper.",
       "category_path": [
@@ -4731,8 +4981,12 @@
       "item_id": "x130786",
       "item_name": "Pizza Boxes",
       "synonyms": "Pizza Boxes",
-      "disposal_streams": [],
-      "disposal_conditions": {},
+      "disposal_streams": [
+        "compost"
+      ],
+      "disposal_conditions": {
+        "compost": "• Greasy or food-soiled pizza boxes go in the food and yard waste. • Remove any materials that are not paper or cardboard."
+      },
       "explanation": "PIZZA BOXES go in the food and yard waste but first, remove any foil, plastic cups or pieces.",
       "category_path": [
         "Food Packaging",
@@ -4749,8 +5003,12 @@
         "Shrubs",
         "Houseplants"
       ],
-      "disposal_streams": [],
-      "disposal_conditions": {},
+      "disposal_streams": [
+        "compost"
+      ],
+      "disposal_conditions": {
+        "compost": "Plants and trees go in the food and yard waste. Remove pots and soil. All pieces must be less than 4 inches in diameter and under 4 feet long."
+      },
       "explanation": "PLANT OR TREE SALVAGE goes in food and yard waste. All pieces must be less than 4-inches in diameter and under 4-feet long.  Remove all soil.",
       "category_path": [
         "Yard Waste"
@@ -4777,10 +5035,12 @@
       ],
       "disposal_streams": [
         "recycling",
+        "compost",
         "garbage"
       ],
       "disposal_conditions": {
         "recycling": "Empty and rinsed plastic plant pots go in the recycling.",
+        "compost": "Plant Containers can be compostable IF the phrase \"compostable\" is featured. If in doubt it's better to throw the container in the garbage.",
         "garbage": "Dirty or ceramic plant pots go in the garbage."
       },
       "explanation": "Clean plastic pots go in the recycling. Ceramic or dirty pots go in the garbage.",
@@ -4849,10 +5109,12 @@
       ],
       "disposal_streams": [
         "recycling",
+        "compost",
         "garbage"
       ],
       "disposal_conditions": {
         "recycling": "• Empty, clean plastic bottles • Plastic bottle caps can be recycled, if attached to the empty bottle",
+        "compost": "• Bottles labeled \"Compostable\" or \"#7 PLA\"",
         "garbage": "• Bottles that contained hazardous chemicals, like pesticide bottles • Motor oil bottles • Other automotive fluid containers • Spray bottle heads"
       },
       "explanation": "Empty and dry plastic bottles go in the recycling.   Put plastic caps back on plastic bottles for recycling.  Empty Bottles that had pesticides, motor oil or other hazardous fluids go in the garbage.",
@@ -4872,10 +5134,12 @@
         "Clothes Hangers - Plastic"
       ],
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "Plastic clothes hangers go in the garbage. They can't be recycled."
+        "garbage": "Plastic clothes hangers go in the garbage. They can't be recycled.",
+        "donate": "Donate plastic clothes hangers in good condition to local thrift stores ."
       },
       "explanation": "Donate plastic clothes hangers in good condition to local thrift stores.   Plastic clothes hangers go in the garbage. They can't be recycled.",
       "category_path": [
@@ -4908,10 +5172,12 @@
       ],
       "disposal_streams": [
         "recycling",
+        "compost",
         "garbage"
       ],
       "disposal_conditions": {
         "recycling": "• Empty and clean plastic cups",
+        "compost": "Plastic-like containers labeled \"Compostable\" or \"#7 PLA\" go in the food and yard waste. Learn more about compostable packaging (pdf).",
         "garbage": "• Dirty plastic cups • Plastic utensils • Styrofoam cups • Plastic plates"
       },
       "explanation": "Empty and clean plastic cups go in the recycle.  Plastic-like containers labeled \"Compostable\" or \"#7 PLA\" go in the food and yard waste. Dirty plastic cups, Plastic utensils and Styrofoam cups go in the garbage.",
@@ -4949,11 +5215,13 @@
       ],
       "disposal_streams": [
         "recycling",
-        "garbage"
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
         "recycling": "• Plastic food containers for yogurt, margarine, dips, salsa, salad greens, etc. that are clean, dry, and empty • Plastic tubs for dishwasher and detergent pods and powders • Plastic lids 3 inches across or larger • If clean, dry, empty, and sturdy, plastic storage bins can be recycled. If broken, only recycle pieces larger than 3 inches. • If empty, clean, dry, and larger than 3 inches, plastic Tupperware items can go in your recycling bin.",
-        "garbage": "• Containers with food inside • Lids less than 3 inches across • If broken, pieces smaller than 3 inches should go in the garbage."
+        "garbage": "• Containers with food inside • Lids less than 3 inches across • If broken, pieces smaller than 3 inches should go in the garbage.",
+        "donate": "If in good condition, consider giving away storage bins you no longer need to your local thrift store, or using sites like Craigslist, Freecycle, and Buy Nothing."
       },
       "explanation": "Empty, clean and dry PLASTIC TUBS larger than 3 inches go in recycling. Dirty or containers smaller than 3 inches go in the garbage.",
       "category_path": [
@@ -5041,11 +5309,15 @@
       ],
       "disposal_streams": [
         "recycling",
-        "garbage"
+        "garbage",
+        "special",
+        "donate"
       ],
       "disposal_conditions": {
         "recycling": "Rigid plastic items can go in the recycling: • Should be 3 feet or less on all sides • Small amounts of attached metal (such as hinges) are allowed • Remove other materials such as fabric, foam, or wood.",
-        "garbage": "Broken plastic pieces from large rigid plastic items that are smaller than 3 inches are not recyclable. These broken pieces go in the garbage."
+        "garbage": "Broken plastic pieces from large rigid plastic items that are smaller than 3 inches are not recyclable. These broken pieces go in the garbage.",
+        "special": "Larger rigid plastic outdoor furniture that doesn't fit in your recycling cart can be set next to the cart on your recycling collection day.",
+        "donate": "Donate plastic patio furniture and other large plastic items in good condition to local thrift stores . Resell or give it away using sites like Craigslist , Freecycle , and Buy Nothing ."
       },
       "explanation": "Put large items next to your recycle cart. Rigid plastic outdoor furniture should be 3-feet or less on all sides.  Small amounts of attached metal (such as hinges) are allowed Remove other materials such as fabric, foam, or wood.",
       "category_path": [
@@ -5075,10 +5347,12 @@
         "Five Gallon Water Jug"
       ],
       "disposal_streams": [
-        "recycling"
+        "recycling",
+        "compost"
       ],
       "disposal_conditions": {
-        "recycling": "Empty plastic bottles and jugs up to 5 gallons. Must be empty , clean , and dry . Plastic bottle caps can be recycled if attached to the empty bottle."
+        "recycling": "Empty plastic bottles and jugs up to 5 gallons. Must be empty , clean , and dry . Plastic bottle caps can be recycled if attached to the empty bottle.",
+        "compost": "• Bottles labeled \"Compostable\" or \"#7 PLA\""
       },
       "explanation": "This goes in the recycling, but first,  Empty them out and put the plastic bottle caps back on.",
       "category_path": [
@@ -5109,10 +5383,12 @@
       ],
       "disposal_streams": [
         "recycling",
+        "compost",
         "garbage"
       ],
       "disposal_conditions": {
         "recycling": "• All plastic must be clean, empty and dry to be recycled. • Yogurt containers • Deli containers • Bottles and jugs • Microwave trays • Plastic lids 3 inches or larger • Small plastic bottle caps if screwed onto an empty plastic bottle • Clean plastic plant pots • Tupperware • Pill bottles (not prescription vials) • Rigid plastic toys \\- 3-feet or less on all sides • Rigid plastic sporting equipment \\- 3-feet or less on all sides • Rigid plastic furniture \\- 3-feet or less on all sides • Storage containers • Buckets with no fabric, foam, or wood attached",
+        "compost": "Plastic-like containers labeled \"Compostable\" or \"#7 PLA\" go in the food and yard waste. Learn more about compostable packaging (pdf) .",
         "garbage": "• Plastic items less than 3 inches in diameter • Loose plastic bottle caps • Dirty plastic cups • Plastic utensils • Blister packs • Flexible plastic (such as inflatable pools) • Plastic molding • Vinyl or plastic blinds • CD and DVD cases • Plastic clothes hangers • Plastic tarps • Ziploc or plastic bread bags • Plastic liners and trays from food boxes"
       },
       "explanation": "Clean rigid plastic larger than 3 inches can go in the recycling.  All other plastics go in the garbage.",
@@ -5161,11 +5437,15 @@
       ],
       "disposal_streams": [
         "garbage",
-        "dropoff"
+        "dropoff",
+        "special",
+        "donate"
       ],
       "disposal_conditions": {
         "garbage": "Porcelain sinks, plastic parts, toilet seats, and fixtures can go in the garbage if they don't exceed the weight limits printed on your cart.",
-        "dropoff": "To recycle, for a cost, drop toilets off at DTG Recycling Group . All non-porcelain parts must be removed."
+        "dropoff": "To recycle, for a cost, drop toilets off at DTG Recycling Group . All non-porcelain parts must be removed. Bring porcelain sinks, toilets, and tubs to city transfer stations . Fees apply. Check the rates page.",
+        "special": "Submit a request online or call SPU Customer Service at (206) 684-3000 to schedule a pickup. Fees apply.",
+        "donate": "If items are in good condition for reuse, check with local salvage businesses to see if they can take them. Northwest Building Salvage Network"
       },
       "explanation": "You can donate PORCELAIN SINKS, TOILETS OR TUBS in good condition. Or take them to City Transfer stations for a fee. You can often donate or resell sinks, toilets, and tubs to building supply stores that specialize in salvage materials or on sites like Craigslist and Buy Nothing groups.  Porcelain sinks and fixtures can go in the garbage if they don't exceed the weight limits printed on your bin. For transfer station information go to seattle.gov/transferstations",
       "category_path": [
@@ -5198,11 +5478,13 @@
       ],
       "disposal_streams": [
         "recycling",
-        "garbage"
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
         "recycling": "Metal pots and pans can go in the recycling. Pots and pans can have a non-stick coating and small amounts of plastic, wood, or rubber attached.",
-        "garbage": "• Damaged ceramic or glass pots, pans, and lids can go in the garbage. • Any heat-treated bakeware or kitchen glass that is broken or damaged is garbage. This includes glass baking trays, microwave plates, glass bowls, and more. These types of glass are not recyclable. • Drinking glasses and glass bakeware can go in the garbage, whether they're broken or not."
+        "garbage": "• Damaged ceramic or glass pots, pans, and lids can go in the garbage. • Any heat-treated bakeware or kitchen glass that is broken or damaged is garbage. This includes glass baking trays, microwave plates, glass bowls, and more. These types of glass are not recyclable. • Drinking glasses and glass bakeware can go in the garbage, whether they're broken or not.",
+        "donate": "Cookware in good condition should be donated to your local thrift store"
       },
       "explanation": "Metal pots and pans can go in the recycling, or into the garbage.  They can have small amounts of plastic, wood, or rubber attached.   Ceramic or glass pots, pans, and lids can go in the garbage.",
       "category_path": [
@@ -5228,10 +5510,12 @@
         "ink cartridges"
       ],
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "Printer cartridges can go in the garbage."
+        "garbage": "Printer cartridges can go in the garbage.",
+        "donate": "Some printer cartridge manufactures and stores that sell printer cartridges will take old cartridges back for recycling."
       },
       "explanation": "Printer cartridges can go in the garbage.  Some printer cartridge manufactures and stores that sell printer cartridges will take old cartridges back for recycling",
       "category_path": [
@@ -5245,10 +5529,12 @@
       "item_name": "Printers or Peripherals",
       "synonyms": "Printers or Peripherals",
       "disposal_streams": [
-        "dropoff"
+        "dropoff",
+        "special"
       ],
       "disposal_conditions": {
-        "dropoff": "Find locations to recycle printers and peripherals via the Take It Back Network (fees may apply)."
+        "dropoff": "Find locations to recycle printers and peripherals via the Take It Back Network (fees may apply).",
+        "special": "Submit a request online or call SPU Customer Service at (206) 684-3000 to request curbside electronics pickup. Fees apply."
       },
       "explanation": "Broken computer equipment can be picked up for a fee or dropped off at sites through E-Cycle WA to be recycled for free.  To schedule a pickup go to seattle.gov/SpecialItems or call (206)684-3000",
       "category_path": [
@@ -5298,11 +5584,13 @@
       ],
       "disposal_streams": [
         "garbage",
-        "hazardous"
+        "hazardous",
+        "special"
       ],
       "disposal_conditions": {
         "garbage": "Empty propane or gas canisters under 2 pounds can go in the garbage.",
-        "hazardous": "Tanks greater than 2 pounds and up to 30 pounds (8 gallons) must go to a household hazardous waste facility . No fee. This includes tanks that are empty or that contain any amount of propane or butane. For tanks larger than 30 pounds or 8 gallons, call our household hazards line at (206) 296-4692. Hours are 9:00 a.m. to 4:30 p.m., Monday through Friday."
+        "hazardous": "Tanks greater than 2 pounds and up to 30 pounds (8 gallons) must go to a household hazardous waste facility . No fee. This includes tanks that are empty or that contain any amount of propane or butane. For tanks larger than 30 pounds or 8 gallons, call our household hazards line at (206) 296-4692. Hours are 9:00 a.m. to 4:30 p.m., Monday through Friday.",
+        "special": "Submit a request online or call SPU Customer Service at (206) 684-3000 to schedule a Special Item pickup for up to four under 1lb. propane canister (such as green Coleman camp gas canisters, etc.). Fees apply."
       },
       "explanation": "PROPANE TANKS are potentially hazardous. They can be dropped off at Household Hazardous facilities for free.  For Hazardous Waste facility information go to hazwastehelp.org or call at 206-296-4692",
       "category_path": [
@@ -5321,11 +5609,15 @@
       ],
       "disposal_streams": [
         "hazardous",
-        "dropoff"
+        "dropoff",
+        "special",
+        "donate"
       ],
       "disposal_conditions": {
         "hazardous": "• Rechargeable Appliances can't go in the garbage because they contain materials harmful to people, animals, and the environment.",
-        "dropoff": "• King County’s Take It Back Network is a network of e-cyclers that accept a variety of electronic equipment. Use their search tool to find the closest location to you. No fee for TVs, monitors, and computers covered from households and small businesses through the E-Cycle Washington program. Fees may apply for other items. • Call2Recycle is a free take-back program for rechargeable batteries. You can find drop off locations or mail-back. No fee. They accept: • Rechargeable batteries • E-Bike batteries (participating brands) • Cellphones • Household hazardous waste: Bring batteries to a city household hazardous waste facility , where the materials will be reclaimed and recycled. No fee. • Separate batteries from devices • Maximum for a single non-auto or marine battery is 25 lbs. (lithium, other rechargeables or alkaline) • 50 pound total weight limit for any combination of non-auto batteries per visit • Up to 10 lbs. of damaged and/or recalled batteries are accepted at household hazardous waste facilities but NOT at transfer stations"
+        "dropoff": "• King County’s Take It Back Network is a network of e-cyclers that accept a variety of electronic equipment. Use their search tool to find the closest location to you. No fee for TVs, monitors, and computers covered from households and small businesses through the E-Cycle Washington program. Fees may apply for other items. • Call2Recycle is a free take-back program for rechargeable batteries. You can find drop off locations or mail-back. No fee. They accept: • Rechargeable batteries • E-Bike batteries (participating brands) • Cellphones • Household hazardous waste: Bring batteries to a city household hazardous waste facility , where the materials will be reclaimed and recycled. No fee. • Separate batteries from devices • Maximum for a single non-auto or marine battery is 25 lbs. (lithium, other rechargeables or alkaline) • 50 pound total weight limit for any combination of non-auto batteries per visit • Up to 10 lbs. of damaged and/or recalled batteries are accepted at household hazardous waste facilities but NOT at transfer stations",
+        "special": "• Submit a Special Item pickup request online or call SPU Customer Service at (206) 684-3000 for small appliance collection. Batteries do not need to be removed before items are picked up. Fees apply.",
+        "donate": "• Donate rechargeable appliances in working condition to local thrift stores or resell or give them away using sites like Craigslist , Freecycle , and Buy Nothing . Appliances in working condition can also be brought to the North Transfer Station and donated to via the Goodwill drop off location there."
       },
       "explanation": "Donate working condition RECHARGEABLE APPLIANCES to  thrift stores, on Craigslist, and Buy Nothing groups.   Appliances with the rechargeable batteries removed can go in the garbage.   The batteries must go to household hazardous waste facilities for free. They can't go in the garbage.",
       "category_path": [
@@ -5364,10 +5656,12 @@
       ],
       "disposal_streams": [
         "recycling",
+        "compost",
         "garbage"
       ],
       "disposal_conditions": {
         "recycling": "The main plastic recyclables that Seattle wants collected are: • Plastic Bottles • Plastic Jugs • Plastic Containers and Tubs",
+        "compost": "Containers labeled specifically #7 PLA or Compostable go in the food and yard waste. Learn more about compostable packaging (pdf).",
         "garbage": "• Styrofoam plates and cups • Plastic utensils • Dirty plates and cups with a shiny coating • Dirty plastic-like materials that aren't marked \"Compostable\" or \"#7 PLA\""
       },
       "explanation": "Empty, clean and dry plastic larger than 3 inches goes in the recycling. Dirty or small plastic items go in the garbage.",
@@ -5389,8 +5683,16 @@
         "Freezers",
         "wine coolers"
       ],
-      "disposal_streams": [],
-      "disposal_conditions": {},
+      "disposal_streams": [
+        "dropoff",
+        "special",
+        "donate"
+      ],
+      "disposal_conditions": {
+        "dropoff": "Bring up to 2 residential refrigerators and freezers per visit to city transfer stations . Fees apply. Check the rates page. You must remove doors or secure doors/latches shut with duct tape or secure rope on refrigerators, freezers, and coolers.",
+        "special": "Submit a request online or call SPU Customer Service at (206) 684-3000 to schedule a pickup. You must remove doors and latches from refrigerators, freezers, and coolers. Fees apply.",
+        "donate": "Resell or give it away using sites like Craigslist , Freecycle , and Buy Nothing ."
+      },
       "explanation": "REFRIGERATORS OR FREEZERS can be dropped off or picked up for recycling for a fee. To schedule a pick up go to seattle.gov/SpecialItems or call (206) 684-3000.",
       "category_path": [
         "Household Items",
@@ -5412,11 +5714,13 @@
       ],
       "disposal_streams": [
         "recycling",
+        "compost",
         "garbage",
         "dropoff"
       ],
       "disposal_conditions": {
         "recycling": "• Put sawdust or shavings in paper bags or boxes to keep from scattering. • Don't exceed the weight limits printed on your cart.",
+        "compost": "• Unpainted and untreated wood can go in the food and yard waste: • Pieces should be less than 4 inches in diameter and under 4 feet long to avoid extra fees. • Remove nails and all other non-wood materials. • Avoid extra charges, break lumber and boards down so they fit in your cart with the lid closed. • Put sawdust or shavings in paper bags or boxes to keep from scattering. • To avoid extra fees, don't exceed the weight limits printed on your cart.",
         "garbage": "Painted or treated wood can go in the garbage: • All pieces must be less than 4 inches in diameter and under 4 feet long. • Avoid extra charges: break lumber and boards down so they fit in your cart with the lid closed.",
         "dropoff": "Donate or resell reusable lumber through building supply businesses that specialize in salvage or reusable materials."
       },
@@ -5462,10 +5766,14 @@
         "Pea Gravel"
       ],
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "dropoff",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "Rocks and gravel can go in your garbage if they don't exceed the weight limits. It must fit in your cart with the lid completely closed. No individual rock should be larger than 2 feet by 2 feet."
+        "garbage": "Rocks and gravel can go in your garbage if they don't exceed the weight limits. It must fit in your cart with the lid completely closed. No individual rock should be larger than 2 feet by 2 feet.",
+        "dropoff": "Bring rocks and gravel to city transfer stations . They are charged as garbage. Charge for garbage is $145 per ton; minimum charge of $30 covers up to 420 lbs.",
+        "donate": "Gravel in good condition may be accepted by local salvaged building material businesses."
       },
       "explanation": "ROCKS OR GRAVEL go in the garbage, or can be donated. Bring rocks and gravel to City Transfer stations for a fee. No individual rock should be larger than 2 feet by 2 feet. Gravel in good condition may be accepted by local salvaged building material businesses. For transfer station information go to seattle.gov/transferstations",
       "category_path": [
@@ -5500,12 +5808,16 @@
       "disposal_streams": [
         "recycling",
         "garbage",
-        "dropoff"
+        "dropoff",
+        "special",
+        "donate"
       ],
       "disposal_conditions": {
         "recycling": "• Metal parts larger than 3 inches go in the recycling. • Rusted metal can be recycled unless the metal is falling apart. • Small amounts of plastic, wood, or rubber can be attached. • Metal water bottles can go in the recycling container. • Fire place screens made of all metal can be recycled, however if it is too big to fit in your cart or is made of mixed materials, request a special item pick-up.",
         "garbage": "• Metal items with large amounts of plastic, wood, or rubber attached • Metal items that are smaller than 3 inches",
-        "dropoff": "• All metal--except car parts, used duct work, and oil tanks--is accepted as recycling at city transfer stations . There is no fee for most metal. • Maximum size is 8 feet long. • There is a charge for appliances, limit 2 per load. For a list of metal recyclers, visit Salvage and Source-Separated Recyclers List on the King County website."
+        "dropoff": "• All metal--except car parts, used duct work, and oil tanks--is accepted as recycling at city transfer stations . There is no fee for most metal. • Maximum size is 8 feet long. • There is a charge for appliances, limit 2 per load. For a list of metal recyclers, visit Salvage and Source-Separated Recyclers List on the King County website.",
+        "special": "Submit a request online or call SPU Customer Service at (206) 684-3000 to schedule a bulky item pickup. Fees apply. • Large metal parts can be put at the curb for pickup on your recycling collection day. • These must be bundled or tied. • The maximum size is 2 feet on all sides.",
+        "donate": "If your fireplace screen is in good condition, consider donating it to your local thrift store, or resell or give it away using sites like Craigslist, Freecycle, and Buy Nothing."
       },
       "explanation": "Scrap metal larger than 3 inches and with minimal amounts other non-metal materials are acceptable for recycling.  Small or mixed material pieces go in the garbage.",
       "category_path": [
@@ -5538,7 +5850,7 @@
       ],
       "disposal_conditions": {
         "garbage": "Screws, nails, nuts, bolts, and other metal items smaller than 3 inches go in the garbage.",
-        "dropoff": "You can drop these off at local recyclers. Please put them in a metal or other container for drop off. Check out drop off details ."
+        "dropoff": "You can drop these off at local recyclers. Please put them in a metal or other container for drop off. Check out drop off details . You can drop these off in the Scrap Metal bins at the Transfer Stations. Please put them in a metal container so they aren't loose in the bin."
       },
       "explanation": "Screws, nails, nuts, bolts, and other metal items smaller than 3-inches go in the garbage.   Small metal items can fall through the equipment at the recycling sorting facility. You can drop of small metal pieces for recycling at City Transfer Stations. For transfer station information go to seattle.gov/transferstations",
       "category_path": [
@@ -5600,7 +5912,7 @@
         "dropoff"
       ],
       "disposal_conditions": {
-        "dropoff": "Sharps can be dropped off at locations througout the city. View a map of locations ."
+        "dropoff": "Sharps can be dropped off at locations througout the city. View a map of locations . Sharps can be disposed of at city transfer stations for free. View instructions for how to safely handle and dispose of sharps ."
       },
       "explanation": "SHARPS - NEEDLES AND SYRINGES are a health hazard.  These can't go in the garbage; they can injure other people.  They must be dropped off at designated locations.   If you find a syringe on public property, report it as illegal dumping at (206)684-7587.  If you are a business and need to dispose of sharps, call the Households Hazards Line at (206) 296-4692.",
       "category_path": [
@@ -5617,9 +5929,11 @@
         "Paper Shredded"
       ],
       "disposal_streams": [
+        "compost",
         "dropoff"
       ],
       "disposal_conditions": {
+        "compost": "You may put small amounts of shredded paper from your home, and without any plastic or metal, in the food and yard waste cart. Keep it contained in a paper bag or mix it in with the food and yard waste, so it does not fly out and create litter. You MUST remove plastic and metal pieces from papers before shredding, as they contaminate the compost. Shredded credit cards and envelopes with plastic windows are not accepted.",
         "dropoff": "The best way to dispose of shredded paper is to drop it off at a collection site to be recycled. SPU and our partners organize recycling & reuse collection events for hard-to-recycle items throughout the year, find out dates and locations . Many private companies offer shredding services, including legal offices, realtors, and some shipping companies."
       },
       "explanation": "SHREDDED PAPER goes in the food and yard waste. If it has plastic in it, it goes in the garbage.",
@@ -5644,11 +5958,13 @@
       ],
       "disposal_streams": [
         "recycling",
-        "garbage"
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
         "recycling": "Silverware and other metal items 3 inches or larger can go in the recycling. Small amounts of attached rubber, plastic, wood accepted.",
-        "garbage": "Silverware and other metal items smaller than 3 inches on all sides can go in the garbage."
+        "garbage": "Silverware and other metal items smaller than 3 inches on all sides can go in the garbage.",
+        "donate": "Donate silverware in good condition to local thrift stores . Resell or give it away using sites like Craigslist , Freecycle , and Buy Nothing ."
       },
       "explanation": "Donate SILVERWARE in good condition to thrift stores, on Craigslist and Buy Nothing groups.  Or put items larger than 3 inches in the recycling.",
       "category_path": [
@@ -5678,12 +5994,14 @@
       "disposal_streams": [
         "garbage",
         "hazardous",
-        "dropoff"
+        "dropoff",
+        "special"
       ],
       "disposal_conditions": {
         "garbage": "Empty butane and gas canisters under 2 pounds can go in the garbage.",
         "hazardous": "Small gas canisters with any amount of gas or butane can be taken to a household hazardous waste facility . No fee.",
-        "dropoff": "Small \"Coleman\" style canisters with any amount of gas can be dropped off for free at a household hazardous waste facility . Up to 3 empty canisters per visit can be taken to a Recology Store for a fee."
+        "dropoff": "Small \"Coleman\" style canisters with any amount of gas can be dropped off for free at a household hazardous waste facility . Up to 3 empty canisters per visit can be taken to a Recology Store for a fee.",
+        "special": "Schedule a Special Item Pick up online or call SPU Customer Service at (206) 684-3000. Fees apply. • Small camp stove and backpacking canisters should be empty of fuel • Canisters must be under 1 pound in size • Limit : 4 canisters under 1 pound in size each • Place in a small box next to your garbage cart on garbage collection day after receiving email confirmation that pick-up has been scheduled"
       },
       "explanation": "Empty butane and gas canisters under 2-pounds can go in the garbage.   Empty small backpacking-style isobutane fuel canisters (excluding green \"Coleman\" style propane canisters) can be dropped off for free at the MSR Repair Shop, in SODO, or at the Mountaineers Bookstore, in NE Seattle.  Drop off contianers with any amount of gas or butane at household hazardous waste facilities for free. For Hazardous Waste facility information go to hazwastehelp.org or call at 206-296-4692",
       "category_path": [
@@ -5750,10 +6068,16 @@
         "CPAP machines"
       ],
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "dropoff",
+        "special",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "• Unusable sewing machines, toasters, blenders, food processors, microwaves, coffee makers, mixers, and other small appliances can go in the garbage. • Make sure to remove any batteries, and double check that your bin meets the weight requirements for pick up."
+        "garbage": "• Unusable sewing machines, toasters, blenders, food processors, microwaves, coffee makers, mixers, and other small appliances can go in the garbage. • Make sure to remove any batteries, and double check that your bin meets the weight requirements for pick up.",
+        "dropoff": "• Some small household appliances, even with some damage, can be recycled as scrap metal for free at city transfer stations . • Bring your garbage disposal to a transfer station or to your local scrap metal collector.",
+        "special": "Submit a request online or call (206) 684-3000 to schedule a pickup. Fee applies.",
+        "donate": "• Donate blenders, toasters, mixers, microwaves, sewing machines, air fryers, and food processors in good condition to local thrift stores . • Resell or give it away using sites like Craigslist , Freecycle , and Buy Nothing ."
       },
       "explanation": "Toasters, blenders, food processors and mixers can go in the garbage.  Some small household appliances can be recycled as scrap metal for free at city transfer stations. For transfer station information go to seattle.gov/transferstations",
       "category_path": [
@@ -5799,8 +6123,12 @@
         "Wet Cardboard",
         "Solied Cardboard"
       ],
-      "disposal_streams": [],
-      "disposal_conditions": {},
+      "disposal_streams": [
+        "compost"
+      ],
+      "disposal_conditions": {
+        "compost": "Cardboard with food grease or oil stains (like pizza boxes) go in the food and yard waste. Put cardboard that is mostly wet in the food and yard waste."
+      },
       "explanation": "Cardboard with food grease or oil stains (like pizza boxes) and  cardboard that is mostly wet go in the food and yard waste cart.",
       "category_path": [
         "Paper",
@@ -5866,12 +6194,14 @@
       "disposal_streams": [
         "recycling",
         "garbage",
-        "dropoff"
+        "dropoff",
+        "special"
       ],
       "disposal_conditions": {
         "recycling": "• Metal parts larger than 3 inches go in the recycling. • Small amounts of plastic, wood, or rubber can be attached.",
         "garbage": "• Metal items that are smaller than 3 inches. • Metal items with plastic, wood, or rubber attached.",
-        "dropoff": "All metal, except car parts, are accepted as recycling at city transfer stations . There is no fee for most metal. • Maximum size is 8 feet long. • There is a charge for appliances, limit 2 per load."
+        "dropoff": "All metal, except car parts, are accepted as recycling at city transfer stations . There is no fee for most metal. • Maximum size is 8 feet long. • There is a charge for appliances, limit 2 per load.",
+        "special": "Submit a request online or call SPU Customer Service at (206) 684-3000 to schedule a bulky item pickup. Fees apply. Large metal parts can be put at the curb next to your cart on your recycling collection day. • These must be bundled or tied. • The maximum size is 2 feet on all sides."
       },
       "explanation": "Stainless steel larger than 3 inches and with minimal amounts other non-metal materials are acceptable for recycling.  Small or mixed material pieces go in the garbage. Bring large amounts to City transfer stations for free. For transfer station information go to seattle.gov/transferstations",
       "category_path": [
@@ -5943,8 +6273,16 @@
         "Gas Ranges",
         "Oven"
       ],
-      "disposal_streams": [],
-      "disposal_conditions": {},
+      "disposal_streams": [
+        "dropoff",
+        "special",
+        "donate"
+      ],
+      "disposal_conditions": {
+        "dropoff": "Bring up to 2 residential appliances per visit to city transfer stations . Fees apply. Check the rates page.",
+        "special": "Submit a request online or call SPU Customer Service at (206) 684-3000 to schedule a bulky item pickup. Fees apply.",
+        "donate": "Resell or give it away using sites like Craigslist , Freecycle , and Buy Nothing ."
+      },
       "explanation": "STOVES can be dropped off or picked up for recycling for a fee. To schedule a pick up go to seattle.gov/SpecialItems or call (206)684-3000 Drop off at City transfer stations for a fee. For transfer station information go to seattle.gov/transferstations",
       "category_path": [
         "Household Items",
@@ -5961,9 +6299,11 @@
         "Plastic Straws"
       ],
       "disposal_streams": [
+        "compost",
         "garbage"
       ],
       "disposal_conditions": {
+        "compost": "Only straws that are labeled \"Compostable\" go into your food and yard waste.",
         "garbage": "Plastic straws and straws that you are unable to verify that they are approved compostable go into the garbage. Plastic straws are not recyclable."
       },
       "explanation": "Plastic STRAWS go in the garbage.  Only straws that are labeled \"Compostable\" go into your food and yard waste.",
@@ -5992,11 +6332,13 @@
       ],
       "disposal_streams": [
         "garbage",
-        "dropoff"
+        "dropoff",
+        "special"
       ],
       "disposal_conditions": {
         "garbage": "Styrofoam, polyurethane foam blocks, packing peanuts, and foam packing sheets go in the garbage. Packing peanuts must be bagged and tied closed before placing in the garbage.",
-        "dropoff": "• Styro Recycle in Kent accepts Styrofoam blocks, packing sheets, and packing peanuts for recycling. • Seattle Public Utilities hosts six recycling drop-off events per year to collect special items like foam for recycling. The events are free, and open to all Seattle residents. Learn more here: Beyond the Cart ."
+        "dropoff": "• Styro Recycle in Kent accepts Styrofoam blocks, packing sheets, and packing peanuts for recycling. • Seattle Public Utilities hosts six recycling drop-off events per year to collect special items like foam for recycling. The events are free, and open to all Seattle residents. Learn more here: Beyond the Cart .",
+        "special": "Styrofoam blocks (expanded polystyrene) can be recyclable through Special Item Pick Up service. Submit a request online or call (206) 684-3000 to schedule a free pickup. Polyurethane foam, packing peanuts, and foam sheets are NOT accepted through Special Item Pick Up service. Submit a request online or call (206) 684-3000 to schedule a free pickup. Polyurethane foam, packing peanuts, and foam sheets are NOT accepted through Special Item Pick up service."
       },
       "explanation": "STYROFOAM BLOCKS can be picked up for free  Or it can go in the garbage.  To schedule a free pick up go to seattle.gov/SpecialItems or call (206)684-3000",
       "category_path": [
@@ -6080,10 +6422,12 @@
       ],
       "disposal_streams": [
         "recycling",
+        "compost",
         "garbage"
       ],
       "disposal_conditions": {
         "recycling": "• Clean, Empty, and Dry plastic containers (typically black, white, beige, or clear in color) • Clean, Empty, and Dry plastic-coated paper containers (for example, a container often used for take-out in Chinese restaurants) • Clean, Empty, and Dry paper containers - not shiny and no grease stains (for example paper food boats and trays)",
+        "compost": "Plastic Stickers or labels must be removed before placing in the compost container. • Dirty or clean containers marked “Compostable” or “#7 PLA” (Not Shiny) • Greasy pizza boxes • Learn more about compostable packaging .",
         "garbage": "• All Styrofoam containers • Dirty plastic containers that are not marked \"Compostable\" or \"#7 PLA\" • Dirty plastic-coated (shiny) paper containers"
       },
       "explanation": "Empty, Clean and Dry plastic containers can go in the recycling. Approved compostable containers (which indicate number seven PLA on them) go in the food and yard waste. All other and dirty plastic containers go in the garbage.",
@@ -6144,8 +6488,12 @@
         "Tires",
         "Car Wheels"
       ],
-      "disposal_streams": [],
-      "disposal_conditions": {},
+      "disposal_streams": [
+        "dropoff"
+      ],
+      "disposal_conditions": {
+        "dropoff": "Bring up to 4 tires per visit to city transfer stations . Fees apply."
+      },
       "explanation": "This can be dropped off. Bring up to 4 tires per visit to city transfer stations for a fee. For transfer station information go to seattle.gov/transferstations",
       "category_path": [
         "Vehicles & Vehicle-Related"
@@ -6209,11 +6557,15 @@
       ],
       "disposal_streams": [
         "recycling",
-        "garbage"
+        "garbage",
+        "dropoff",
+        "donate"
       ],
       "disposal_conditions": {
         "recycling": "• Toys and sporting equipment made of metal that are 2 feet or less on all sides. Can include small amounts of attached plastic, rubber, or wood. • Clean rigid plastic toys and sporting equipment 3 feet or less on all sides.",
-        "garbage": "• Sports equipment and toys not made of mostly rigid plastic or metal, go in the garbage. • Soft plastic items like pool floaties, inflatable balls, and yoga mats go in the garbage. • Unusable sports balls go into the garbage. • Damaged helmets and other damaged saftey gear go into the garbage."
+        "garbage": "• Sports equipment and toys not made of mostly rigid plastic or metal, go in the garbage. • Soft plastic items like pool floaties, inflatable balls, and yoga mats go in the garbage. • Unusable sports balls go into the garbage. • Damaged helmets and other damaged saftey gear go into the garbage.",
+        "dropoff": "Toys and sporting equipment greater than the above size limits can be taken to city transfer stations. Fees apply. Check the rates page.",
+        "donate": "• Donate toys, sporting goods, or balls in good condition to local thrift stores . • Donate helmets and safety gear in good condition. • Resell or give away toys or sporting goods in good condition using sites like Craigslist , Freecycle , and Buy Nothing ."
       },
       "explanation": "Donate TOYS OR SPORTING GOODS in good condition to local thrift stores, on Craigslist and Buy Nothing groups. Put broken items in the garbage.",
       "category_path": [
@@ -6243,8 +6595,16 @@
         "Tree Salvage",
         "Tree Bark"
       ],
-      "disposal_streams": [],
-      "disposal_conditions": {},
+      "disposal_streams": [
+        "compost",
+        "dropoff",
+        "special"
+      ],
+      "disposal_conditions": {
+        "compost": "Plants, trees, brush, and branches go in the food and yard waste: • Cut down to 4 inches or less in diameter and 4 feet or less in length. • Remove all soil. • Pests like aphids, scale insects, etc. ok • Avoid extra charges: Items should fit in your cart with the lid closed. • Don't exceed the weight limits printed on your cart.",
+        "dropoff": "Bring plants, trees, and brush to city transfer stations . Fees apply. Check the rates page. • All trees, brush, or branches must be 8 feet or less in length. • All pieces must be 8 inches or less in diameter.",
+        "special": "Bundle trees and brush and set next to the cart. Fees apply. Check the rates page. • Tie bundles with natural twine. No plastic allowed. • Bundles must be 2 feet or less in diameter. You can put brush out in a personal plastic garbage can labeled 'Yard Waste\""
+      },
       "explanation": "PLANTS TREES OR BRUSH go in the yard waste. Remove all soil. Put trees and brush less than 4 feet long and 4 inches in diameter in the yard waste cart. Set out extra yard waste bundled next to your cart on collection day for a fee.  Drop off plants trees or brush at city transfer stations for a fee. For transfer station information go to seattle.gov/transferstations",
       "category_path": [
         "Yard Waste"
@@ -6330,8 +6690,16 @@
         "Gas Dryers",
         "Dryers"
       ],
-      "disposal_streams": [],
-      "disposal_conditions": {},
+      "disposal_streams": [
+        "dropoff",
+        "special",
+        "donate"
+      ],
+      "disposal_conditions": {
+        "dropoff": "Bring up to 2 residential appliances per visit to city transfer stations . Fees apply. Check the rates page.",
+        "special": "Submit a request online or call SPU Customer Service at (206) 684-3000 to schedule a bulky item pickup.",
+        "donate": "Resell or give it away using sites like Craigslist , Freecycle , and Buy Nothing ."
+      },
       "explanation": "WASHERS OR DRYERS can be dropped off or picked up for recycling for a fee. To schedule a pick up go to seattle.gov/SpecialItems or call (206)684-3000.  Donate or resell working washers and dryers on Craigslist and Buy Nothing groups.",
       "category_path": [
         "Household Items",
@@ -6349,8 +6717,16 @@
         "Gas Water Heaters",
         "Hot Water Heaters"
       ],
-      "disposal_streams": [],
-      "disposal_conditions": {},
+      "disposal_streams": [
+        "dropoff",
+        "special",
+        "donate"
+      ],
+      "disposal_conditions": {
+        "dropoff": "Bring water heaters to city transfer stations : • Fees apply for assembled water heaters with outer jackets and insulation intact. Check the rates page. • There is no fee for water heaters with all insulation removed. To remove all insulation, the water heater must be fully dismantled and should be brought to the transfer station in pieces.",
+        "special": "Submit a request online or call SPU Customer Service at (206) 684-3000 to schedule a bulky item pickup.",
+        "donate": "Resell or give it away using sites like Craigslist , Freecycle , and Buy Nothing ."
+      },
       "explanation": "WATER HEATERS can be dropped off or picked up for recycling for a fee. To schedule a pick up go to seattle.gov/SpecialItems or call (206)684-3000.  Water heaters without insulation are free to drop off at City Transfer stations.",
       "category_path": [
         "Household Items",
@@ -6391,8 +6767,12 @@
         "Waxed Paper",
         "Wax Paper"
       ],
-      "disposal_streams": [],
-      "disposal_conditions": {},
+      "disposal_streams": [
+        "compost"
+      ],
+      "disposal_conditions": {
+        "compost": "Waxed paper goes in the food and yard waste. It can't be recycled."
+      },
       "explanation": "Put waxed paper in the food and yard waste. It can't be recycled.",
       "category_path": [
         "Food Packaging",
@@ -6412,11 +6792,13 @@
       ],
       "disposal_streams": [
         "recycling",
-        "garbage"
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
         "recycling": "Individual metal blind slats go in the recycling. Remove strings, cords, and plastic and put these in the garbage.",
-        "garbage": "Plastic, vinyl, and wooden blinds go in the garbage."
+        "garbage": "Plastic, vinyl, and wooden blinds go in the garbage.",
+        "donate": "Resell or give it away using sites like Craigslist , Freecycle , and Buy Nothing ."
       },
       "explanation": "Metal blinds go in the recycling.  Remove strings, cords, and plastic and put these in the garbage.   Plastic, vinyl, and wooden blinds go in the garbage.",
       "category_path": [
@@ -6434,10 +6816,12 @@
         "Window glass"
       ],
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "dropoff"
       ],
       "disposal_conditions": {
-        "garbage": "Windows and window glass can go in the garbage: • Items must fit in your cart with the lid closed and be less than two feet by two feet. • Don't exceed the weight limits printed on your cart."
+        "garbage": "Windows and window glass can go in the garbage: • Items must fit in your cart with the lid closed and be less than two feet by two feet. • Don't exceed the weight limits printed on your cart.",
+        "dropoff": "Bring windows to city transfer stations . Fees apply. Check the rates page."
       },
       "explanation": "WINDOWS can go to the transfer station or can go in the garbage. Bring windows to city transfer stations for a fee.  Salvage and building supply businesses may take windows in good condition. For transfer station information go to seattle.gov/transferstations",
       "category_path": [
@@ -6479,10 +6863,12 @@
         "Metal Hanger"
       ],
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "Wire clothes hangers and wreath frames can go in the garbage."
+        "garbage": "Wire clothes hangers and wreath frames can go in the garbage.",
+        "donate": "Donate wire clothes hangers in good condition to local thrift stores . Check with local dry cleaners. They may accept wire hangers."
       },
       "explanation": "You can donate WIRE CLOTHES HANGERS or can go in the garbage. Check with local dry cleaners. They may accept wire hangers. They do not go in the recycling. Wire hangers get tangled in the machinery at the recycling processing facility.",
       "category_path": [
@@ -6536,10 +6922,12 @@
         "Clothes Hangers - Wood"
       ],
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "Wood clothes hangers go in the garbage."
+        "garbage": "Wood clothes hangers go in the garbage.",
+        "donate": "Donate wood clothes hangers in good condition to local thrift stores ."
       },
       "explanation": "Donate wood clothes hangers in good condition to local thrift stores.   Wood clothes hangers can go in the garbage.",
       "category_path": [
@@ -6559,9 +6947,11 @@
         "Wood Chips"
       ],
       "disposal_streams": [
+        "compost",
         "garbage"
       ],
       "disposal_conditions": {
+        "compost": "Clean, untreated wood shavings, scraps, and sawdust go in the food and yard waste. Put sawdust or shavings in a closed paper bag or box to contain it.",
         "garbage": "Painted or treated wood shavings, scraps, and sawdust go in the garbage. Put sawdust and shavings in a bag and tie off."
       },
       "explanation": "Clean, untreated wood shavings, scraps, and sawdust go in the food and yard waste. Put sawdust or shavings in a closed paper bag or box to contain it.   Bag painted or treated wood shavings, scraps, and sawdust to go in the garbage.",
@@ -6609,11 +6999,13 @@
       ],
       "disposal_streams": [
         "recycling",
-        "garbage"
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
         "recycling": "Newer rigid 6-pack carriers, the type that completely cover the tops of the cans, are recyclable.",
-        "garbage": "The flexible 6-pack carriers are garbage. This includes carriers for sports drinks, water bottles, and more rigid carriers for 25-ounces or 32-ounces metal beverage cans."
+        "garbage": "The flexible 6-pack carriers are garbage. This includes carriers for sports drinks, water bottles, and more rigid carriers for 25-ounces or 32-ounces metal beverage cans.",
+        "donate": "Check with the brewery or restaurant to see if they will take carriers back that are in good condition. Reuse carriers if still in good condition."
       },
       "explanation": "6-PACK PLASTIC RINGS go in the garbage. Snip the plastic rings from 6-pack cans so none of the rings are intact.",
       "category_path": [
@@ -6628,9 +7020,11 @@
       "item_name": "Parchment Paper",
       "synonyms": "Parchment Paper",
       "disposal_streams": [
+        "compost",
         "garbage"
       ],
       "disposal_conditions": {
+        "compost": "Only parchment paper that comes in a box clearly labeled as \"compostable\" is accepted in the food and yard compost cart. This parchment paper is coated with a natural type of silicone that is accepted in commercial compost facilities. Read the packaging carefully to be sure.",
         "garbage": "Most parchment paper is coated with a chemical or a plastic layer to give it nonstick properties. This makes it not compostable. In addition, it is not possible to recycle it because the layers can't be separated. It should be put into the garbage."
       },
       "explanation": "Most parchment paper is coated with a chemical or a plastic layer to give it nonstick properties. This makes it not compostable. In addition, it is not possible to recycle it because the layers can't be separated. It should be put into the garbage.  Only parchment paper that comes in a box clearly labeled as 'compostable' is accepted in the Food & Yard compost bin. This parchment paper is coated with a natural type of silicone that is accepted in commercial compost facilities. Read the packaging carefully to be sure.",
@@ -6777,11 +7171,15 @@
       ],
       "disposal_streams": [
         "hazardous",
-        "dropoff"
+        "dropoff",
+        "special",
+        "donate"
       ],
       "disposal_conditions": {
         "hazardous": "Do not put cell phones containing batteries in garbage or curbside recycling bins. Batteries contain hazardous substances and have the potential to cause fires when improperly disposed.",
-        "dropoff": "• Call2Recycle is a free take-back program for rechargeable batteries. You can find drop off locations or mail-back. No fee. They accept: • Rechargeable batteries • E-Bike batteries (participating brands) • Cellphones and cellphone batteries • High energy batteries (participating brands) • King County’s Take It Back Network is a network of e-cyclers that accept a variety of electronic equipment. Use their search tool to find the closest location to you. Fees may apply. • 1-800-RECYCLE is both a hotline and an online tool that connects you or your business to recycling services across Washington. This tool can help you find where in your community you can recycle everything from used appliances to leftover paint. Fees may apply."
+        "dropoff": "• Call2Recycle is a free take-back program for rechargeable batteries. You can find drop off locations or mail-back. No fee. They accept: • Rechargeable batteries • E-Bike batteries (participating brands) • Cellphones and cellphone batteries • High energy batteries (participating brands) • King County’s Take It Back Network is a network of e-cyclers that accept a variety of electronic equipment. Use their search tool to find the closest location to you. Fees may apply. • 1-800-RECYCLE is both a hotline and an online tool that connects you or your business to recycling services across Washington. This tool can help you find where in your community you can recycle everything from used appliances to leftover paint. Fees may apply.",
+        "special": "Submit a request online or call (206) 684-3000 to schedule a pickup from your residence. The materials collected will be reclaimed and recycled. Fees apply.",
+        "donate": "• Cell phones in working condition may be donated to your local thrift store . Resell or give them away using sites like Craigslist , Freecycle , and Buy Nothing . You can also bring working electronics to the North Transfer Station to the Goodwill drop off location. You may also consider reaching out to a local school, non-profit, or community group that may be able to use it."
       },
       "explanation": "Do not put cellphones containing batteries in your curbside trash or recycling bins. It is important to keep cell phones with batteries out of your bins because they can cause fires in trucks and transfer stations. Consider donating working cellphones to local thrift stores or charities. If not working, cell phones with batteries should be dropped off at locations identified by 1800recycle or on the website call2recycle.com. You can also submit a special item pickup online or by calling 2066843000 to have it picked up from your home. Fees apply. ",
       "category_path": [
@@ -6809,10 +7207,12 @@
       ],
       "disposal_streams": [
         "recycling",
+        "compost",
         "garbage"
       ],
       "disposal_conditions": {
         "recycling": "Paper stickers and labels, when attached to recyclable materials - like envelopes or plastic containers, do not need to be removed before being placed in the recycling container.",
+        "compost": "• Paper stickers on compostable food packaging are okay to leave on before placing them in the compost cart. • Plastic stickers or labels must be removed from compostable food packaging before going in the compost cart. • Plastic stickers and labels must be removed from produce before going in the compost cart. This is a major source of contamination.",
         "garbage": "Plastic stickers and labels on food packaging labeled compostable and on produce must go in the garbage."
       },
       "explanation": "",
@@ -6830,9 +7230,11 @@
         "Tea"
       ],
       "disposal_streams": [
+        "compost",
         "garbage"
       ],
       "disposal_conditions": {
+        "compost": "Paper tea bags can go in the compost. Remove the staples and put those in the garbage.",
         "garbage": "Plastic mesh tea bags go in the garbage."
       },
       "explanation": "",
@@ -6883,10 +7285,14 @@
         "Vacuum Cleaner"
       ],
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "special",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "Broken vacuum cleaners can go in the garbage. Make sure the lid closes and you don't exceed the weight limits printed on your cart."
+        "garbage": "Broken vacuum cleaners can go in the garbage. Make sure the lid closes and you don't exceed the weight limits printed on your cart.",
+        "special": "You can put a vacuum out for extra garbage pick up on collection day. Fees apply.",
+        "donate": "Resell or give it away using sites like Craigslist , Freecycle , and Buy Nothing ."
       },
       "explanation": "",
       "category_path": [
@@ -6909,8 +7315,16 @@
         "Portable oil heater",
         "Baseboard heater"
       ],
-      "disposal_streams": [],
-      "disposal_conditions": {},
+      "disposal_streams": [
+        "dropoff",
+        "special",
+        "donate"
+      ],
+      "disposal_conditions": {
+        "dropoff": "Bring radiators and space heaters to city transfer stations . Fees apply. Check the rates page.",
+        "special": "Submit a Special Item Pickup online or call SPU Customer Service at (206) 684-3000 to schedule a bulky item pickup.",
+        "donate": "Resell or give radiators or heaters away using sites like Craigslist , Freecycle , and Buy Nothing ."
+      },
       "explanation": "",
       "category_path": [
         "Uncategorized"
@@ -7007,11 +7421,13 @@
       ],
       "disposal_streams": [
         "recycling",
-        "garbage"
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
         "recycling": "• Damage equipment made of aluminum (like wheelchair frames or crutches) can be recycled if cloth/rubber pieces are removed.",
-        "garbage": "• All face masks, gloves, and other personal protective equipment (PPE) go in the garbage. • Latex gloves used in a non-medical context go in the garbage. • It does not matter what material the mask is made of. • Cut loops on masks before disposal. • Durable medical equipment that is damaged or unusable. • Glucose monitoring sensors and related equipment • Contact lenses and individual packaging"
+        "garbage": "• All face masks, gloves, and other personal protective equipment (PPE) go in the garbage. • Latex gloves used in a non-medical context go in the garbage. • It does not matter what material the mask is made of. • Cut loops on masks before disposal. • Durable medical equipment that is damaged or unusable. • Glucose monitoring sensors and related equipment • Contact lenses and individual packaging",
+        "donate": "• Durable medical equipment in good condition (like crutches or wheelchairs) can be donated to local thrift stores. • Resell or give away equipment using sites like Craigslist, Freecycle, and Buy Nothing. • You can also research where to donate durable medical equipment in good condition, there are many organizations that accept these donations. • If you have wooden crutches, consider upcycling them into a craft project--look online for inspiration!"
       },
       "explanation": "",
       "category_path": [
@@ -7047,10 +7463,12 @@
         "Coleman Cooler"
       ],
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "Plastic coolers are garbage. Place the cooler in the garbage if the garbage lid will close. Place next to garbage bin as extra garbage if the lid will not close. There is a small fee for extra garbage."
+        "garbage": "Plastic coolers are garbage. Place the cooler in the garbage if the garbage lid will close. Place next to garbage bin as extra garbage if the lid will not close. There is a small fee for extra garbage.",
+        "donate": "If in usable condition, consider bringing your cooler to your local thrift store or giving it away to a friend or family member. You can also sell it on Craigslist or Facebook marketplace!"
       },
       "explanation": "",
       "category_path": [
@@ -7071,10 +7489,12 @@
         "Coroplast"
       ],
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "Plastic yard signs are garbage. They are not recyclable."
+        "garbage": "Plastic yard signs are garbage. They are not recyclable.",
+        "donate": "Plastic yard signs are garbage. They are not recyclable. Check with the organization that provided the sign to see if they will take it back to repurpose or reuse the sign."
       },
       "explanation": "",
       "category_path": [
@@ -7095,9 +7515,11 @@
         "”Plant-Based Resin”"
       ],
       "disposal_streams": [
+        "compost",
         "garbage"
       ],
       "disposal_conditions": {
+        "compost": "Food packaging explicitly labelled #7 PLA is compostable in Seattle’s curbside collection system. It goes in the Food and Yard Waste container. • See Compostable Food Service Items for greater detail on compostable food service materials. • Go to SPU’s Food Service Packaging Requirements page for information regarding accepted recyclable or compostable food packaging. • #7 PLA is Polylactic Acid that is derived from plants instead of oil, like traditional plastics are. Being derived from plants allows the material to breakdown in commercial composting systems.",
         "garbage": "Occasionally, products other than food packaging such as diapers, toothbrushes, sponges, and starch packing peanuts are labelled “compostable” or “PLA” but have not been tested or approved and do not go in the Food and Yard waste cart."
       },
       "explanation": "",
@@ -7165,9 +7587,11 @@
         "Colored Pumpkin"
       ],
       "disposal_streams": [
+        "compost",
         "garbage"
       ],
       "disposal_conditions": {
+        "compost": "Pumpkins with a minor amount of paint or coloring on them can go in the food and yard waste container.",
         "garbage": "Pumpkins completely coated with large amounts of paint, coloring, any glitter, or other material go in the garbage."
       },
       "explanation": "",
@@ -7193,9 +7617,11 @@
         "commercially compostable plastic"
       ],
       "disposal_streams": [
+        "compost",
         "garbage"
       ],
       "disposal_conditions": {
+        "compost": "Food service items that are tested, approved, and labeled \"Compostable\" with a certification mark (such as “BPI”, TÜV, or CMA) or that are made entirely of wood or paper fiber with no plastic coating, go in the food and yard waste. Compostable food service packaging items may include: • Clamshell-style, hinge-lid paper fiber To-Go food containers • Fold-top To-Go paper boxes • Cups • Plates • Straws and utensils • Portion cups • Paper napkins • Paper towels • Uncoated (not shiny) paper plates and bowls (such as Chinet brand) Learn more about compostable packaging (PDF)",
         "garbage": "Plastic stickers or labels must be removed from compostable food packaging before going in the compost cart. How to identify plastic stickers and labels: • Harder to tear, elastic, or stretch when attempting to remove • Shiny • Cannot see fibers when cut"
       },
       "explanation": "",
@@ -7222,10 +7648,12 @@
         "Fake Hair"
       ],
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "All hair, wigs, and pet fur go in the garbage. None of these are compostable. Bag hair, wigs, and pet fur before placing it in the garbage container."
+        "garbage": "All hair, wigs, and pet fur go in the garbage. None of these are compostable. Bag hair, wigs, and pet fur before placing it in the garbage container.",
+        "donate": "Some organizations may accept used wigs. Check online for specific organizations."
       },
       "explanation": "",
       "category_path": [
@@ -7278,10 +7706,12 @@
         "markers"
       ],
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "• All writing and coloring materials such as pens, pencils, markers, and crayons can go in the garbage. • Paint brushes that are dry go in the garbage. Paint brushes are not recyclable nor compostable."
+        "garbage": "• All writing and coloring materials such as pens, pencils, markers, and crayons can go in the garbage. • Paint brushes that are dry go in the garbage. Paint brushes are not recyclable nor compostable.",
+        "donate": "If your materials are in good condition consider donating them to a local community organization, school, or thrift store."
       },
       "explanation": "",
       "category_path": [
@@ -7308,11 +7738,13 @@
       ],
       "disposal_streams": [
         "recycling",
-        "garbage"
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
         "recycling": "What Do I Do With tool to find an electronics recycler near you. Call ahead to make sure the recycler will accept your item.",
-        "garbage": "All headphones and headsets can go in the garbage."
+        "garbage": "All headphones and headsets can go in the garbage.",
+        "donate": "If your headphones or headsets still work and are in good condition, consider donating them."
       },
       "explanation": "",
       "category_path": [
@@ -7402,9 +7834,11 @@
         "Suckers - Candy"
       ],
       "disposal_streams": [
+        "compost",
         "garbage"
       ],
       "disposal_conditions": {
+        "compost": "Candy without wrappers or plastic can go in the compost. Be sure to remove all wrappers before composting.",
         "garbage": "Gum and candy with wrappers or plastic go in the garbage."
       },
       "explanation": "",
@@ -7508,10 +7942,12 @@
         "Grill - Gas & Charcoal"
       ],
       "disposal_streams": [
-        "dropoff"
+        "dropoff",
+        "special"
       ],
       "disposal_conditions": {
-        "dropoff": "You can also drop off BBQ grills at scrap metal recyclers in your area. Use King County's \"What Do I Do With\" to find a scrap metal recycler near you."
+        "dropoff": "You can also drop off BBQ grills at scrap metal recyclers in your area. Use King County's \"What Do I Do With\" to find a scrap metal recycler near you. Outdoor grills can be taken to a transfer station and recycled as scrap metal for free. Fuel tanks are not accepted. Small amounts of plastic and other non-metal material are okay.",
+        "special": "Schedule a bulky item pickup for a grill to be collected from your home. Fees apply."
       },
       "explanation": "",
       "category_path": [
@@ -7533,10 +7969,12 @@
         "Table saw blades"
       ],
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "dropoff"
       ],
       "disposal_conditions": {
-        "garbage": "All blades should go in the garbage. Utility blades and double-edge razor blades should be taped over to avoid cutting garbage bags and collectors."
+        "garbage": "All blades should go in the garbage. Utility blades and double-edge razor blades should be taped over to avoid cutting garbage bags and collectors.",
+        "dropoff": "Take unusable table saws to a transfer station"
       },
       "explanation": "",
       "category_path": [
@@ -7550,9 +7988,11 @@
       "item_name": "Chopsticks",
       "synonyms": "“Chopsticks – Wooden”,”chopsticks”",
       "disposal_streams": [
+        "compost",
         "garbage"
       ],
       "disposal_conditions": {
+        "compost": "Uncoated, wooden chopsticks can go in the compost.",
         "garbage": "Plastic and metal chopsticks go in the garbage. They are not recyclable because of their material and size."
       },
       "explanation": "",
@@ -7576,10 +8016,12 @@
         "guitar strings"
       ],
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "Any rope, thread, yarn, or twine with synthetic material, like nylon, can go in the garbage. Typically, if the material is shiny or elastic it contains synthetic fibers. Make sure to place the material in a bag before placing it in the garbage container. This will help the material from becoming tangled in the equipment."
+        "garbage": "Any rope, thread, yarn, or twine with synthetic material, like nylon, can go in the garbage. Typically, if the material is shiny or elastic it contains synthetic fibers. Make sure to place the material in a bag before placing it in the garbage container. This will help the material from becoming tangled in the equipment.",
+        "donate": "Thread and rope can be donated, potentially recycled, or upcycled into new products. • Climbing ropes may be recycled by the rope manufacturer or donated to companies to create new products like pet leashes. Check your local area to see if a business will accept your rope to be recycled or upcycled. • Sewing thread and yarn can be donated to local organizations. Check for local groups in your area. Check out Seattle’s Donate, Resell, & Buy Used page for more information."
       },
       "explanation": "",
       "category_path": [
@@ -7662,11 +8104,13 @@
       ],
       "disposal_streams": [
         "garbage",
-        "hazardous"
+        "hazardous",
+        "donate"
       ],
       "disposal_conditions": {
         "garbage": "Makeup can go in the garbage. Bag loose makeup and seal it before placing it in the garbage container. Wipeout and recycle plastic makeup containers that are at least three inches in diameter. Throw wipes in the garbage. Do not rinse makeup down the sink drain.",
-        "hazardous": "Large quantities of makeup related chemicals like acetone (nail polish remover) should be brought to a Household Hazardous Waste Facility."
+        "hazardous": "Large quantities of makeup related chemicals like acetone (nail polish remover) should be brought to a Household Hazardous Waste Facility.",
+        "donate": "Unexpired or unopened makeup may be donated to certain organizations - particularly women’s or family shelters. Contact a shelter near you to see if they will accept your unused makeup."
       },
       "explanation": "",
       "category_path": [
@@ -7683,10 +8127,14 @@
         "siding - vinyl"
       ],
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "dropoff",
+        "special"
       ],
       "disposal_conditions": {
-        "garbage": "Vinyl siding is not recyclable in our curbside system. Please put it in the garbage. The garbage lid needs to be able to close and the bin cannot be heavier than the maximum weight allowed for its size. View rates for the maximum weight allowed for each size of the bin. If your vinyl siding is too large or too heavy, you will either have to schedule a special collection or take the siding to a transfer station for disposal. Note that fees apply for both of these options."
+        "garbage": "Vinyl siding is not recyclable in our curbside system. Please put it in the garbage. The garbage lid needs to be able to close and the bin cannot be heavier than the maximum weight allowed for its size. View rates for the maximum weight allowed for each size of the bin. If your vinyl siding is too large or too heavy, you will either have to schedule a special collection or take the siding to a transfer station for disposal. Note that fees apply for both of these options.",
+        "dropoff": "You can take vinyl siding to a City transfer station for disposal. Fees apply.",
+        "special": "If your vinyl siding is too large or too heavy you can schedule a special collection . Fees apply."
       },
       "explanation": "",
       "category_path": [
@@ -7706,10 +8154,12 @@
         "gift bow"
       ],
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "Ribbon is considered garbage. Place ribbon in a bag before disposing of it in a garbage container."
+        "garbage": "Ribbon is considered garbage. Place ribbon in a bag before disposing of it in a garbage container.",
+        "donate": "Try to reuse ribbons for future events or gifts. Some organizations may accept larger quantities of ribbons, if they are unused, for crafts. Check with your local school or a retirement community near you to see if they are interested in your ribbon."
       },
       "explanation": "",
       "category_path": [
@@ -7748,10 +8198,12 @@
       "item_name": "Wicker Baskets",
       "synonyms": "wicker baskets",
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "Damaged wicker baskets can go in the garbage."
+        "garbage": "Damaged wicker baskets can go in the garbage.",
+        "donate": "Donate any wicker baskets in good condition to local thrift stores."
       },
       "explanation": "",
       "category_path": [
@@ -7768,8 +8220,14 @@
         "Speed Boat",
         "Row Boat"
       ],
-      "disposal_streams": [],
-      "disposal_conditions": {},
+      "disposal_streams": [
+        "dropoff",
+        "donate"
+      ],
+      "disposal_conditions": {
+        "dropoff": "Boats will need to be dropped off at a transfer station.",
+        "donate": "Donate boats in good condition to nearby boating shops or organizations."
+      },
       "explanation": "",
       "category_path": [
         "Household Items",
@@ -7788,10 +8246,12 @@
         "Plastic netting"
       ],
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "Plastic mesh bags, often containing oranges or potatos cannot be recycled. They go in the garbage."
+        "garbage": "Plastic mesh bags, often containing oranges or potatos cannot be recycled. They go in the garbage.",
+        "donate": "Plastic mesh bags can be reused in variety of ways, simply google \"how to reuse plastic mesh produce bag\" to get some inspiration!"
       },
       "explanation": "",
       "category_path": [
@@ -7804,8 +8264,16 @@
       "item_id": "x136533",
       "item_name": "Suitcase, Bags, Luggage",
       "synonyms": [],
-      "disposal_streams": [],
-      "disposal_conditions": {},
+      "disposal_streams": [
+        "dropoff",
+        "special",
+        "donate"
+      ],
+      "disposal_conditions": {
+        "dropoff": "Suitcases will need to be dropped off at a transfer station.",
+        "special": "Suitcases will need special item pickup.",
+        "donate": "Donate suitcases or travel bags in good condition to local thrift stores."
+      },
       "explanation": "",
       "category_path": [
         "Household Items",
@@ -7819,9 +8287,11 @@
       "item_name": "Toothbrushes",
       "synonyms": "Electric toothbrush head",
       "disposal_streams": [
+        "compost",
         "garbage"
       ],
       "disposal_conditions": {
+        "compost": "• If plastic bristles are completely removed, bamboo toothbrushes can go in your compost bin.",
         "garbage": "• Plastic, non-electric toothbrushes go in the garbage. • Electric toothbrush heads separated from the electric toothbrush go in the garbage."
       },
       "explanation": "",
@@ -7854,8 +8324,14 @@
       "item_id": "x136575",
       "item_name": "Water Tanks",
       "synonyms": [],
-      "disposal_streams": [],
-      "disposal_conditions": {},
+      "disposal_streams": [
+        "dropoff",
+        "special"
+      ],
+      "disposal_conditions": {
+        "dropoff": "Bring water tanks to city transfer stations . Fees apply. Check the rates page .",
+        "special": "Submit a request online or call (206) 684-3000 to schedule a pickup. Fee applies."
+      },
       "explanation": "",
       "category_path": [
         "Fabric"
@@ -7895,9 +8371,11 @@
         "additive manufacturing material"
       ],
       "disposal_streams": [
+        "compost",
         "garbage"
       ],
       "disposal_conditions": {
+        "compost": "If you are using PLA filament, it is made of biodegradable natural fibers which means it can go in your compost bin.",
         "garbage": "Filaments made from ABS, polycarbonate, and nylon are not recyclable and should go into your garbage bin."
       },
       "explanation": "Always have text here. ",
@@ -7963,8 +8441,12 @@
       "item_id": "x148735",
       "item_name": "Popsicle Sticks",
       "synonyms": "Popsicle Sticks",
-      "disposal_streams": [],
-      "disposal_conditions": {},
+      "disposal_streams": [
+        "compost"
+      ],
+      "disposal_conditions": {
+        "compost": "Popsicle sticks go into the food waste bin."
+      },
       "explanation": "",
       "category_path": [
         "Food Packaging"
@@ -8000,10 +8482,12 @@
         "Fabric travel bag"
       ],
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "Heavily used zipper bags can go into the garbage."
+        "garbage": "Heavily used zipper bags can go into the garbage.",
+        "donate": "Donate zipper bags in good condition to local thrift stores."
       },
       "explanation": "",
       "category_path": [
@@ -8016,8 +8500,14 @@
       "item_id": "x148794",
       "item_name": "Ladder",
       "synonyms": "Step ladder",
-      "disposal_streams": [],
-      "disposal_conditions": {},
+      "disposal_streams": [
+        "dropoff",
+        "special"
+      ],
+      "disposal_conditions": {
+        "dropoff": "Ladders will need to be dropped at a tranfer station.",
+        "special": "Ladders will need special item pickup."
+      },
       "explanation": "",
       "category_path": [
         "Uncategorized"
@@ -8030,10 +8520,12 @@
       "item_name": "Baby Bottles",
       "synonyms": "Sippy cups",
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "Baby bottles go into garbage."
+        "garbage": "Baby bottles go into garbage.",
+        "donate": "Donate baby bottles in good condition to local thrift stores."
       },
       "explanation": "",
       "category_path": [
@@ -8047,10 +8539,16 @@
       "item_name": "Wood Pellets",
       "synonyms": "Wooden boxes",
       "disposal_streams": [
-        "garbage"
+        "compost",
+        "garbage",
+        "dropoff",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "Treated or painted wood pellets can go in the garbage. Wood pellets must be broken down to fit in the bin when the lid is closed."
+        "compost": "Unpainted and untreated wood can go in the food and yard waste: • Pieces should be less than 4 inches in diameter and under 4 feet long to avoid extra fees • Remove nails and all other non-wood materials • Wood pellets must be broken down to fit in the bin when the lid is closed",
+        "garbage": "Treated or painted wood pellets can go in the garbage. Wood pellets must be broken down to fit in the bin when the lid is closed.",
+        "dropoff": "Large wood pellets can be taken to a local transfer station.",
+        "donate": "Wood pellets in good condition can be reused as storage and decoration."
       },
       "explanation": "",
       "category_path": [
@@ -8100,10 +8598,12 @@
       "item_name": "Window Screen",
       "synonyms": "screen doors",
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "If not being reused, window screens should be placed in the garbage."
+        "garbage": "If not being reused, window screens should be placed in the garbage.",
+        "donate": "Window screens can be reused in a variety of ways! They can be used as an adhesive cleaning tool, flower pot liner, grout mix strainer, and more! Do a quick Google search to get some inspiration. Alternativly, you can resell or give it away using sites like Craigslist, Freecycle, and Buy Nothing."
       },
       "explanation": "",
       "category_path": [
@@ -8120,10 +8620,12 @@
         "plastic cutting board"
       ],
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "Glass, wooden, and plastic cutting boards in unusable condition go in the garbage. They cannot be recycled."
+        "garbage": "Glass, wooden, and plastic cutting boards in unusable condition go in the garbage. They cannot be recycled.",
+        "donate": "If cutting boards are in good condition, consider donating them to a local thriftstore where they can be re-used."
       },
       "explanation": "",
       "category_path": [
@@ -8156,10 +8658,12 @@
       "item_name": "Magnets",
       "synonyms": [],
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "dropoff"
       ],
       "disposal_conditions": {
-        "garbage": "Magnets 3 inches or smaller can go in the garbage."
+        "garbage": "Magnets 3 inches or smaller can go in the garbage.",
+        "dropoff": "Take large magnets or large amounts of magnets to transfer station ."
       },
       "explanation": "",
       "category_path": [
@@ -8193,11 +8697,17 @@
       "synonyms": [],
       "disposal_streams": [
         "recycling",
-        "garbage"
+        "garbage",
+        "dropoff",
+        "special",
+        "donate"
       ],
       "disposal_conditions": {
         "recycling": "Small, empty clean, and dry hard plastic cat litter boxes can go in recycling.",
-        "garbage": "Soiled carboard cat litter boxes go in the garbage."
+        "garbage": "Soiled carboard cat litter boxes go in the garbage.",
+        "dropoff": "Large cat litter boxes can be dropped off at local transfer stations .",
+        "special": "Submit a request online or call (206) 684-3000 to schedule a pickup. Fee applies.",
+        "donate": "Clean cat litter boxes in good condition can be donated to local thrift stores."
       },
       "explanation": "",
       "category_path": [
@@ -8211,10 +8721,16 @@
       "item_name": "Plastic Crates",
       "synonyms": "Plastic milk crates",
       "disposal_streams": [
-        "recycling"
+        "recycling",
+        "dropoff",
+        "special",
+        "donate"
       ],
       "disposal_conditions": {
-        "recycling": "Small plastic crates can go in recycling."
+        "recycling": "Small plastic crates can go in recycling.",
+        "dropoff": "Large quantities of plastic crates or large crates can be dropped off at a local transfer station .",
+        "special": "Submit a request online or call (206) 684-3000 to schedule a pickup. Fee applies.",
+        "donate": "Plastic crates in good condition can be reused for storage."
       },
       "explanation": "",
       "category_path": [
@@ -8248,10 +8764,12 @@
         "Dessicant"
       ],
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "If you chose to not reuse them, Silica Gel packets go in the garbage."
+        "garbage": "If you chose to not reuse them, Silica Gel packets go in the garbage.",
+        "donate": "Silica Gel packets can be reused to keep items dry. Consider keeping them in your gym bag or sneakers. If you use a razor, prevent rust by storing it in a container with the packets. Keep documents/electronics safe and dry with silica packets. Use them for craft projects and dry flowers with them. Get creative!"
       },
       "explanation": "",
       "category_path": [
@@ -8292,11 +8810,15 @@
       ],
       "disposal_streams": [
         "recycling",
-        "garbage"
+        "garbage",
+        "dropoff",
+        "donate"
       ],
       "disposal_conditions": {
         "recycling": "If clean, chicken wire and chain link fence are recyclable.",
-        "garbage": "If uncleanable, or treated with chemicals, put wire fencing in the garbage."
+        "garbage": "If uncleanable, or treated with chemicals, put wire fencing in the garbage.",
+        "dropoff": "If fencing doesn't fit in your bin, you can bring it to a transfer station.",
+        "donate": "You can reuse chicken wire for a variety of DIY garden/home projects. Alternatively, you can resell or give it away using sites like Craigslist, Freecycle, and Buy Nothing."
       },
       "explanation": "",
       "category_path": [
@@ -8317,10 +8839,12 @@
       ],
       "disposal_streams": [
         "recycling",
+        "compost",
         "garbage"
       ],
       "disposal_conditions": {
         "recycling": "The clear plastic containers that berries and tomatos are sold in can be recycled.",
+        "compost": "• Green paper fruit containers can be composted.",
         "garbage": "Plastic berry baskets (thin green plastic mesh baskets) go in the garbage."
       },
       "explanation": "",
@@ -8363,8 +8887,12 @@
         "goat manure",
         "rabbit manure"
       ],
-      "disposal_streams": [],
-      "disposal_conditions": {},
+      "disposal_streams": [
+        "compost"
+      ],
+      "disposal_conditions": {
+        "compost": "Chicken, horse, goat, and rabbit manure is safe to put in your compost bin!"
+      },
       "explanation": "",
       "category_path": [
         "Uncategorized"
@@ -8379,8 +8907,12 @@
         "arts and crafts",
         "craft supplies"
       ],
-      "disposal_streams": [],
-      "disposal_conditions": {},
+      "disposal_streams": [
+        "donate"
+      ],
+      "disposal_conditions": {
+        "donate": "• Seattle Recreative is a donation based art supplies store that keeps unwanted art supplies out of landfills. Check out their website for a full list of acceptable items. They have locations in North and South seattle. • You can also donate/sell supplies on Craigslist, Buy Nothing, or your local thrift store."
+      },
       "explanation": "",
       "category_path": [
         "Uncategorized"
@@ -8392,8 +8924,12 @@
       "item_id": "x152680",
       "item_name": "Cut Flowers",
       "synonyms": [],
-      "disposal_streams": [],
-      "disposal_conditions": {},
+      "disposal_streams": [
+        "compost"
+      ],
+      "disposal_conditions": {
+        "compost": "Cut flowers can go in your food and yard waste bin."
+      },
       "explanation": "",
       "category_path": [
         "Uncategorized"
@@ -8406,10 +8942,12 @@
       "item_name": "Bowling Ball",
       "synonyms": [],
       "disposal_streams": [
-        "garbage"
+        "garbage",
+        "donate"
       ],
       "disposal_conditions": {
-        "garbage": "If damaged or unusable, bowling balls can go in the garbage."
+        "garbage": "If damaged or unusable, bowling balls can go in the garbage.",
+        "donate": "Donate any unwanted bowling balls or equipment to your local thrift store, youth center, or even bowling alley!"
       },
       "explanation": "",
       "category_path": [
