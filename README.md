@@ -2,19 +2,32 @@
 
 > IMT 542 — I3 Assignment · Spring 2026
 
-A lightweight Jupyter notebook that reframes Seattle Public Utilities' [Where Does It Go?](https://www.seattle.gov/utilities/your-services/collection-and-disposal/where-does-it-go) guidance as a portable JSON structure, then visualizes it as a tree and exposes it through a simple lookup function.
+A lightweight Jupyter notebook that transforms Seattle Public Utilities' [Where Does It Go?](https://www.seattle.gov/utilities/your-services/collection-and-disposal/where-does-it-go) guidance into a portable JSON structure, then visualizes it as a tree and exposes it through a simple lookup function.
 
 ## Why this project is useful
 
-Seattle residents regularly encounter uncertainty when sorting waste. SPU publishes disposal guidance, but it's distributed across rules, lists, and exception cases that are awkward to consult during everyday decision-making. This project takes that same guidance and expresses it as one uniform JSON record per item — an item name, its synonyms, the disposal category, preparation steps, an explanation, and a link back to the authoritative source. Because every item follows the same shape, the data can drive a website, an app, an API, a voice assistant, or a classroom exercise without further transformation.
+Seattle residents regularly encounter uncertainty when sorting waste. SPU publishes item-level disposal guidance, but the data sits behind a JavaScript single-page app — it isn't easy to reuse in other interfaces or to query programmatically. This project pulls the same guidance directly from the two JSON endpoints powering that page and expresses every item as one uniform record: an item name, its synonyms, the disposal streams it belongs to, preparation instructions, an explanation, and a link back to the authoritative source.
+
+Because every item follows the same shape, the data can drive a website, an app, an API, a voice assistant, or a classroom exercise without further transformation.
 
 The notebook demonstrates three uses of the structure:
 
-1. **Tree visualization** — a Plotly sunburst chart showing the category to sub-category to item hierarchy, coloured by disposal stream.
-2. **Distribution analysis** — a bar chart of items per disposal category (recycle, compost, garbage, hazardous waste, etc.).
-3. **Item lookup** — a small Python function that answers "where does this go?" using item names or synonyms.
+1. **Tree visualization** — a Plotly sunburst chart showing the category → sub-category → item hierarchy, coloured by the item's primary disposal stream.
+2. **Distribution analysis** — a bar chart of items per disposal stream (recycling, compost, garbage, hazardous waste, drop-off, special pickup).
+3. **Item lookup** — a Python function that answers "where does this go?" using item names or synonyms.
 
-The JSON schema is the output from my G3 submission ("Portable Waste-Sorting Information for Seattle Residents"); this notebook is the I3 implementation that applies that schema to real data.
+The JSON schema comes from my G3 submission ("Portable Waste-Sorting Information for Seattle Residents"); this notebook is the I3 implementation that applies that schema to real data.
+
+## Data source
+
+Two JSON endpoints on `seattle.gov`, discovered by inspecting the network traffic on the Where Does It Go? page:
+
+| URL | Contents |
+|---|---|
+| `https://seattle.gov/api/content/taxonomy/3087/tree` | Category hierarchy (14 top-level categories, ~56 nodes total) |
+| `https://seattle.gov/api/content/taxonomy/3086/pages` | Every item (name, synonyms, disposal instructions per stream) |
+
+The notebook fetches both live, transforms each page record into the G3 schema, and writes a snapshot to `data/items.json`.
 
 ## What's in the repo
 
@@ -22,7 +35,7 @@ The JSON schema is the output from my G3 submission ("Portable Waste-Sorting Inf
 portable_waste_sorting/
 ├── portable_waste_sorting.ipynb   # main notebook
 ├── data/
-│   └── items.json                 # seed dataset (categories + items in the G3 schema)
+│   └── items.json                 # generated on first notebook run
 └── README.md
 ```
 
@@ -31,9 +44,9 @@ portable_waste_sorting/
 ### Option A — Google Colab (easiest)
 
 1. Click the **Open In Colab** badge at the top of `portable_waste_sorting.ipynb` on GitHub.
-2. Run each cell top to bottom (`Runtime to Run all`).
+2. Run each cell top to bottom (`Runtime → Run all`).
 
-No setup required beyond Colab's default environment. The notebook pulls `items.json` straight from this repo's raw URL.
+No local setup needed. The notebook fetches from the SPU API, transforms every item, draws the sunburst and bar chart, and writes `data/items.json` into the Colab session.
 
 ### Option B — Local
 
@@ -44,42 +57,35 @@ pip install pandas plotly requests jupyter
 jupyter notebook portable_waste_sorting.ipynb
 ```
 
-The notebook falls back to `data/items.json` on disk when the GitHub raw URL is unreachable, so it runs offline as well.
+## The G3 schema
 
-## How to use the data directly
+Each item record has these fields:
 
-If you want the JSON without running the notebook:
+| Field | Description |
+|---|---|
+| `item_id` | SPU's stable ID for the item (e.g. `x130614`) |
+| `item_name` | Display name (e.g. "Acetylene Tanks") |
+| `synonyms` | Alternate names users might search for |
+| `disposal_streams` | List of valid streams: `recycling`, `compost`, `garbage`, `hazardous`, `dropoff`, `special`. Items commonly have multiple (e.g. "Acoustic Ceiling Tile" → `[garbage, hazardous, dropoff]` depending on asbestos content) |
+| `disposal_conditions` | Dict keyed by stream → plain-text instructions for that stream |
+| `explanation` | SPU's short plain-language summary (the `VoiceInstructions` field) |
+| `category_path` | Breadcrumb through the category tree (e.g. `["Construction & Demolition", "Floors & Ceiling"]`) |
+| `source_reference` | URL to the SPU item page |
+| `city_jurisdiction` | `"Seattle, WA"` |
+
+## Using the data directly
+
+After running the notebook once, `data/items.json` contains the full snapshot:
 
 ```python
 import json
 with open("data/items.json") as f:
     data = json.load(f)
 
-# Every item follows the same shape
 for item in data["items"]:
-    if "battery" in item["item_name"]:
-        print(item["disposal_category"], "to", item["disposal_conditions"])
+    if "battery" in item["item_name"].lower():
+        print(item["item_name"], "→", item["disposal_streams"])
 ```
-
-Each item has these fields (the G3 schema):
-
-| Field | Description |
-|---|---|
-| `item_id` | Stable slug for the item |
-| `item_name` | Display name |
-| `synonyms` | Alternate names users might search for |
-| `material` | Primary material (plastic, glass, metal, organic, etc.) |
-| `disposal_category` | Where it goes: `recycle`, `compost`, `garbage`, `hazardous_waste`, `transfer_station`, `special_pickup`, `donate` |
-| `disposal_conditions` | Plain-language instructions, including drop-off options |
-| `preparation_required` | What to do before disposing |
-| `explanation` | Why it's classified this way |
-| `source_reference` | URL to the SPU page for the item |
-| `confidence_level` | `high` when transcribed verbatim from SPU, `medium` when derived from common guidance |
-| `category_path` | Breadcrumb through the category tree |
-
-## Expanding the dataset
-
-The seed file covers the Electronics to Batteries sub-tree verbatim from the SPU page plus representative items from the other top-level categories. The last cell of the notebook is an optional Playwright-based scraper that renders the SPU SPA and fetches every item on the live site. (Plain `requests` does not work — the page is a JavaScript single-page app with `#/item/...` hash routes, and the server returns 403 to non-browser clients.) To run it, set `RUN_SCRAPER = True` in the last code cell while in Colab; the scraped text is saved to `data/items_raw_scrape.json` for further parsing into the full schema.
 
 ## License / data source
 
