@@ -38,7 +38,7 @@ No setup required beyond Colab's default environment. The notebook pulls `items.
 ### Option B — Local
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/portable_waste_sorting.git
+git clone https://github.com/zach8421/portable_waste_sorting.git
 cd portable_waste_sorting
 pip install pandas plotly requests jupyter
 jupyter notebook portable_waste_sorting.ipynb
