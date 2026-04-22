@@ -33,6 +33,8 @@ Two JSON endpoints on `seattle.gov`, discovered by inspecting the network traffi
 
 The notebook fetches both live, transforms each page record into the G3 schema, and writes a snapshot to `data/items.json`.
 
+> **Sidenote:** Because the notebook renders SPU's taxonomy verbatim, the occasional upstream quirk carries through — for example, the item **Boat** is tagged with SPU's "Bedroom" taxonomy ID and appears under that category in the sunburst. These are preserved rather than hand-corrected, since SPU is the authoritative source and the data should reflect whatever they publish today.
+
 ## What's in the repo
 
 ```
