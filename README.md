@@ -13,8 +13,12 @@ Because every item follows the same shape, the data can drive a website, an app,
 The notebook demonstrates three uses of the structure:
 
 1. **Tree visualization** — a Plotly sunburst chart showing the category → sub-category → item hierarchy, coloured by the item's primary disposal stream.
-2. **Distribution analysis** — a bar chart of items per disposal stream (recycling, compost, garbage, hazardous waste, drop-off, special pickup).
+2. **Distribution analysis** — a bar chart of items per disposal stream (recycling, compost, garbage, hazardous waste, drop-off, special pickup, donate/reuse).
 3. **Item lookup** — a Python function that answers "where does this go?" using item names or synonyms.
+
+### A note on the sunburst colouring
+
+Roughly two-thirds of the 310 items have **more than one** valid disposal stream — a greasy pizza box can be compost *or* garbage; a cell phone can be hazardous *or* drop-off. The underlying JSON records every valid stream for each item, but the sunburst paints each slice with a **single colour** based on a resident-priority ordering (`hazardous` → `recycling` → `compost` → `garbage` → `dropoff` → `special` → `donate`). An earlier revision tried diagonal stripes to encode multi-stream items visually; the result was noisy and hard to read at small slice sizes, so the visualization stays one-colour-per-slice. The full list of valid streams and the per-stream instructions are always available in the hover tooltip and in `data/items.json` itself.
 
 The JSON schema comes from my G3 submission ("Portable Waste-Sorting Information for Seattle Residents"); this notebook is the I3 implementation that applies that schema to real data.
 
@@ -66,7 +70,7 @@ Each item record has these fields:
 | `item_id` | SPU's stable ID for the item (e.g. `x130614`) |
 | `item_name` | Display name (e.g. "Acetylene Tanks") |
 | `synonyms` | Alternate names users might search for |
-| `disposal_streams` | List of valid streams: `recycling`, `compost`, `garbage`, `hazardous`, `dropoff`, `special`. Items commonly have multiple (e.g. "Acoustic Ceiling Tile" → `[garbage, hazardous, dropoff]` depending on asbestos content) |
+| `disposal_streams` | List of valid streams: `recycling`, `compost`, `garbage`, `hazardous`, `dropoff`, `special`, `donate`. Items commonly have multiple (e.g. "Napkins" → `[compost, garbage, donate]` depending on whether they're soiled or reusable). The sunburst paints each slice with the item's primary stream only — see the "A note on the sunburst colouring" section above for why. |
 | `disposal_conditions` | Dict keyed by stream → plain-text instructions for that stream |
 | `explanation` | SPU's short plain-language summary (the `VoiceInstructions` field) |
 | `category_path` | Breadcrumb through the category tree (e.g. `["Construction & Demolition", "Floors & Ceiling"]`) |
