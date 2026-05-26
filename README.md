@@ -39,11 +39,24 @@ The notebook fetches both live, transforms each page record into the G3 schema, 
 
 ```
 portable_waste_sorting/
-├── portable_waste_sorting.ipynb   # main notebook
+├── portable_waste_sorting.ipynb   # main notebook (I3)
 ├── data/
 │   └── items.json                 # generated on first notebook run
+├── i8/                            # I8 assignment — Flask API over data/items.json
+│   ├── which_bin_api.py
+│   ├── requirements.txt
+│   ├── I8_demo.mp4
+│   └── README.md
+├── I7_api_access_demo.mp4         # I7 assignment demo video
 └── README.md
 ```
+
+> The **I8 — Advanced DBs** assignment lives in [`i8/`](i8/). It puts a
+> Flask API (nine endpoints, JSON-only, with 400/404 error handling) in
+> front of `data/items.json`, used as a NoSQL-style document store loaded
+> at server startup. See [`i8/README.md`](i8/README.md) for run instructions
+> and example calls, and [`i8/I8_demo.mp4`](i8/I8_demo.mp4) for the demo
+> walkthrough.
 
 ## How to download and run
 
