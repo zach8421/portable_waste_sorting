@@ -1,8 +1,8 @@
-# Portable Waste-Sorting Information for Seattle Residents
+# Portable Waste-Sorting Information
 
 > IMT 542 — I3 Assignment · Spring 2026
 
-A lightweight Jupyter notebook that transforms Seattle Public Utilities' [Where Does It Go?](https://www.seattle.gov/utilities/your-services/collection-and-disposal/where-does-it-go) guidance into a portable JSON structure, then visualizes it as a tree and exposes it through a simple lookup function.
+A lightweight set of Jupyter notebooks that transform local waste-sorting guidance into portable JSON structures, then visualize the data and expose it through simple lookup functions. The original notebook uses Seattle Public Utilities' [Where Does It Go?](https://www.seattle.gov/utilities/your-services/collection-and-disposal/where-does-it-go) guidance; the `dc/` folder adds a Washington, DC version based on Zero Waste DC's ReCollect-powered "What Goes Where" data.
 
 ## Why this project is useful
 
@@ -33,6 +33,12 @@ Two JSON endpoints on `seattle.gov`, discovered by inspecting the network traffi
 
 The notebook fetches both live, transforms each page record into the G3 schema, and writes a snapshot to `data/items.json`.
 
+Washington, DC data lives in [`dc/`](dc/). It is pulled from ReCollect's
+WashingtonDC material endpoint and saved as `dc/data/dc_items_portable.json`.
+Because DC's source records use reusable option templates rather than explicit
+Seattle-style stream fields, the DC notebook infers streams from templates such
+as `wizard_recycling`, `wizard_trash`, and `wizard_drop-off_*`.
+
 > **Sidenote:** Because the notebook renders SPU's taxonomy verbatim, the occasional upstream quirk carries through — for example, the item **Boat** is tagged with SPU's "Bedroom" taxonomy ID and appears under that category in the sunburst. These are preserved rather than hand-corrected, since SPU is the authoritative source and the data should reflect whatever they publish today.
 
 ## What's in the repo
@@ -42,6 +48,12 @@ portable_waste_sorting/
 ├── portable_waste_sorting.ipynb   # main notebook (I3)
 ├── data/
 │   └── items.json                 # generated on first notebook run
+├── dc/                            # Washington, DC notebook and data
+│   ├── dc_waste_sorting.ipynb
+│   ├── dc_recollect_pull.py
+│   ├── README.md
+│   └── data/
+│       └── dc_items_portable.json
 ├── i8/                            # I8 assignment — Flask API over data/items.json
 │   ├── which_bin_api.py
 │   ├── requirements.txt
@@ -76,6 +88,13 @@ pip install pandas plotly requests jupyter
 jupyter notebook portable_waste_sorting.ipynb
 ```
 
+To run the Washington, DC notebook:
+
+```bash
+cd dc
+jupyter notebook dc_waste_sorting.ipynb
+```
+
 ## The G3 schema
 
 Each item record has these fields:
@@ -90,7 +109,7 @@ Each item record has these fields:
 | `explanation` | SPU's short plain-language summary (the `VoiceInstructions` field) |
 | `category_path` | Breadcrumb through the category tree (e.g. `["Construction & Demolition", "Floors & Ceiling"]`) |
 | `source_reference` | URL to the SPU item page |
-| `city_jurisdiction` | `"Seattle, WA"` |
+| `city_jurisdiction` | Source jurisdiction, such as `"Seattle, WA"` or `"Washington, DC"` |
 
 ## Using the data directly
 

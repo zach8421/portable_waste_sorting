@@ -2,3 +2,5 @@
 .ipynb_checkpoints/
 __pycache__/
 *.pyc
+dc/data/dc_recollect_raw_pages.json
+dc/data/dc_items.json
