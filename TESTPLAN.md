@@ -144,15 +144,21 @@ Planned monitoring tools if the API is hosted:
 
 ## Status Summary
 
-| Area | Status |
-|------|--------|
-| Notebook data generation | Implemented |
-| JSON data file | Implemented with about 310 items |
-| Flask API endpoints | Implemented |
-| Error handling | Implemented for common 400 and 404 cases |
-| Functional tests | Currently manual; pytest planned |
-| Performance tests | Currently manual timing checks |
-| Monitoring | Planned if hosted |
+Measured **2026-06-05** against the committed snapshot and the running Flask API.
+Full results and remediation: [`docs/05_quality_and_performance.md`](docs/05_quality_and_performance.md).
+
+| Area | Status | Measured result |
+|------|--------|-----------------|
+| Notebook data generation | Implemented | Produces `data/items.json` (snapshot `generated_at` 2026-04-21) |
+| JSON data file | Implemented | 310 items, 0.39 MB, valid JSON |
+| Data quality | Verified | 310/310 unique IDs, 0 duplicates, 0 unknown streams, 0 stream/condition mismatches |
+| Known quality gaps | Documented | 1 item without a stream (flagged), 73 empty SPU summaries (conditions retained) — see docs/05 |
+| Flask API endpoints | Implemented | All 9 endpoints return expected JSON |
+| Error handling | Verified | 404 (missing item / route), 400 (empty / invalid search) all return JSON |
+| Functional tests | Passed (manual) | All endpoint cases above pass; `/stats` matches an independent recompute |
+| Performance tests | Passed (measured) | startup 0.26 s; lookup 1.1 ms, list 1.5 ms, search 1.4 ms, stats 1.2 ms (all well under target) |
+| Load | Passed | 50/50 requests → 200, zero 500s |
+| Monitoring | Planned if hosted | UptimeRobot / Flask logs / GitHub Actions — added only on public deployment |
 
 ---
 

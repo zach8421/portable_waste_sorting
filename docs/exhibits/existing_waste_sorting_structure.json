@@ -1,0 +1,217 @@
+{
+  "project": "Portable Waste Sorting Information for Seattle",
+  "structure_type": "existing_category_oriented_structure",
+  "description": "Sample of the existing information structure. Waste guidance is organized around website-style categories and human-readable text, making reuse, validation, and automated quality checks more difficult.",
+  "source": "Seattle Public Utilities — Where Does It Go?",
+  "city_jurisdiction": "Seattle, WA",
+  "category_pages": [
+    {
+      "category_name": "Hazardous Items",
+      "navigation_path": [
+        "Where Does It Go?",
+        "Hazardous Items"
+      ],
+      "items_embedded_in_page": [
+        {
+          "title": "Aerosol Cans",
+          "page_text": "AEROSOL CANS may go in the garbage but only if they are empty or contain non-hazardous material.  Take cans with hazardous materials like paint, solvents, or other flammables to a household hazardous waste facility for free. For facility hours and location go to hazwastehelp.org.",
+          "related_terms": [
+            "mace",
+            "pepper spray",
+            "spray sunscreen",
+            "Cooking Spray",
+            "Aerosol Cans",
+            "Pressurized Cans",
+            "Spray Cans",
+            "Cans - Aerosol",
+            "Spray Paint Cans",
+            "Bear Spray",
+            "Hairspray",
+            "Shaving Cream Cans",
+            "Whipped Cream Cans"
+          ],
+          "disposal_guidance": {
+            "recycling": "Empty aerosol cans that had non-hazardous materials in them can be put in the recycling ONLY if the can is completely emptied of contents and pressure.",
+            "garbage": "• Empty hazardous material aerosol cans. • Partially full cans with non-hazardous content.",
+            "hazardous": "Bring cans that contain hazardous materials like paint, solvents, bear spray, or other flammables to a household hazardous waste facility . No fee. Hazardous products are usually labeled with the words Danger, Poison, Caution, or Warning."
+          },
+          "possible_destinations": [
+            "recycling",
+            "garbage",
+            "hazardous"
+          ],
+          "source_page": "https://www.seattle.gov/utilities/your-services/collection-and-disposal/where-does-it-go#/item/aerosol-cans"
+        }
+      ]
+    },
+    {
+      "category_name": "Household Items",
+      "navigation_path": [
+        "Where Does It Go?",
+        "Household Items"
+      ],
+      "items_embedded_in_page": [
+        {
+          "title": "Batteries",
+          "page_text": "Do not put batteries in your curbside trash or recycling bins. This includes Alkaline, Lithium, Lithium-Ion, Rechargeable, Computer, and Button batteries as well as products that contain batteries that cannot be easily removed. It is important to keep batteries out of your bins because they can cause fires in trucks and transfer stations. Batteries can be correctly disposed of in multiple ways. Batteries can be dropped off at a city transfer station or Hazardous Household Waste facility for free. You can also submit a special item pickup online or by calling 2066843000 to be picked up at your home. Fees apply for this service. You may also call 1800Recycle or go to call2recycle.com for additional drop off locations. ",
+          "related_terms": [
+            "Alkaline Batteries",
+            "Disposable Batteries",
+            "AA Batteries",
+            "Batteries - Household",
+            "AAA Batteries",
+            "D Batteries",
+            "C Batteries",
+            "9 Volt Batteries",
+            "9-Volt Batteries",
+            "12 Volt Batteries",
+            "12-Volt Batteries",
+            "Household Batteries",
+            "Single Use Batteries",
+            "Button batteries",
+            "Silver Oxide Batteries",
+            "Camera or watch batteries",
+            "Button cell batteries",
+            "Watch batteries",
+            "Batteries - button",
+            "Batteries - watch",
+            "Hearing Aid Batteries",
+            "Lithium Batteries",
+            "Lithium-Ion Batteries",
+            "Li-Ion Batteries",
+            "Lithium-metal Batteries",
+            "Rechargeable Batteries",
+            "Rechargeable lithium-ion Batteries",
+            "Rechargeable lithium ion Batteries",
+            "Laptop Batteries",
+            "Computer Batteries",
+            "Cadmium Batteries"
+          ],
+          "disposal_guidance": {
+            "hazardous": "Batteries can't go in the garbage because they contain materials harmful to people, animals, and the environment.",
+            "dropoff": "• Bring batteries to a household hazardous waste facility or city transfer station , where the materials will be reclaimed and recycled. No fee. • Accepted batteries include alkaline, button, rechargeable, and lead-acid batteries. • Separate batteries from devices. • Tape the ends of each individual household battery • Damaged and/or recalled batteries are NOT accepted at transfer stations. You can take them to household hazardous waste facility for free. • Call2Recycle is a free take-back program for rechargeable batteries. You can find free drop off locations or shop for mail-back packaging options. They accept: • Rechargeable batteries • Cellphones and cellphone batteries • E-Bike batteries (participating brands) • 1-800-RECYCLE is both a hotline and an online tool that connects you or your business to recycling services across Washington. This tool can help you find where in your community you can recycle everything from used appliances to leftover paint. Fees may apply.",
+            "special": "Submit a request online or call (206) 684-3000 to schedule a pickup from your residence. The materials collected will be reclaimed and recycled. Fees apply."
+          },
+          "possible_destinations": [
+            "hazardous",
+            "dropoff",
+            "special"
+          ],
+          "source_page": "https://www.seattle.gov/utilities/your-services/collection-and-disposal/where-does-it-go#/item/batteries"
+        }
+      ]
+    },
+    {
+      "category_name": "Metal & Metal Items",
+      "navigation_path": [
+        "Where Does It Go?",
+        "Metal & Metal Items"
+      ],
+      "items_embedded_in_page": [
+        {
+          "title": "Aluminum Foil",
+          "page_text": "ALUMINUM FOIL can be recycled. It needs to be clean and larger than 3 inches.  Dirty foil and little pieces go in the garbage but don't ball it up.",
+          "related_terms": [
+            "Aluminum Foil",
+            "Foil - Aluminum",
+            "Aluminum Foil or Trays",
+            "Aluminum Sheets",
+            "Aluminum Trays",
+            "Foil",
+            "Tin Foil",
+            "Aluminum Foil or Trays",
+            "Aluminum Sheets",
+            "Aluminum Trays",
+            "Foil",
+            "Tin Foil",
+            "Foil Pie Pans",
+            "Pie Tins",
+            "Aluminum Pie Tins",
+            "Pie Plates"
+          ],
+          "disposal_guidance": {
+            "recycling": "• Clean and dry aluminum foil should be balled up and larger than 3 inches • Aluminum food pans • Foil and trays must be empty, clean, and dry",
+            "garbage": "• Dirty or food-covered aluminum foil or food pans • Wine bottle foil"
+          },
+          "possible_destinations": [
+            "recycling",
+            "garbage"
+          ],
+          "source_page": "https://www.seattle.gov/utilities/your-services/collection-and-disposal/where-does-it-go#/item/aluminum-foil"
+        }
+      ]
+    },
+    {
+      "category_name": "Glass & Ceramics",
+      "navigation_path": [
+        "Where Does It Go?",
+        "Glass & Ceramics"
+      ],
+      "items_embedded_in_page": [
+        {
+          "title": "Broken Glass",
+          "page_text": "Broken bottles and jars can be recycled. Broken drinking glasses, window, other types of glass or pieces smaller than 3 inches go in the garbage.",
+          "related_terms": [
+            "Broken Glass",
+            "Broken Bottles",
+            "Broken Glasses",
+            "Broken Jars",
+            "Glass - Broken",
+            "Pieces of Broken Glass",
+            "Shattered Glass",
+            "aquarium glass"
+          ],
+          "disposal_guidance": {
+            "recycling": "• Pieces of broken bottles and jars 3 inches or larger",
+            "garbage": "• All pieces of broken drinking glasses or wine glasses • Pieces of broken bottles and jars smaller than 3 inches • All broken kitchenware glass or baking glass such as Pyrex • All broken frosted glass • Broken aquarium glass"
+          },
+          "possible_destinations": [
+            "recycling",
+            "garbage"
+          ],
+          "source_page": "https://www.seattle.gov/utilities/your-services/collection-and-disposal/where-does-it-go#/item/broken-glass"
+        }
+      ]
+    },
+    {
+      "category_name": "Paper",
+      "navigation_path": [
+        "Where Does It Go?",
+        "Paper"
+      ],
+      "items_embedded_in_page": [
+        {
+          "title": "Cardboard Boxes",
+          "page_text": "CARDBOARD BOXES go in the recycling.  Flatten them before putting in recycling.  Greasy boxes, like pizza boxes, and wet cardboard go in the food and yard waste cart.",
+          "related_terms": [
+            "Cardboard Boxes",
+            "pastry boxes",
+            "Boxes - Cardboard",
+            "Moving Boxes",
+            "Packing Boxes",
+            "Corrugated Cardboard",
+            "Greasy Cardboard",
+            "Pizza Box",
+            "Soiled Cardboard",
+            "Donut boxes",
+            "Bakery Boxes",
+            "Scratch Pads"
+          ],
+          "disposal_guidance": {
+            "recycling": "• Cardboard and flattened cardboard boxes go in the recycling. You can leave labels and tape on the boxes. Remove any packing materials inside and dispose of properly. • Pet scratch pads made of cardboard are recyclable.",
+            "compost": "• Cardboard with grease or oil stains (like pizza boxes) go in the food and yard waste cart. • Put cardboard that is mostly wet in the food and yard waste cart.",
+            "garbage": "• Waxed cardboard like produce boxes goes in the garbage.",
+            "special": "Cardboard that doesn't fit can go next to your cart on your recycling day. Bundle and set next to the cart, or put in a box or container next to your cart. Remove foam and packing materials. There is no charge for extra recycling."
+          },
+          "possible_destinations": [
+            "recycling",
+            "compost",
+            "garbage",
+            "special"
+          ],
+          "source_page": "https://www.seattle.gov/utilities/your-services/collection-and-disposal/where-does-it-go#/item/cardboard-boxes"
+        }
+      ]
+    }
+  ]
+}

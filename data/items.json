@@ -7,8 +7,8 @@
     ],
     "city_jurisdiction": "Seattle, WA",
     "schema_version": "1.0",
-    "item_count": 310,
-    "generated_at": "2026-04-21T23:51:19.638648+00:00"
+    "item_count": 308,
+    "generated_at": "2026-06-06T04:34:29.396568+00:00"
   },
   "category_tree": [
     {
@@ -384,6 +384,7 @@
       "item_name": "Batteries",
       "synonyms": [
         "Alkaline Batteries",
+        "portable power bank",
         "Disposable Batteries",
         "AA Batteries",
         "Batteries - Household",
@@ -1480,6 +1481,9 @@
       "item_name": "Christmas Trees & Holiday Greens",
       "synonyms": [
         "Christmas Trees",
+        "artificial Christmas Trees",
+        "plastic Christmas trees",
+        "garlands",
         "Christmas Wreaths",
         "Xmas Trees",
         "Holiday Greens",
@@ -1487,11 +1491,13 @@
       ],
       "disposal_streams": [
         "compost",
+        "garbage",
         "dropoff",
         "special"
       ],
       "disposal_conditions": {
         "compost": "Place up to two completely undecorated and unflocked trees and/or holiday greens without decorations or soil, next to your cart on collection day for free from December 26 through January 31. Trees must be cut to 4-foot lengths and the trunk diameter should not exceed 4 inches. Starting February 1, extra yard waste fee applies",
+        "garbage": "Artificial plastic trees, wreaths, and garlands can be put in the garbage. Make sure not to exceed weight limits for your cart size. Avoid extra charges: the lid on your cart should close completely.",
         "dropoff": "From December 26 to January 31, bring Christmas trees to a city transfer station for free. Starting February 1, regular fees apply. • Remove all decorations, tree flocking, and wiring • Trees cannot exceed 8 feet in length • Trunks cannot exceed 4 inches in diameter • Stations will accept up to 3 trees per vehicle",
         "special": "From December 26 to January 31, holiday trees, wreaths, and greens without decorations can be composted for free. Place on the curb next to your food and yard waste cart on your regular collection day. • Flocked and plastic trees or wreaths will be charged as extra garbage • Remove all decorations: lights, tinsel, metal clips, ornaments, and bows • Trees must be cut into lengths to 4-feet or shorter • For bundling branches, use sisal string or twine (not plastic) At apartments, two trees may be placed next to each food and yard waste cart at no extra charge each collection day. Each additional tree will be picked up as extra yard waste ( fees apply )."
       },
@@ -1721,7 +1727,6 @@
       "item_id": "x130664",
       "item_name": "Compostable Bags",
       "synonyms": [
-        "Compostable Bags ",
         "Biodegradable Bags",
         "Green Bags"
       ],
@@ -1730,7 +1735,7 @@
         "garbage"
       ],
       "disposal_conditions": {
-        "compost": "Bags labeled \"Compostable\" from approved brands go in the food and yard waste. Approved compostable plastic bags are green or brown tinted and are clearly labeled ‘Compostable’.",
+        "compost": "Bags labeled \"Compostable\" from approved brands go in the food and yard waste. Approved compostable plastic bags are green or brown tinted and are clearly labeled ‘Compostable’. Look for certification marks from brands such as “BPI”, TÜV, or CMA.",
         "garbage": "Bags that aren't from approved brands or do not say 'Compostable' on them go in the garbage. Biodegradable bags are not compostable, and go in the garbage."
       },
       "explanation": "Approved COMPOSTABLE BAGS go in the yard waste.  Bags labled \"biodegradable\" are actually not ok for yard waste and must go in the garbage.  More information about approved bags can be found by searching the seattle.gov where does it go website.  Go to this address: www.seattle.gov/utilities/services/food-and-yard/food-and-yard-waste-at-home/approved-compostable-bags",
@@ -1787,6 +1792,8 @@
       "item_id": "x130669",
       "item_name": "Concrete or Asphalt",
       "synonyms": [
+        "concrete block",
+        "cinder block",
         "Concrete or Asphalt",
         "Asphalt Chunks ",
         "Torn up Asphalt",
@@ -2081,6 +2088,7 @@
       "item_id": "x130682",
       "item_name": "Dryer Sheets",
       "synonyms": [
+        "wool dryer ball",
         "Dryer Sheets",
         "Lint"
       ],
@@ -2293,6 +2301,9 @@
       "item_name": "E-Waste",
       "synonyms": [
         "E-Waste",
+        "water pik",
+        "waterpik",
+        "electric water flosser",
         "computer mouse",
         "Surge protector",
         "FitBit",
@@ -2388,7 +2399,8 @@
         "Alarm Clocks",
         "wall chargers",
         "USB wall plugs",
-        "clothing iron"
+        "clothing iron",
+        "calculator"
       ],
       "disposal_streams": [
         "hazardous",
@@ -2440,6 +2452,10 @@
       "item_id": "x130691",
       "item_name": "Fabric or Textiles",
       "synonyms": [
+        "backpack",
+        "beach towel",
+        "bathroom towel",
+        "flags",
         "landscaping fabric",
         "Burlap",
         "Tote bags - fabric",
@@ -3523,6 +3539,8 @@
       "item_id": "x130728",
       "item_name": "Household Furniture",
       "synonyms": [
+        "book case",
+        "bookcase",
         "metal patio furniture",
         "wire kennels",
         "wire dog crates",
@@ -3727,39 +3745,44 @@
     },
     {
       "item_id": "x130737",
-      "item_name": "Latex Paint, Acrylic Paint, and Water-Based Paint",
+      "item_name": "Paint and Paint Cans",
       "synonyms": [
+        "paint balls",
+        "Latex Paint, acrylic paint, and water-based paint",
         "Latex Paint",
         "Paint - Latex",
         "House Paint - Latex",
-        "Paint - Acrylic",
         "Acrylic Paint",
-        "Watercolors - Paint",
-        "Paint - Art",
-        "Watercolors",
+        "Paint - Acrylic",
         "Paint - Water-Based",
-        "Water Colors - Paint",
+        "paint cans",
         "Paint - empty cans",
-        "Paint - old"
+        "Paint - old",
+        "oil-based paint",
+        "oil-based paint",
+        "paint - oil based",
+        "paint - oil-based",
+        "oil based paint",
+        "oil paints",
+        "paint remover",
+        "paint thinner"
       ],
       "disposal_streams": [
         "garbage",
         "hazardous",
-        "dropoff",
-        "donate"
+        "dropoff"
       ],
       "disposal_conditions": {
-        "garbage": "• Dry latex, water-based, or acrylic paint can go in the trash. Follow these steps to get rid of it safely: • If there is less than an inch of paint in the can, remove the lid and air dry; protected from children and pets. • If there is more than an inch of paint in the can, mix the paint with cat litter and let it solidify. You can also use a paint hardener according to directions. • Separate and throw the can of dried paint and lid in the garbage. Do not take the paint out of the can. • Empty paint cans cannot be cleaned enough to recycle and should go in the garbage. • Paint brushes with dried paint can go into the garbage.",
-        "hazardous": "Residential customers with unlabeled paint can bring it to a Household Hazardous Waste location for identification and guidance on disposal options. HHW accepts oil-based paints (for free) and can advise customers on locations to take latex paints.",
-        "dropoff": "Recycle your paint products for free at a PaintCare drop-off site. Accepted products include latex paint, oil-based paint, stain, varnish, and more. Visit the PaintCare website to find a drop-off location near you and to view a list of accepted products. You can also recycle unwanted latex paint, water-based stains, and clear finishes at any Take it Back Network paint recycling location . There is a fee for this service.",
-        "donate": "• Check with local community organizations or schools to see if they will accept water-based paint or acrylic paint. • Clean paint brushes can be donated to local thrift stores"
+        "garbage": "• Empty paint cans cannot be cleaned enough to recycle and should go out in the garbage. Paint cans with less than an inch of latex paint can be dried out. Paint cans with more than an inch of latex paint or with any amount of oil-based paint should be returned to a PaintCare drop-off site . • Before discarding, follow these steps to safely dry out the paint can: • Remove the lid and let fumes evaporate outside, away from children and animals. • Separate the lid from the dried paint can and put both in the garbage. • Non-architectural water-based paints or acrylic paints should be dried or absorbed with a cloth or towel and put in the garbage container. • Paint brushes with dried paint go in the garbage.",
+        "hazardous": "• Bring oil-based paints and solvents like paint thinner to a Household Hazardous Waste (HHW) facility . No fee. • Residential customers with unlabeled paint can bring it to a HHW facility for identification and guidance on disposal options. HHW facilities accept oil-based paints (for free) and can advise on locations to take latex paints.",
+        "dropoff": "Drop off leftover architectural paint products for free at a PaintCare drop-off site. Accepted products include latex paint, oil-based paint, stain, varnish, and more. No fee. Visit the PaintCare website to find a drop-off location near you and to view a list of accepted products."
       },
       "explanation": "LATEX PAINT goes in the garbage or can be dropped off for recycling at specific facilities for a fee.  Dry out the latex paint by leaving the can open or adding cat litter.  Separate the lid from the dried paint can and put both in your garbage (removing the lid lets your garbage collector knows the paint is dried).  Drop off for a fee at local locations in the Take it Back network.",
       "category_path": [
         "Hazardous Items",
         "Liquids & Household Supplies"
       ],
-      "source_reference": "https://www.seattle.gov/utilities/your-services/collection-and-disposal/where-does-it-go#/item/latex-paint-acrylic-paint-and-water-based-paint",
+      "source_reference": "https://www.seattle.gov/utilities/your-services/collection-and-disposal/where-does-it-go#/item/paint-and-paint-cans",
       "city_jurisdiction": "Seattle, WA"
     },
     {
@@ -4370,34 +4393,6 @@
       "city_jurisdiction": "Seattle, WA"
     },
     {
-      "item_id": "x130761",
-      "item_name": "Oil-Based Paint",
-      "synonyms": [
-        "Oil-Based Paint",
-        "Oil Based Paint",
-        "Paint - Oil Based",
-        "Paint - Oil-Based",
-        "Oil Paints"
-      ],
-      "disposal_streams": [
-        "garbage",
-        "hazardous",
-        "dropoff"
-      ],
-      "disposal_conditions": {
-        "garbage": "Empty oil-based paint cans can go in the garbage: • Remove the lid and let fumes evaporate outside, away from children and animals. • Separate the lid from the dried paint can and put both in your garbage.",
-        "hazardous": "Bring oil-based paint to a Household Hazardous Waste facility . No fee. Residential customers with unlabeled paint can bring it to a Household Hazardous Waste (HHW) location for identification and guidance on disposal options. HHW accepts oil-based paints and can advise customers on locations to take latex paints.",
-        "dropoff": "Recycle your paint products for free at a PaintCare drop-off site. Accepted products include latex paint, oil-based paint, stain, varnish, and more. Visit the PaintCare website to find a drop-off location near you and to view a list of accepted products."
-      },
-      "explanation": "Empty and dry oil-based paint cans can go in the garbage. Remove the lid and let fumes evaporate outside, away from children and animals. Separate the lid from the dried paint can and put both in your garbage.   Or, Bring oil-based paint to a household hazardous waste facility for free. For Hazardous Waste facility information go to hazwastehelp.org or call at 206-296-4692",
-      "category_path": [
-        "Hazardous Items",
-        "Liquids & Household Supplies"
-      ],
-      "source_reference": "https://www.seattle.gov/utilities/your-services/collection-and-disposal/where-does-it-go#/item/oil-based-paint",
-      "city_jurisdiction": "Seattle, WA"
-    },
-    {
       "item_id": "x130763",
       "item_name": "Other Large Appliances",
       "synonyms": [
@@ -4485,24 +4480,6 @@
         "Styrofoam"
       ],
       "source_reference": "https://www.seattle.gov/utilities/your-services/collection-and-disposal/where-does-it-go#/item/packing-peanuts",
-      "city_jurisdiction": "Seattle, WA"
-    },
-    {
-      "item_id": "x130766",
-      "item_name": "Paint Cans",
-      "synonyms": "Paint Cans",
-      "disposal_streams": [
-        "garbage"
-      ],
-      "disposal_conditions": {
-        "garbage": "Empty latex or oil-based paint cans can go in the garbage: • Remove the lid and let fumes evaporate outside, away from children and animals. • Separate the lid from the dried paint can and put both in your garbage."
-      },
-      "explanation": "LATEX PAINT goes in the garbage or can be dropped off for recycling at specific facilities for a fee.  Dry out the latex paint by leaving the can open or adding cat litter.  Separate the lid from the dried paint can and put both in your garbage. Or,drop off latex paint for a fee at local locations in the Take it Back network.      If this is an oil paint can,  Empty and dry oil-based paint cans can go in the garbage but cannot be recycled. Remove the lid and let fumes evaporate outside, away from children and animals. Separate the lid from the dried paint can and put both in your garbage.   Or, Bring oil-based paint to a household hazardous waste facility for free. For Hazardous Waste facility information go to hazwastehelp.org or call at 206-296-4692",
-      "category_path": [
-        "Metal & Metal Items",
-        "Cans"
-      ],
-      "source_reference": "https://www.seattle.gov/utilities/your-services/collection-and-disposal/where-does-it-go#/item/paint-cans",
       "city_jurisdiction": "Seattle, WA"
     },
     {
@@ -4798,7 +4775,11 @@
     {
       "item_id": "x130779",
       "item_name": "Pesticide Containers",
-      "synonyms": "Pesticide Containers",
+      "synonyms": [
+        "Pesticide Containers",
+        "rat poison",
+        "rat bait"
+      ],
       "disposal_streams": [
         "garbage",
         "hazardous"
@@ -5364,8 +5345,9 @@
     },
     {
       "item_id": "x130799",
-      "item_name": "Plastic without Recycle Symbol",
+      "item_name": "Plastic - Miscellaneous",
       "synonyms": [
+        "Plastic - misc.",
         "Plastic without Recycle Symbol",
         "Vinyl or Plastic Blinds",
         "Ziploc or Plastic Bread Bags",
@@ -5379,7 +5361,8 @@
         "plastic cat bowl",
         "small plastic condiment container",
         "condiment container",
-        "portion cup"
+        "portion cup",
+        "dish rack - plastic"
       ],
       "disposal_streams": [
         "recycling",
@@ -5387,7 +5370,7 @@
         "garbage"
       ],
       "disposal_conditions": {
-        "recycling": "• All plastic must be clean, empty and dry to be recycled. • Yogurt containers • Deli containers • Bottles and jugs • Microwave trays • Plastic lids 3 inches or larger • Small plastic bottle caps if screwed onto an empty plastic bottle • Clean plastic plant pots • Tupperware • Pill bottles (not prescription vials) • Rigid plastic toys \\- 3-feet or less on all sides • Rigid plastic sporting equipment \\- 3-feet or less on all sides • Rigid plastic furniture \\- 3-feet or less on all sides • Storage containers • Buckets with no fabric, foam, or wood attached",
+        "recycling": "• All plastic must be clean, empty, and dry to be recycled. • Yogurt containers • Deli containers • Bottles and jugs • Microwave trays • Plastic lids 3 inches or larger • Small plastic bottle caps if screwed onto an empty plastic bottle • Clean plastic plant pots • Tupperware • Pill bottles (not prescription vials) • Rigid plastic toys \\- 3-feet or less on all sides • Rigid plastic sporting equipment \\- 3-feet or less on all sides • Rigid plastic furniture \\- 3-feet or less on all sides • Storage containers • Buckets with no fabric, foam, or wood attached",
         "compost": "Plastic-like containers labeled \"Compostable\" or \"#7 PLA\" go in the food and yard waste. Learn more about compostable packaging (pdf) .",
         "garbage": "• Plastic items less than 3 inches in diameter • Loose plastic bottle caps • Dirty plastic cups • Plastic utensils • Blister packs • Flexible plastic (such as inflatable pools) • Plastic molding • Vinyl or plastic blinds • CD and DVD cases • Plastic clothes hangers • Plastic tarps • Ziploc or plastic bread bags • Plastic liners and trays from food boxes"
       },
@@ -5396,7 +5379,7 @@
         "Food Packaging",
         "Plastic & Styrofoam Containers"
       ],
-      "source_reference": "https://www.seattle.gov/utilities/your-services/collection-and-disposal/where-does-it-go#/item/plastic-without-recycle-symbol",
+      "source_reference": "https://www.seattle.gov/utilities/your-services/collection-and-disposal/where-does-it-go#/item/plastic-miscellaneous",
       "city_jurisdiction": "Seattle, WA"
     },
     {
@@ -5900,6 +5883,7 @@
       "item_name": "Sharps",
       "synonyms": [
         "Needles or Syringes",
+        "lancets",
         "Heroin Needles",
         "Insulin Needles",
         "Needles",
@@ -5962,7 +5946,7 @@
         "donate"
       ],
       "disposal_conditions": {
-        "recycling": "Silverware and other metal items 3 inches or larger can go in the recycling. Small amounts of attached rubber, plastic, wood accepted.",
+        "recycling": "Silverware and other metal items 3 inches or larger can go in the recycling. Small amounts of attached rubber, plastic, wood accepted. If you are recycling a sharp knife or kitchen knife, tape the knife blade with packing tape before placing in recycling. The tape will prevent cuts while still allowing the knife to be sorted correctly at the recycling facility.",
         "garbage": "Silverware and other metal items smaller than 3 inches on all sides can go in the garbage.",
         "donate": "Donate silverware in good condition to local thrift stores . Resell or give it away using sites like Craigslist , Freecycle , and Buy Nothing ."
       },
@@ -6015,6 +5999,10 @@
       "item_id": "x130821",
       "item_name": "Small Appliances",
       "synonyms": [
+        "clippers",
+        "beard trimmer",
+        "electric pan",
+        "blowdryer",
         "Air Fryer",
         "ice makers",
         "ice machines",
@@ -6143,20 +6131,17 @@
       "synonyms": [
         "Solvents",
         "hydrogen peroxide",
-        "paint remover",
         "mineral spirits",
-        "paint thinner",
         "rock salt",
         "road salt",
         "ice salt",
-        "Hazardous Chemicals",
-        "Paint Thinner"
+        "Hazardous Chemicals"
       ],
       "disposal_streams": [
         "hazardous"
       ],
       "disposal_conditions": {
-        "hazardous": "Bring solvents like paint thinner to a household hazardous waste facility : • Put solvents in a sealed container that is 5-gallons or less. • Limit 50-gallons per trip. Solvents aren't allowed in the garbage."
+        "hazardous": "Bring solvents to a household hazardous waste facility : • Put solvents in a sealed container that is 5-gallons or less. • Limit 50-gallons per trip. Solvents aren't allowed in the garbage."
       },
       "explanation": "SOLVENTS are a health hazard. Solvents aren't allowed in the garbage. Drop off  solvents like paint thinner to a household hazardous waste facility for free. Put solvents in a sealed container that is 5-gallons or less. Limit 50-gallons per trip. For Hazardous Waste facility information go to hazwastehelp.org or call at 206-296-4692",
       "category_path": [
@@ -7213,7 +7198,7 @@
       "disposal_conditions": {
         "recycling": "Paper stickers and labels, when attached to recyclable materials - like envelopes or plastic containers, do not need to be removed before being placed in the recycling container.",
         "compost": "• Paper stickers on compostable food packaging are okay to leave on before placing them in the compost cart. • Plastic stickers or labels must be removed from compostable food packaging before going in the compost cart. • Plastic stickers and labels must be removed from produce before going in the compost cart. This is a major source of contamination.",
-        "garbage": "Plastic stickers and labels on food packaging labeled compostable and on produce must go in the garbage."
+        "garbage": "• Plastic stickers and labels on food packaging labeled compostable and on produce must go in the garbage. • Sticker backs go in the garbage."
       },
       "explanation": "",
       "category_path": [
@@ -7279,10 +7264,11 @@
     },
     {
       "item_id": "x130869",
-      "item_name": "Vacuum Cleaner",
+      "item_name": "Vacuum Cleaner & Dust",
       "synonyms": [
         "Vacuum",
-        "Vacuum Cleaner"
+        "Vacuum Cleaner",
+        "Vacuum dust"
       ],
       "disposal_streams": [
         "garbage",
@@ -7290,15 +7276,15 @@
         "donate"
       ],
       "disposal_conditions": {
-        "garbage": "Broken vacuum cleaners can go in the garbage. Make sure the lid closes and you don't exceed the weight limits printed on your cart.",
-        "special": "You can put a vacuum out for extra garbage pick up on collection day. Fees apply.",
+        "garbage": "Broken vacuum cleaners can go in the garbage. Make sure the lid closes and you don't exceed the weight limits printed on your cart. Vacuum dust should be bagged and put in the garbage.",
+        "special": "Submit a request online or call SPU Customer Service at (206) 684-3000 to schedule a Special Item pickup. Fees apply.",
         "donate": "Resell or give it away using sites like Craigslist , Freecycle , and Buy Nothing ."
       },
       "explanation": "",
       "category_path": [
         "Uncategorized"
       ],
-      "source_reference": "https://www.seattle.gov/utilities/your-services/collection-and-disposal/where-does-it-go#/item/vacuum-cleaner",
+      "source_reference": "https://www.seattle.gov/utilities/your-services/collection-and-disposal/where-does-it-go#/item/vacuum-cleaner-dust",
       "city_jurisdiction": "Seattle, WA"
     },
     {
@@ -7698,6 +7684,10 @@
       "synonyms": [
         "paint brushes",
         "paint brush",
+        "watercolors - paint",
+        "water colors - paint",
+        "watercolors",
+        "paint - art",
         "crayons",
         "paint brushes",
         "pencils",

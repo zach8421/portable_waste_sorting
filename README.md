@@ -1,8 +1,25 @@
 # Portable Waste-Sorting Information
 
-> IMT 542 — I3 Assignment · Spring 2026
+> IMT 542 — **Final Project** · Spring 2026 · *You act as the Information Architect*
 
-A lightweight set of Jupyter notebooks that transform local waste-sorting guidance into portable JSON structures, then visualize the data and expose it through simple lookup functions. The original notebook uses Seattle Public Utilities' [Where Does It Go?](https://www.seattle.gov/utilities/your-services/collection-and-disposal/where-does-it-go) guidance; the `dc/` folder adds a Washington, DC version based on Zero Waste DC's ReCollect-powered "What Goes Where" data.
+This project restructures local waste-sorting guidance into a portable JSON structure, then visualizes the data and exposes it through a notebook, a static snapshot, and a REST API. The core product uses Seattle Public Utilities' [Where Does It Go?](https://www.seattle.gov/utilities/your-services/collection-and-disposal/where-does-it-go) guidance; the `dc/` folder adds a Washington, DC interoperability demonstration based on Zero Waste DC's ReCollect-powered "What Goes Where" data.
+
+## Final project — deliverables & rubric map
+
+This repository is the cumulative final project. Graders should start with **[`docs/RUBRIC_MAP.md`](docs/RUBRIC_MAP.md)**, which maps each of the 10 rubric criteria to the artifact that satisfies it.
+
+| Deliverable | Location |
+|---|---|
+| Project README (this file) | `README.md` |
+| Presentation | [`Portable_Waste_Sorting.pptx`](Portable_Waste_Sorting.pptx) |
+| Information story & requirements (areas 1) | [`docs/01_information_story.md`](docs/01_information_story.md) |
+| Existing structure + **FAIR assessment** (area 2) | [`docs/02_existing_structure_and_FAIR_assessment.md`](docs/02_existing_structure_and_FAIR_assessment.md) |
+| Transformations incl. DC adaptations (area 2) | [`docs/03_transformations.md`](docs/03_transformations.md) |
+| The new portable structure (area 3) | [`docs/04_new_structure.md`](docs/04_new_structure.md) |
+| Quality & performance, measured (area 5) | [`docs/05_quality_and_performance.md`](docs/05_quality_and_performance.md) · [`TESTPLAN.md`](TESTPLAN.md) |
+| Ethics, limitations & societal impact | [`docs/06_ethics_and_limitations.md`](docs/06_ethics_and_limitations.md) |
+| Full project overview | [`docs/PROJECT_OVERVIEW.md`](docs/PROJECT_OVERVIEW.md) |
+| Functional system (areas 4) | [`i8/which_bin_api.py`](i8/which_bin_api.py) · demo videos |
 
 ## Why this project is useful
 
@@ -43,24 +60,37 @@ as `wizard_recycling`, `wizard_trash`, and `wizard_drop-off_*`.
 
 ## What's in the repo
 
-```
+```text
 portable_waste_sorting/
-├── portable_waste_sorting.ipynb   # main notebook (I3)
+├── README.md                      # this file
+├── Portable_Waste_Sorting.pptx    # final presentation deck
+├── TESTPLAN.md                    # functional/performance/quality test plan
+├── portable_waste_sorting.ipynb   # main notebook (fetch → transform → visualize → snapshot)
 ├── data/
-│   └── items.json                 # generated on first notebook run
-├── dc/                            # Washington, DC notebook and data
+│   └── items.json                 # generated snapshot (310 Seattle items)
+├── docs/                          # supporting artifacts for all five graded areas
+│   ├── RUBRIC_MAP.md              # criterion → artifact map (start here)
+│   ├── PROJECT_OVERVIEW.md
+│   ├── 01_information_story.md
+│   ├── 02_existing_structure_and_FAIR_assessment.md
+│   ├── 03_transformations.md
+│   ├── 04_new_structure.md
+│   ├── 05_quality_and_performance.md
+│   ├── 06_ethics_and_limitations.md
+│   ├── build_pptx.py              # regenerates the .pptx
+│   └── exhibits/                  # before/after structure samples
+├── dc/                            # Washington, DC interoperability demonstration
 │   ├── dc_waste_sorting.ipynb
 │   ├── dc_recollect_pull.py
 │   ├── README.md
 │   └── data/
-│       └── dc_items_portable.json
-├── i8/                            # I8 assignment — Flask API over data/items.json
+│       └── dc_items_portable.json # 468 DC items in the same schema
+├── i8/                            # Flask REST API over data/items.json
 │   ├── which_bin_api.py
 │   ├── requirements.txt
 │   ├── I8_demo.mp4
 │   └── README.md
-├── I7_api_access_demo.mp4         # I7 assignment demo video
-└── README.md
+└── I7_api_access_demo.mp4         # API access demo video
 ```
 
 > The **I8 — Advanced DBs** assignment lives in [`i8/`](i8/). It puts a
@@ -94,6 +124,21 @@ To run the Washington, DC notebook:
 cd dc
 jupyter notebook dc_waste_sorting.ipynb
 ```
+
+### Option C — REST API
+
+The Flask app in [`i8/which_bin_api.py`](i8/which_bin_api.py) serves `data/items.json` as a NoSQL-style document store over nine JSON endpoints (`/items`, `/items/<item_id>`, `/search`, `/streams`, `/categories`, `/stats`, …). See [`i8/README.md`](i8/README.md) for the full list.
+
+```bash
+pip install -r i8/requirements.txt
+python3 -m flask --app i8/which_bin_api.py run --port 5055
+# then, in another shell:
+curl http://127.0.0.1:5055/items/x130614
+curl 'http://127.0.0.1:5055/search?q=cardboard'
+curl http://127.0.0.1:5055/stats
+```
+
+Measured locally: single-item lookups respond in ~1 ms and the server starts in ~0.3 s — see [`docs/05_quality_and_performance.md`](docs/05_quality_and_performance.md).
 
 ## The G3 schema
 
